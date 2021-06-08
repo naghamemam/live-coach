@@ -155,25 +155,41 @@ a.text-primary:focus {
     margin-bottom: 0;
 }
 
-.dataTables_wrapper .dataTables_length {
+.filters-container {
+    padding: 8px 15px 5px;
+    background: #f9f9f9;
+}
+
+.dataTables_length {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -5px;
 }
 
-.dataTables_wrapper .dataTables_length label,
-.dataTables_wrapper .dataTables_length .input-group {
+.dataTables_length label,
+.dataTables_length .input-group {
     flex: 1 0 auto;
     padding: 0 5px;
 }
 
-.dataTables_wrapper .dataTables_length label.products_length {
+.dataTables_length label.products_length {
     max-width: 75px;
 }
 
-.dataTables_wrapper .dataTables_length label select {
+.dataTables_filter label {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.dataTables_length label select {
     width: 100%;
+}
+
+.dataTables_length .daterange-container {
+    align-items: center;
 }
 
 .bg-gray {
