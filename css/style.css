@@ -160,6 +160,20 @@ a.text-primary:focus {
     background: #f9f9f9;
 }
 
+.filters-container .searched-filter {
+    margin-top: 10px;
+}
+
+.filters-container .searched-filter a {
+    color: #ffffff;
+    padding: 5px;
+    display: inline-block;
+}
+
+.filters-container .searched-filter .filter-item {
+    display: inline-block;
+}
+
 .dataTables_length {
     display: flex;
     flex-wrap: wrap;
@@ -704,6 +718,14 @@ a.text-success:focus,
 .nav-horizontal.dashboard-blocks-info li a i {
     color: #ffffff;
     opacity: .6;
+}
+
+.sidebar-nav a>.sidebar-nav-icon svg {
+    width: 14px;
+}
+
+.sidebar-nav a>.sidebar-nav-icon {
+    vertical-align: middle;
 }
 
 @media screen and (min-width: 768px) {
