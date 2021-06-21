@@ -1,13 +1,15 @@
 /*
- *  Document   : puredot-style.css
+ *  Document   : Live Coach-style.css
  *  Author     : pixelcave
  *  Description: THEME AMETHYST
  *
  */
 
+
 /*
  *  Variables
  */
+
 :root {
     --main-color: #662f8f;
     --secondary-color: #684d71;
@@ -18,7 +20,9 @@
     --light-color: #f0ebf2;
 }
 
+
 /* Main Dark Colors */
+
 body,
 .nav.navbar-nav-custom>li>a,
 .navbar-default .navbar-nav>li>a,
@@ -59,7 +63,9 @@ header.navbar-inverse.navbar-fixed-top,
     background-color: var(--secondary-color);
 }
 
+
 /* Main Light Colors */
+
 .sidebar-nav a,
 .header-section h1 i,
 blockquote:before {
@@ -200,7 +206,9 @@ footer,
     border-top-color: #222222;
 }
 
+
 /* Main Highlight Colors */
+
 .text-primary,
 .text-primary:hover,
 a,
@@ -365,7 +373,9 @@ div.tagsinput span.tag,
     border-left-color: var(--third-color);
 }
 
+
 /* NProgress */
+
 #nprogress .bar {
     background-color: var(--third-color);
 }
@@ -379,7 +389,9 @@ div.tagsinput span.tag,
     border-left-color: var(--third-color);
 }
 
+
 /* FullCalendar buttons */
+
 .fc-state-default {
     background-color: var(--fourth-color);
     border-color: var(--third-color);
@@ -396,7 +408,9 @@ div.tagsinput span.tag,
     background-color: #fcfafc;
 }
 
+
 /* Specific for default & primary button */
+
 .btn-default {
     background-color: #f3f0f5;
     border-color: #e4dae8;
@@ -488,7 +502,9 @@ fieldset[disabled] .btn-primary.active:focus {
     border-color: var(--fifth-color);
 }
 
+
 /* Mini Sidebar */
+
 @media screen and (min-width: 992px) {
     .sidebar-mini.sidebar-visible-lg-mini #sidebar .sidebar-nav .sidebar-nav-menu+ul {
         border-left-color: var(--fifth-color);
@@ -496,26 +512,26 @@ fieldset[disabled] .btn-primary.active:focus {
     }
 }
 
-.themed-color-puredot {
+.themed-color-Live Coach {
     color: var(--third-color) !important;
 }
 
-.themed-border-puredot {
+.themed-border-Live Coach {
     border-color: var(--third-color) !important;
 }
 
-.themed-background-puredot {
+.themed-background-Live Coach {
     background-color: var(--third-color) !important;
 }
 
-.themed-color-dark-puredot {
+.themed-color-dark-Live Coach {
     color: var(--main-color) !important;
 }
 
-.themed-border-dark-puredot {
+.themed-border-dark-Live Coach {
     border-color: var(--main-color) !important;
 }
 
-.themed-background-dark-puredot {
+.themed-background-dark-Live Coach {
     background-color: var(--main-color) !important;
 }
