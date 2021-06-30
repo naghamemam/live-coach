@@ -17,36 +17,64 @@ var EcomDashboard = function() {
 
             // Get the elements where we will attach the charts
             var chartOverview = $('#chart-overview');
-            var chartOverview1 = $('#chart-overview1');
+            var incomeReport = $('#chart-overview1');
 
             // Random data for the charts
-            var dataEarnings = [
-                [1, 11600],
-                [2, 13950],
-                [3, 10900],
-                [4, 10050],
-                [5, 11000],
-                [6, 14300],
-                [7, 12500],
-                [8, 15050],
-                [9, 12650],
-                [10, 14000],
-                [11, 15000],
-                [12, 17900]
+            var healthyFoodMarket = [
+                [1, 10600],
+                [2, 12950],
+                [3, 9900],
+                [4, 9050],
+                [5, 10000],
+                [6, 13300],
+                [7, 11500],
+                [8, 14050],
+                [9, 11650],
+                [10, 13000],
+                [11, 14000],
+                [12, 16900]
             ];
-            var dataOrders = [
-                [1, 3000],
-                [2, 3500],
-                [3, 2900],
-                [4, 3800],
-                [5, 2800],
-                [6, 2408],
-                [7, 2682],
-                [8, 4400],
-                [9, 5400],
-                [10, 4750],
-                [11, 6100],
-                [12, 7560]
+            var trainers = [
+                [1, 4000],
+                [2, 4500],
+                [3, 3900],
+                [4, 4800],
+                [5, 3800],
+                [6, 3408],
+                [7, 3682],
+                [8, 5400],
+                [9, 6400],
+                [10, 5750],
+                [11, 7100],
+                [12, 8560]
+            ];
+            var nutritionist = [
+                [1, 1000],
+                [2, 2500],
+                [3, 1900],
+                [4, 2800],
+                [5, 1800],
+                [6, 1408],
+                [7, 1682],
+                [8, 3400],
+                [9, 4400],
+                [10, 3750],
+                [11, 5100],
+                [12, 6560]
+            ];
+            var fitnessMarket = [
+                [1, 12600],
+                [2, 14950],
+                [3, 11900],
+                [4, 11050],
+                [5, 12000],
+                [6, 15300],
+                [7, 13500],
+                [8, 16050],
+                [9, 13650],
+                [10, 15000],
+                [11, 16000],
+                [12, 18900]
             ];
 
             // Array with month labels used in Classic and Stacked chart
@@ -67,25 +95,63 @@ var EcomDashboard = function() {
 
             // Overview Chart
             $.plot(chartOverview, [{
-                label: 'Orders',
-                data: dataOrders,
-                lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
-                points: { show: true, radius: 6 }
-            }], {
-                colors: ['#043e50'],
+                    label: 'Fitness Market ',
+                    data: fitnessMarket,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                },
+                {
+                    label: 'Healthy Food Market',
+                    data: healthyFoodMarket,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                },
+                {
+                    label: 'Trainers ',
+                    data: trainers,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                },
+                {
+                    label: 'Nutritionist ',
+                    data: nutritionist,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                }
+            ], {
+                colors: ['#f39800', '#8fc322', '#043e50', '#231916'],
                 legend: { show: true, position: 'nw', margin: [15, 10] },
                 grid: { borderWidth: 0, hoverable: true, clickable: true },
                 yaxis: { ticks: 3, tickColor: '#f1f1f1' },
                 xaxis: { ticks: chartMonths, tickColor: '#ffffff' }
             });
 
-            $.plot(chartOverview1, [{
-                label: 'Earnings',
-                data: dataEarnings,
-                lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.25 }, { opacity: 0.25 }] } },
-                points: { show: true, radius: 6 }
-            }], {
-                colors: ['#8fc322'],
+            $.plot(incomeReport, [{
+                    label: 'Fitness Market ',
+                    data: fitnessMarket,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                },
+                {
+                    label: 'Healthy Food Market',
+                    data: healthyFoodMarket,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                },
+                {
+                    label: 'Trainers ',
+                    data: trainers,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                },
+                {
+                    label: 'Nutritionist ',
+                    data: nutritionist,
+                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                    points: { show: true, radius: 6 }
+                }
+            ], {
+                colors: ['#f39800', '#8fc322', '#043e50', '#231916'],
                 legend: { show: true, position: 'nw', margin: [15, 10] },
                 grid: { borderWidth: 0, hoverable: true, clickable: true },
                 yaxis: { ticks: 3, tickColor: '#f1f1f1' },
@@ -120,7 +186,7 @@ var EcomDashboard = function() {
                 }
             });
 
-            chartOverview1.bind('plothover', function(event, pos, item) {
+            incomeReport.bind('plothover', function(event, pos, item) {
 
                 if (item) {
                     if (previousPoint !== item.dataIndex) {
