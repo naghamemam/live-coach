@@ -259,6 +259,18 @@ a.text-primary:focus {
     margin-bottom: 20px;
 }
 
+.mb-2 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
 .mfp-bg,
 .mfp-wrap {
     z-index: 1051;
@@ -697,6 +709,12 @@ a.text-success:focus,
     display: block;
 }
 
+@media (max-width:991px) {
+    .dashboard-blocks-info svg {
+        width: 15px;
+    }
+}
+
 .dashboard-blocks-info li span {
     display: block;
 }
@@ -704,6 +722,13 @@ a.text-success:focus,
 .nav-horizontal.dashboard-blocks-info li {
     max-width: 100%;
     flex: 1 0 auto;
+}
+
+@media (min-width: 992px) {
+    .nav-horizontal.dashboard-blocks-info li {
+        max-width: calc(20% - 6px);
+        flex: 1 0 20%;
+    }
 }
 
 .nav-horizontal.dashboard-blocks-info li a {
@@ -726,6 +751,23 @@ a.text-success:focus,
 
 .sidebar-nav a>.sidebar-nav-icon {
     vertical-align: middle;
+}
+
+.block-title h1,
+.block-title h2,
+.block-title h3,
+.block-title h4,
+.block-title h5,
+.block-title h6 {
+    font-size: 17px;
+}
+
+.tabs-container .nav-justified>li>a {
+    font-size: 16px;
+}
+
+.form-bordered fieldset legend {
+    font-size: 15px;
 }
 
 @media screen and (min-width: 768px) {
