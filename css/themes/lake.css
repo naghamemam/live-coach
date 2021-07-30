@@ -379,14 +379,14 @@ div.tagsinput span.tag,
 
 .fc-state-default {
     background-color: #f39800;
-    border-color: #e3745b;
+    border-color: #d48400;
 }
 
 .fc-state-hover,
 .fc-state-down,
 .fc-state-active,
 .fc-state-disabled {
-    background-color: #e3745b;
+    background-color: #d48400;
 }
 
 .fc-state-highlight {
@@ -434,16 +434,16 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     background-color: #f39800;
-    border-color: #e3745b;
+    border-color: #f39800;
 }
 
 .btn-primary.btn-alt {
-    color: #e3745b;
+    color: #f39800;
 }
 
 .btn-primary:hover {
-    background-color: #e3745b;
-    border-color: #e3745b;
+    background-color: #d48400;
+    border-color: #d48400;
     color: #ffffff;
 }
 
@@ -459,8 +459,8 @@ fieldset[disabled] .btn-default.active {
 .open .btn-primary.dropdown-toggle:hover,
 .open .btn-primary.dropdown-toggle:focus,
 .open .btn-primary.dropdown-toggle.focus {
-    background-color: #e3745b;
-    border-color: #c9563c;
+    background-color: var(--orange);
+    border-color: #d48400;
     color: #ffffff;
 }
 

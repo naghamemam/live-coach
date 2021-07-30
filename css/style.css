@@ -108,6 +108,10 @@ a.text-primary:focus {
     padding: 20px;
 }
 
+.content-header.with-media {
+    padding: 0;
+}
+
 .content-header .nav-horizontal {
     padding: 15px 0px 0px;
 }
@@ -137,10 +141,6 @@ a.text-primary:focus {
 
 .table thead th,
 .table thead>tr>th {
-    background-image: url(../img/jquery.datatables/sort_both.png);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: 19px 19px;
     font-size: 14px;
     font-weight: 700;
 }
@@ -280,6 +280,10 @@ a.text-primary:focus {
     width: 56px;
 }
 
+.timeline-icon .fa-shapes {
+    width: 14px;
+}
+
 .daterange-container {
     display: flex !important;
     flex-wrap: wrap;
@@ -329,13 +333,10 @@ a.widget {
     content: none;
 }
 
-.widget .widget-image,
-.widget .widget-icon {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    margin: 0;
-    font-size: 20px;
+.widget-header.bg-image {
+    background-image: url('../img/gym-coronavirus.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .input-with-info {
@@ -709,6 +710,15 @@ a.text-success:focus,
     display: block;
 }
 
+.classes-time-picker {
+    align-items: center;
+}
+
+.classes-time-picker .bootstrap-timepicker {
+    padding: 0 5px;
+    flex: 1 0 auto;
+}
+
 @media (max-width:991px) {
     .dashboard-blocks-info svg {
         width: 15px;
@@ -768,6 +778,31 @@ a.text-success:focus,
 
 .form-bordered fieldset legend {
     font-size: 15px;
+}
+
+.view-action-btns {
+    background-color: #f9f9f9;
+    padding: 15px 5px;
+    margin: 0 -20px;
+}
+
+.session-list .widget-icon svg {
+    width: 28px;
+    height: auto;
+}
+
+.session-time .form-control {
+    width: 50%;
+}
+
+.timeline.block-content-full {
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.timeline.block-content-full:last-of-type {
+    border-bottom: 0;
+    margin-bottom: -1px;
 }
 
 @media screen and (min-width: 768px) {
