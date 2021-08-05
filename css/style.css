@@ -805,6 +805,79 @@ a.text-success:focus,
     margin-bottom: -1px;
 }
 
+.block-section .img-circle {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-input-group {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.custom-input-group .input-group-addon.col-md-3 {
+    width: 25%;
+}
+
+.custom-input-group .chosen-container-single .chosen-single {
+    border-radius: 0;
+}
+
+.class-item {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-item .chosen-container,
+.class-item .class-item-container {
+    max-width: calc(100% - 45px);
+    width: 100%;
+}
+
+.class-item .clear {
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.fa-ul.list-inline {
+    margin-left: 0;
+}
+
+.fa-ul.list-inline li i {
+    position: static;
+    width: auto;
+}
+
+.meal-option {
+    justify-content: flex-end;
+}
+
+.meal-option-container {
+    max-width: calc(100% - 20px);
+    flex: 0 0 calc(100% - 20px);
+}
+
+.meal-img .clear-img {
+    font-size: 25px;
+    position: absolute;
+    top: -18px;
+    right: 5px;
+    color: var(--orange);
+    display: block;
+}
+
+.bg-gray-opacity {
+    background: rgba(247, 247, 247, .2);
+}
+
 @media screen and (min-width: 768px) {
     #login-container,
     #login-alt-container {
