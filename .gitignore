@@ -1,9 +1,9 @@
 categories.html
-dashboard-delivery.html
-drivers-add-new.html
-drivers-all.html
-drivers-rating.html
-drivers-view.html
+# dashboard-delivery.html
+; drivers-add-new.html
+# drivers-all.html
+; drivers-rating.html
+; drivers-view.html
 vendors-add-2.html
 vendors-add.html
 vendors-list-2.html

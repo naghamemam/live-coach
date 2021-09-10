@@ -710,6 +710,10 @@ a.text-success:focus,
     display: block;
 }
 
+.dashboard-blocks-container .dashboard-blocks-info svg {
+    margin: auto;
+}
+
 .classes-time-picker {
     align-items: center;
 }
@@ -732,27 +736,63 @@ a.text-success:focus,
 .nav-horizontal.dashboard-blocks-info li {
     max-width: 100%;
     flex: 1 0 auto;
+    padding: 0 3px 9px;
+    margin: 0;
 }
 
 @media (min-width: 992px) {
     .nav-horizontal.dashboard-blocks-info li {
-        max-width: calc(20% - 6px);
-        flex: 1 0 20%;
+        /* max-width: calc(20% - 6px);
+        flex: 1 0 20%; */
     }
+}
+
+.p-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.nav-horizontal.dashboard-blocks-info {
+    padding: 0;
 }
 
 .nav-horizontal.dashboard-blocks-info li a {
     background-color: var(--orange);
     color: #ffffff;
+    font-size: 12px;
+    height: 100%;
+    min-width: auto;
+}
+
+@media (min-width: 992px) {
+    .nav-horizontal.dashboard-blocks-info li a {
+        min-height: 140px;
+    }
 }
 
 .nav-horizontal.dashboard-blocks-info li a:hover {
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
 }
 
 .nav-horizontal.dashboard-blocks-info li a i {
     color: #ffffff;
     opacity: .6;
+}
+
+.nav-horizontal.dashboard-blocks-info li a.themed-background-nutration {
+    background-color: #176A5D;
+}
+
+.nav-horizontal.dashboard-blocks-info li a.themed-background-fit-market {
+    background-color: #000000;
+}
+
+.nav-horizontal.dashboard-blocks-info li a.themed-background-food-market {
+    background-color: var(--green);
+}
+
+.nav-horizontal.dashboard-blocks-info li a.themed-background-drivers {
+    background-color: var(--blue);
 }
 
 .sidebar-nav a>.sidebar-nav-icon svg {
