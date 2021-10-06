@@ -13,5 +13,5 @@ $(document).ready(function() {
     $(".btn-add-new").on('click', function(e) {
         e.preventDefault();
         editSession();
-    })
+    });
 });
