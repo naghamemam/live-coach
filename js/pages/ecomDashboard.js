@@ -119,7 +119,7 @@ var EcomDashboard = function() {
                     points: { show: true, radius: 6 }
                 }
             ], {
-                colors: ['#f39800', '#8fc322', '#043e50', '#231916'],
+                colors: ['#c00d0e', '#8fc322', '#043e50', '#231916'],
                 legend: { show: true, position: 'nw', margin: [15, 10] },
                 grid: { borderWidth: 0, hoverable: true, clickable: true },
                 yaxis: { ticks: 3, tickColor: '#f1f1f1' },
@@ -151,7 +151,7 @@ var EcomDashboard = function() {
                     points: { show: true, radius: 6 }
                 }
             ], {
-                colors: ['#f39800', '#8fc322', '#043e50', '#231916'],
+                colors: ['#c00d0e', '#8fc322', '#043e50', '#231916'],
                 legend: { show: true, position: 'nw', margin: [15, 10] },
                 grid: { borderWidth: 0, hoverable: true, clickable: true },
                 yaxis: { ticks: 3, tickColor: '#f1f1f1' },

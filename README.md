@@ -1,2 +1,2 @@
 # live-coach
-Live Coach Admin Panel.
+My Health Admin Panel.

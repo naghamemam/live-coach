@@ -1,5 +1,5 @@
 /*
- *  Document   : Live Coach-style.css
+ *  Document   : My Health-style.css
  *  Author     : pixelcave
  *  Description: THEME AMETHYST
  *
@@ -512,26 +512,26 @@ fieldset[disabled] .btn-primary.active:focus {
     }
 }
 
-.themed-color-Live Coach {
+.themed-color-My Health {
     color: var(--third-color) !important;
 }
 
-.themed-border-Live Coach {
+.themed-border-My Health {
     border-color: var(--third-color) !important;
 }
 
-.themed-background-Live Coach {
+.themed-background-My Health {
     background-color: var(--third-color) !important;
 }
 
-.themed-color-dark-Live Coach {
+.themed-color-dark-My Health {
     color: var(--main-color) !important;
 }
 
-.themed-border-dark-Live Coach {
+.themed-border-dark-My Health {
     border-color: var(--main-color) !important;
 }
 
-.themed-background-dark-Live Coach {
+.themed-background-dark-My Health {
     background-color: var(--main-color) !important;
 }

@@ -1,5 +1,6 @@
 :root {
     --orange: #f39800;
+    --red: #c00d0e;
     --green: #8fc322;
     --blue: #043e50;
 }
@@ -757,7 +758,7 @@ a.text-success:focus,
 }
 
 .nav-horizontal.dashboard-blocks-info li a {
-    background-color: var(--orange);
+    background-color: var(--red);
     color: #ffffff;
     font-size: 12px;
     height: 100%;
@@ -911,7 +912,7 @@ a.text-success:focus,
     position: absolute;
     top: -18px;
     right: 5px;
-    color: var(--orange);
+    color: var(--red);
     display: block;
 }
 
