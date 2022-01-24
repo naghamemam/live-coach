@@ -860,7 +860,6 @@ a.text-success:focus,
 
 .custom-input-group {
     border-radius: 4px;
-    overflow: hidden;
 }
 
 .custom-input-group .input-group-addon.col-md-3 {
@@ -869,6 +868,23 @@ a.text-success:focus,
 
 .custom-input-group .chosen-container-single .chosen-single {
     border-radius: 0;
+}
+
+.inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputs-container input {
+    flex: 1;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.content-container {
+    align-items: center;
 }
 
 .class-item {
@@ -922,6 +938,38 @@ a.text-success:focus,
 
 .iti {
     display: block;
+}
+
+.orders-container {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.orders-container .training-wrapper,
+.orders-container .nutrations-wrapper,
+.orders-container .fitness-wrapper,
+.orders-container .food-wrapper {
+    border: 4px solid #000;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.orders-container .training-wrapper {
+    border-color: var(--red);
+}
+
+.orders-container .nutrations-wrapper {
+    border-color: var(--blue);
+}
+
+.orders-container .fitness-wrapper {
+    border-color: #000;
+}
+
+.orders-container .food-wrapper {
+    border-color: var(--green);
 }
 
 @media screen and (min-width: 768px) {

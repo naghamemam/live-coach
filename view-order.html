@@ -856,7 +856,7 @@
 
                     <!-- All Admin Block -->
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-12">
                             <!-- Top Products Block -->
                             <div class="block">
                                 <!-- Customer Info Title -->
@@ -866,50 +866,51 @@
                                 <!-- END Customer Info Title -->
 
                                 <!-- Customer Info -->
-                                <div class="block-section text-center">
-                                    <a href="javascript:void(0)">
-                                        <img src="img/placeholders/avatars/avatar4@2x.jpg" alt="avatar" class="img-circle">
-                                    </a>
-                                    <h3>
-                                        <strong>Jonathan Taylor</strong><br><small></small>
-                                    </h3>
+                                <div class="content-container row d-flex">
+                                    <div class="block-section text-center col-md-2">
+                                        <a href="javascript:void(0)">
+                                            <img src="img/placeholders/avatars/avatar4@2x.jpg" alt="avatar" class="img-circle">
+                                        </a>
+                                        <h3>
+                                            <strong>Jonathan Taylor</strong><br><small></small>
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <table class="table table-borderless table-striped table-vcenter">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width: 20%;"><strong>Email</strong></td>
+                                                    <td>email@mail.com</td>
+                                                    <td style="width: 20%;"><strong>Phone</strong></td>
+                                                    <td>01234567891</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width: 20%;"><strong>Payment Details</strong></td>
+                                                    <td>Credit card</td>
+                                                    <td style="width: 20%;"><strong>Deliver to</strong></td>
+                                                    <td>20 mustafa kamel st., Roushdy,</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="block">
+                                            <!-- Customer Info Title -->
+                                            <div class="block-title">
+                                                <h2><i class="fa fa-comments"></i> <strong>Internal</strong> Comments</h2>
+                                            </div>
+                                            <div class="block-section">
+                                                <p>Text text text text text text text text text text text text text text text text.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <table class="table table-borderless table-striped table-vcenter">
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-right" style="width: 50%;"><strong>Email</strong></td>
-                                            <td>email@mail.com</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><strong>Phone</strong></td>
-                                            <td>01234567891</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><strong>Payment Details</strong></td>
-                                            <td>Credit card</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><strong>Deliver to</strong></td>
-                                            <td>20 mustafa kamel st., Roushdy,</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+
                                 <!-- END Customer Info -->
                             </div>
                             <!-- END Top Products Block -->
 
-
-                            <div class="block">
-                                <!-- Customer Info Title -->
-                                <div class="block-title">
-                                    <h2><i class="fa fa-comments"></i> <strong>Internal</strong> Comments</h2>
-                                </div>
-                                <div class="block-section">
-                                    <p>Text text text text text text text text text text text text text text text text.</p>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="col-lg-12">
                             <!-- Latest Orders Block -->
                             <div class="block">
                                 <!-- Latest Orders Title -->
@@ -923,79 +924,320 @@
                                 <!-- END Latest Orders Title -->
 
                                 <!-- Latest Orders Content -->
-                                <div class="d-flex store-name">
-                                    <h4><b>Store</b></h4>
-                                    <div><span class="label label-warning">Pending Driver</span></div>
+                                <div class="row orders-container">
+                                    <div class="col-md-5">
+                                        <div class="training-wrapper">
+                                            <div class="d-flex store-name">
+                                                <h4><b>Store</b></h4>
+                                                <div><span class="label label-warning">Pending Driver</span></div>
+                                            </div>
+
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-vcenter">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" style="width: 100px;">ID</th>
+                                                            <th>Product Name</th>
+                                                            <th class="text-center">Recurring</th>
+                                                            <th class="text-center">Date & Time</th>
+                                                            <th class="text-center">QTY</th>
+                                                            <th class="text-right" style="width: 10%;">PRICE</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8715</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8726</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8760</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8728</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8763</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Sub total:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Vat:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr class="active">
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Shipping cost:</strong></td>
+                                                            <td class="text-right"><strong>$0,00</strong></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="nutrations-wrapper">
+                                            <div class="d-flex store-name">
+                                                <h4><b>Store</b></h4>
+                                                <div><span class="label label-warning">Pending Driver</span></div>
+                                            </div>
+
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-vcenter">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" style="width: 100px;">ID</th>
+                                                            <th>Product Name</th>
+                                                            <th class="text-center">Recurring</th>
+                                                            <th class="text-center">Date & Time</th>
+                                                            <th class="text-center">QTY</th>
+                                                            <th class="text-right" style="width: 10%;">PRICE</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8715</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8726</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8760</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8728</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8763</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Sub total:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Vat:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr class="active">
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Shipping cost:</strong></td>
+                                                            <td class="text-right"><strong>$0,00</strong></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="fitness-wrapper">
+                                            <div class="d-flex store-name">
+                                                <h4><b>Store</b></h4>
+                                                <div><span class="label label-warning">Pending Driver</span></div>
+                                            </div>
+
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-vcenter">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" style="width: 100px;">ID</th>
+                                                            <th>Product Name</th>
+                                                            <th class="text-center">Recurring</th>
+                                                            <th class="text-center">Date & Time</th>
+                                                            <th class="text-center">QTY</th>
+                                                            <th class="text-right" style="width: 10%;">PRICE</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8715</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8726</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8760</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8728</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8763</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Sub total:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Vat:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr class="active">
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Shipping cost:</strong></td>
+                                                            <td class="text-right"><strong>$0,00</strong></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="food-wrapper">
+                                            <div class="d-flex store-name">
+                                                <h4><b>Store</b></h4>
+                                                <div><span class="label label-warning">Pending Driver</span></div>
+                                            </div>
+
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-vcenter">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" style="width: 100px;">ID</th>
+                                                            <th>Product Name</th>
+                                                            <th class="text-center">Recurring</th>
+                                                            <th class="text-center">Date & Time</th>
+                                                            <th class="text-center">QTY</th>
+                                                            <th class="text-right" style="width: 10%;">PRICE</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8715</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8726</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8760</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$399,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8728</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product_edit.html"><strong>PID.8763</strong></a></td>
+                                                            <td><a href="product_edit.html">Food1</a></td>
+                                                            <td></td>
+                                                            <td class="text-center"><em>15.08.2018, 15:00</em></td>
+                                                            <td class="text-center"><strong>1</strong></td>
+                                                            <td class="text-right"><strong>$59,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Sub total:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Vat:</strong></td>
+                                                            <td class="text-right"><strong>$975,00</strong></td>
+                                                        </tr>
+                                                        <tr class="active">
+                                                            <td colspan="5" class="text-right text-uppercase"><strong>Shipping cost:</strong></td>
+                                                            <td class="text-right"><strong>$0,00</strong></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-vcenter">
-                                        <thead>
-                                            <tr>
-                                                <th class="text-center" style="width: 100px;">ID</th>
-                                                <th>Product Name</th>
-                                                <th class="text-center">Recurring</th>
-                                                <th class="text-center">Date & Time</th>
-                                                <th class="text-center">QTY</th>
-                                                <th class="text-right" style="width: 10%;">PRICE</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-center"><a href="product_edit.html"><strong>PID.8715</strong></a></td>
-                                                <td><a href="product_edit.html">Food1</a></td>
-                                                <td></td>
-                                                <td class="text-center"><em>15.08.2018, 15:00</em></td>
-                                                <td class="text-center"><strong>1</strong></td>
-                                                <td class="text-right"><strong>$399,00</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center"><a href="product_edit.html"><strong>PID.8726</strong></a></td>
-                                                <td><a href="product_edit.html">Food1</a></td>
-                                                <td></td>
-                                                <td class="text-center"><em>15.08.2018, 15:00</em></td>
-                                                <td class="text-center"><strong>1</strong></td>
-                                                <td class="text-right"><strong>$59,00</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center"><a href="product_edit.html"><strong>PID.8760</strong></a></td>
-                                                <td><a href="product_edit.html">Food1</a></td>
-                                                <td></td>
-                                                <td class="text-center"><em>15.08.2018, 15:00</em></td>
-                                                <td class="text-center"><strong>1</strong></td>
-                                                <td class="text-right"><strong>$399,00</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center"><a href="product_edit.html"><strong>PID.8728</strong></a></td>
-                                                <td><a href="product_edit.html">Food1</a></td>
-                                                <td></td>
-                                                <td class="text-center"><em>15.08.2018, 15:00</em></td>
-                                                <td class="text-center"><strong>1</strong></td>
-                                                <td class="text-right"><strong>$59,00</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center"><a href="product_edit.html"><strong>PID.8763</strong></a></td>
-                                                <td><a href="product_edit.html">Food1</a></td>
-                                                <td></td>
-                                                <td class="text-center"><em>15.08.2018, 15:00</em></td>
-                                                <td class="text-center"><strong>1</strong></td>
-                                                <td class="text-right"><strong>$59,00</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="5" class="text-right text-uppercase"><strong>Sub total:</strong></td>
-                                                <td class="text-right"><strong>$975,00</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="5" class="text-right text-uppercase"><strong>Vat:</strong></td>
-                                                <td class="text-right"><strong>$975,00</strong></td>
-                                            </tr>
-                                            <tr class="active">
-                                                <td colspan="5" class="text-right text-uppercase"><strong>Shipping cost:</strong></td>
-                                                <td class="text-right"><strong>$0,00</strong></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
                                 <!-- END Latest Orders Content -->
 
                                 <!-- Latest Orders Content -->
