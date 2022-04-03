@@ -1070,6 +1070,31 @@
                                 </form>
                                 <!-- END Stock Content -->
                             </div>
+
+                            <div class="block">
+                                <!-- Stock Title -->
+                                <div class="block-title">
+                                    <h2><i class="fa fa-list-alt"></i> <strong>Add</strong> Extra Notes</h2>
+                                </div>
+                                <!-- END Stock Title -->
+
+                                <!-- Stock Content -->
+                                <form action="product_edit.html" method="post" class="form-horizontal form-bordered" onsubmit="return false;">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="notes-title">Title</label>
+                                        <div class="col-md-9">
+                                            <input type="text" id="notes-title" name="notes-title" class="form-control" placeholder="Title">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="notes-details">Details</label>
+                                        <div class="col-md-9">
+                                            <textarea id="notes-details" name="notes-details" class="form-control" rows="3" placeholder="Details..."></textarea>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- END Stock Content -->
+                            </div>
                             <!-- END General Data Block -->
                         </div>
                         <div class="col-lg-6">
@@ -1100,47 +1125,33 @@
                                         <label class="col-md-3 control-label">Confirm Your Details</label>
                                         <div class="col-md-9">
                                             <div class="input-group d-flex custom-input-group">
-                                                <span class="input-group-addon col-md-3">Age</span>
-                                                <div class="col-md-6 px-0">
-                                                    <select id="age-range" name="age-range" class="select-chosen" data-placeholder="Choose a Age Range.." style="width: 250px;">
-                                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                                                        <option value="United States">Greater Than</option>
-                                                        <option value="United Kingdom">Less Than</option>
-                                                    </select>
-
+                                                <span class="input-group-addon col-md-4">Age</span>
+                                                <div class="col-md-4 px-0">
+                                                    <input type="text" id="age-from" name="age" class="form-control" placeholder="From">
                                                 </div>
-                                                <span class="col-md-3 px-0">
-                                                    <input type="text" id="age" name="age" class="form-control" placeholder="Ex.20">
+                                                <span class="col-md-4 px-0 inputs-container">
+                                                    <input type="text" id="age-to" name="age" class="form-control" placeholder="To">
                                                 </span>
                                             </div>
 
                                             <div class="input-group d-flex custom-input-group">
-                                                <span class="input-group-addon col-md-3">weight</span>
-                                                <div class="col-md-6 px-0">
-                                                    <select id="weight-range" name="weight-range" class="select-chosen" data-placeholder="Choose a weight Range.." style="width: 250px;">
-                                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                                                        <option value="United States">Greater Than</option>
-                                                        <option value="United Kingdom">Less Than</option>
-                                                    </select>
-
+                                                <span class="input-group-addon col-md-4">weight</span>
+                                                <div class="col-md-4 px-0">
+                                                    <input type="text" id="weight-from" name="weight" class="form-control" placeholder="From">
                                                 </div>
-                                                <span class="col-md-3 px-0">
-                                                    <input type="text" id="weight" name="weight" class="form-control" placeholder="Ex.20">
+                                                <span class="col-md-4 px-0 inputs-container">
+                                                    <input type="text" id="weight-to" name="weight" class="form-control" placeholder="To">
                                                 </span>
                                             </div>
 
                                             <div class="input-group d-flex custom-input-group">
-                                                <span class="input-group-addon col-md-3">Height</span>
-                                                <div class="col-md-6 px-0">
-                                                    <select id="height-range" name="height-range" class="select-chosen" data-placeholder="Choose a height Range.." style="width: 250px;">
-                                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                                                        <option value="United States">Greater Than</option>
-                                                        <option value="United Kingdom">Less Than</option>
-                                                    </select>
+                                                <span class="input-group-addon col-md-4">Height</span>
+                                                <div class="col-md-4 px-0">
+                                                    <input type="text" id="height-from" name="height" class="form-control" placeholder="From">
 
                                                 </div>
-                                                <span class="col-md-3 px-0">
-                                                    <input type="text" id="height" name="height" class="form-control" placeholder="Ex.20">
+                                                <span class="col-md-4 px-0 inputs-container">
+                                                    <input type="text" id="height-to" name="height" class="form-control" placeholder="To">
                                                 </span>
                                             </div>
                                         </div>

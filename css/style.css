@@ -866,6 +866,10 @@ a.text-success:focus,
     width: 25%;
 }
 
+.custom-input-group .input-group-addon.col-md-4 {
+    width: 33.33333333%;
+}
+
 .custom-input-group .chosen-container-single .chosen-single {
     border-radius: 0;
 }
