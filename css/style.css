@@ -827,7 +827,8 @@ a.text-success:focus,
     margin: 0 -20px;
 }
 
-.session-list .widget-icon svg {
+.session-list .widget-icon svg,
+.session-list .widget-icon img {
     width: 28px;
     height: auto;
 }
