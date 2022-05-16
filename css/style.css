@@ -981,6 +981,16 @@ a.text-success:focus,
     align-items: flex-start;
 }
 
+.session-content .fa {
+    z-index: 9999999999999;
+    position: absolute;
+    color: #f9f9f9;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 100px;
+}
+
 @media screen and (min-width: 768px) {
     #login-container,
     #login-alt-container {
