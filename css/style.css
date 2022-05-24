@@ -699,7 +699,7 @@ a.text-success:focus,
     right: 0;
     top: 0;
     bottom: 0;
-    background: var(--blue);
+    background: rgba(0, 0, 0, 0.56);
 }
 
 .bg-image-container .full-bg {
@@ -989,6 +989,16 @@ a.text-success:focus,
     left: 50%;
     top: 50%;
     font-size: 100px;
+}
+
+.chatui-talk .chatui-talk-msg {
+    padding: 15px 75px;
+    padding-right: 50px;
+}
+
+.chatui-talk .chatui-talk-msg .badge {
+    position: absolute;
+    left: 9px;
 }
 
 @media screen and (min-width: 768px) {
