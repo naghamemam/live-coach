@@ -994,11 +994,24 @@ a.text-success:focus,
 .chatui-talk .chatui-talk-msg {
     padding: 15px 75px;
     padding-right: 50px;
+    text-align: right;
 }
 
 .chatui-talk .chatui-talk-msg .badge {
     position: absolute;
     left: 9px;
+    bottom: 15px;
+}
+
+.chatui-talk .chatui-talk-msg.chatui-talk-msg-highlight {
+    padding: 15px 50px;
+    padding-right: 75px;
+    text-align: left;
+}
+
+.chatui-talk .chatui-talk-msg.chatui-talk-msg-highlight .badge {
+    left: auto;
+    right: 9px;
 }
 
 @media screen and (min-width: 768px) {
