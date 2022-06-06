@@ -52,21 +52,53 @@ body {
 #login-container {
     top: 50%;
     transform: translateY(-50%);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 #login-container .push-bit {
     margin-bottom: 0px !important;
 }
 
-#login-container .login-title {
-    background: #ffffff;
+#login-container .login-title,
+#login-container .block {
+    background: #f9f9f9;
+}
+
+#login-container .block {
+    padding-top: 0;
+}
+
+#login-container .block .input-group {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#login-container .show-password {
+    position: absolute;
+    top: 4px;
+    z-index: 9;
+    right: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#login-container .switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#login-container .btn {
+    border-radius: 30px;
+    margin-bottom: 25px;
 }
 
 .login-title .logo img {
     display: block;
     margin: auto;
     width: auto;
-    height: 150px;
+    height: 100px;
 }
 
 #login-container .login-title h1,
