@@ -258,6 +258,11 @@ div.tagsinput input {
     left: 15px;
 }
 
+.iti input, .iti input[type=tel], .iti input[type=text]{
+    direction: ltr;
+    text-align: right;
+}
+
 @media (min-width: 768px) {
     .form-horizontal .control-label.text-left {
         text-align: right;
