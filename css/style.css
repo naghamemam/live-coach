@@ -930,7 +930,8 @@ a.text-success:focus,
 }
 
 .class-item .chosen-container,
-.class-item .class-item-container {
+.class-item .class-item-container,
+.class-item .bootstrap-timepicker-container {
     max-width: calc(100% - 45px);
     width: 100%;
 }
@@ -1044,6 +1045,36 @@ a.text-success:focus,
 .chatui-talk .chatui-talk-msg.chatui-talk-msg-highlight .badge {
     left: auto;
     right: 9px;
+}
+
+.px-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.package-variation .row {
+    flex: 1 0 auto;
+}
+
+.widget.session-content a {
+    color: #fff;
+}
+
+.session-content .gi svg {
+    width: 24px;
+    display: block;
+    height: 24px;
+}
+
+.session-content .widget-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
