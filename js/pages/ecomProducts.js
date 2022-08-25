@@ -31,7 +31,7 @@ var EcomProducts = function() {
             $('#ecom-products').dataTable({
                 columnDefs: [
                     { type: 'date-custom', targets: [4] },
-                    { orderable: false, targets: [5] }
+                    { orderable: false, targets: [4] }
                 ],
                 order: [[ 0, "desc" ]],
                 pageLength: 20,
@@ -43,3 +43,7 @@ var EcomProducts = function() {
         }
     };
 }();
+
+
+
+
