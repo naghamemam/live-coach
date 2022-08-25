@@ -477,7 +477,10 @@
                                                 <a href="training-plan-nutrition-list.html">Training Nutrition</a>
                                             </li>
                                             <li>
-                                                <a href="training-plan-subscriptions-list.html" class="active">Training Subscription</a>
+                                                <a href="training-plan-subscriptions-list.html">Training Subscription</a>
+                                            </li>
+                                            <li>
+                                                <a href="training-plan-request-list.html" class="active">Training Requests</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -563,36 +566,6 @@
                                             </li>
                                             <li>
                                                 <a href="live-classes-2.html">Live Classes</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Nutrition Plans subscriptions</a>
-                                        <ul>
-                                            <li>
-                                                <a href="meal-alternative.html">Meal Alternative</a>
-                                            </li>
-                                            <li>
-                                                <a href="meal-plans.html">Meals</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Nutrition subscriptions</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Nutrition subscribers</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Nutrition Consultations</a>
-                                        <ul>
-                                            <li>
-                                                <a href="consultation-request.html">Consultation Requests</a>
-                                            </li>
-                                            <li>
-                                                <a href="consultation-plans.html">Consultation Plans</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -880,152 +853,547 @@
                     <div class="content-header">
                         <div class="header-section">
                             <h1>
-                                <i class="fa fa-shapes"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-ninja" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-ninja fa-w-14 fa-2x"><path fill="currentColor" d="M325.4 289.2L224 390.6 122.6 289.2C54 295.3 0 352.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-70.2-54-127.1-122.6-133.2zM32 192c27.3 0 51.8-11.5 69.2-29.7 15.1 53.9 64 93.7 122.8 93.7 70.7 0 128-57.3 128-128S294.7 0 224 0c-50.4 0-93.6 29.4-114.5 71.8C92.1 47.8 64 32 32 32c0 33.4 17.1 62.8 43.1 80-26 17.2-43.1 46.6-43.1 80zm144-96h96c17.7 0 32 14.3 32 32H144c0-17.7 14.3-32 32-32z" class=""></path></svg></i>Training
-                                Plans Setup
-                                <br><small>Manage and Edit Training Plans Setup!</small>
+                                <i class="fa fa-shapes"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-ninja" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-ninja fa-w-14 fa-2x"><path fill="currentColor" d="M325.4 289.2L224 390.6 122.6 289.2C54 295.3 0 352.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-70.2-54-127.1-122.6-133.2zM32 192c27.3 0 51.8-11.5 69.2-29.7 15.1 53.9 64 93.7 122.8 93.7 70.7 0 128-57.3 128-128S294.7 0 224 0c-50.4 0-93.6 29.4-114.5 71.8C92.1 47.8 64 32 32 32c0 33.4 17.1 62.8 43.1 80-26 17.2-43.1 46.6-43.1 80zm144-96h96c17.7 0 32 14.3 32 32H144c0-17.7 14.3-32 32-32z" class=""></path></svg></i>Live
+                                Training Subscripers
+                                <br><small>Manage and Edit Live Training Subscripers!</small>
                             </h1>
                         </div>
                     </div>
                     <!-- END eCommerce Admin Header -->
 
-                    <!-- All Admin Block -->
-                    <div class="block full">
-                        <!-- All Admin Title -->
-                        <div class="block-title">
-                            <div class="block-options pull-right">
-                                <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Settings"><i class="fa fa-cog"></i></a>
+
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <!-- Top Products Block -->
+                            <div class="block">
+                                <!-- Customer Info Title -->
+                                <div class="block-title">
+                                    <h2><i class="fa fa-file-o"></i> <strong>Subscriper</strong> Details</h2>
+                                </div>
+                                <!-- END Customer Info Title -->
+
+                                <!-- Customer Info -->
+                                <div class="block-section text-center">
+                                    <a href="javascript:void(0)">
+                                        <img src="img/placeholders/avatars/avatar4@2x.jpg" alt="avatar" class="img-circle">
+                                    </a>
+                                    <h3>
+                                        <strong>Jonathan Taylor</strong><br><small>#ds325</small>
+                                    </h3>
+                                </div>
+                                <table class="table table-borderless table-striped table-vcenter">
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-right" style="width: 50%;"><strong>Subscription Start</strong></td>
+                                            <td>03/05/2018</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-right"><strong>Subscription Ends</strong></td>
+                                            <td>03/08/2018</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- END Customer Info -->
                             </div>
-                            <h2><strong>All</strong> Training Plans Setup</h2>
-                        </div>
-                        <!-- END All Admin Title -->
+                            <!-- END Top Products Block -->
 
-                        <!-- All Admin Content -->
 
-                        <div class="table-responsive">
-                            <table id="ecom-products" class="table table-bordered table-striped table-vcenter">
-                                <thead>
-                                    <tr>
-                                        <th class="text-center" style="width: 70px;">ID</th>
-                                        <th>Plan Name</th>
-                                        <th class="">Description</th>
-                                        <th class="text-center">Coach Specialization</th>
-                                        <th class="text-center">Goal</th>
-                                        <th class="text-center">Gender</th>
-                                        <th class="text-center">Duration</th>
-                                        <th class="text-center">Status</th>
-                                        <th class="text-center">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="text-center"><a href="training-plans-setup.html"><strong>1</strong></a></td>
-                                        <td><a href="training-plans-setup.html">Plan Name</a></td>
-                                        <td class="">Description</td>
-                                        <td class="text-center">Fitness Trainer</td>
-                                        <td class="text-center">Lose Weight</td>
-                                        <td class="text-center">Male</td>
-                                        <td class="text-center">2 Months</td>
-                                        <td class="text-center">
-                                            <label class="switch switch-success">
-                                                <input type="checkbox" checked><span></span>
-                                            </label>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="btn-group btn-group-xs">
-                                                <a href="#" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                <a href="training-plans-setup.html" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><a href="training-plans-setup.html"><strong>2</strong></a></td>
-                                        <td><a href="training-plans-setup.html">Plan Name</a></td>
-                                        <td class="">Description</td>
-                                        <td class="text-center">Fitness Trainer</td>
-                                        <td class="text-center">Lose Weight</td>
-                                        <td class="text-center">Male</td>
-                                        <td class="text-center">2 Months</td>
-                                        <td class="text-center">
-                                            <label class="switch switch-success">
-                                                <input type="checkbox"><span></span>
-                                            </label>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="btn-group btn-group-xs">
-                                                <a href="#" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                <a href="training-plans-setup.html" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><a href="training-plans-setup.html"><strong>3</strong></a></td>
-                                        <td><a href="training-plans-setup.html">Plan Name</a></td>
-                                        <td class="">Description</td>
-                                        <td class="text-center">Fitness Trainer</td>
-                                        <td class="text-center">Lose Weight</td>
-                                        <td class="text-center">Male</td>
-                                        <td class="text-center">2 Months</td>
-                                        <td class="text-center">
-                                            <label class="switch switch-success">
-                                                <input type="checkbox" checked><span></span>
-                                            </label>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="btn-group btn-group-xs">
-                                                <a href="#" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                <a href="training-plans-setup.html" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><a href="training-plans-setup.html"><strong>4</strong></a></td>
-                                        <td><a href="training-plans-setup.html">Plan Name</a></td>
-                                        <td class="">Description</td>
-                                        <td class="text-center">Fitness Trainer</td>
-                                        <td class="text-center">Lose Weight</td>
-                                        <td class="text-center">Male</td>
-                                        <td class="text-center">2 Months</td>
-                                        <td class="text-center">
-                                            <label class="switch switch-success">
-                                                <input type="checkbox" checked><span></span>
-                                            </label>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="btn-group btn-group-xs">
-                                                <a href="#" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                <a href="training-plans-setup.html" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><a href="training-plans-setup.html"><strong>5</strong></a></td>
-                                        <td><a href="training-plans-setup.html">Plan Name</a></td>
-                                        <td class="">Description</td>
-                                        <td class="text-center">Fitness Trainer</td>
-                                        <td class="text-center">Lose Weight</td>
-                                        <td class="text-center">Male</td>
-                                        <td class="text-center">2 Months</td>
-                                        <td class="text-center">
-                                            <label class="switch switch-success">
-                                                <input type="checkbox" checked><span></span>
-                                            </label>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="btn-group btn-group-xs">
-                                                <a href="#" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                <a href="training-plans-setup.html" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="block">
+                                <!-- Customer Info Title -->
+                                <div class="block-title">
+                                    <h2><i class="fa fa-comments"></i> <strong>Internal</strong> Comments</h2>
+                                </div>
+                                <div class="block-section">
+                                    <p>Text text text text text text text text text text text text text text text text.</p>
+                                </div>
+                            </div>
                         </div>
-                        <!-- END All Admin Content -->
+                        <div class="col-lg-8">
+                            <!-- Latest Orders Block -->
+                            <div class="block">
+                                <!-- Tickets Title -->
+                                <div class="block-title">
+                                    <div class="block-options pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="" data-original-title="Settings"><i class="fa fa-cog"></i></a>
+                                    </div>
+                                    <ul class="nav nav-tabs" data-toggle="tabs">
+                                        <li class="active"><a href="#current-subscription">Current Subscription</a></li>
+                                        <li><a href="#subscription-history">Subscription History</a></li>
+                                    </ul>
+                                </div>
+                                <!-- END Tickets Title -->
+
+                                <!-- Tabs Content -->
+                                <div class="tab-content">
+                                    <!-- Tickets List -->
+                                    <div class="tab-pane active" id="current-subscription">
+                                        <div class="block-content-full">
+                                            <div class="table-responsive remove-margin-bottom">
+                                                <table class="table table-striped table-vcenter remove-margin-bottom">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th class="text-right" style="width: 20%;">Plan Name</th>
+                                                            <td>Body Shaping</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">Coach</th>
+                                                            <td>Coach Name</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">Duration</th>
+                                                            <td>03/05/2018 <b>to</b> 03/08/2018</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">Specialization</th>
+                                                            <td>Coach Specialization</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">Description</th>
+                                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa repellat, ullam aperiam quidem, velit est ab repellendus corrupti nostrum suscipit voluptas minima nobis inventore doloribus,
+                                                                maxime laudantium eligendi porro?</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">Tools</th>
+                                                            <td>Tool1, tool2, tool3</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">Gender</th>
+                                                            <td>Male</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-right">What's your training Goal ?</th>
+                                                            <td>Lose Weight</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END Tickets List -->
+
+                                    <!-- Ticket View -->
+                                    <div class="tab-pane" id="subscription-history">
+                                        <div class="alert alert-success animation-fadeInQuick">Current Status: <strong>OPEN</strong></div>
+                                        <a href="javascript:void(0)" class="btn btn-xs btn-default pull-right"><i class="fa fa-check"></i> Flag as Closed</a>
+                                        <a href="javascript:void(0)" class="btn btn-xs btn-danger"><i class="fa fa-flag"></i> Flag as Urgent</a>
+                                        <a href="javascript:void(0)" class="btn btn-xs btn-warning"><i class="fa fa-flag"></i> Flag as Invalid</a>
+                                        <hr>
+                                        <ul class="media-list media-feed push">
+                                            <!-- Ticket -->
+                                            <li class="media">
+                                                <a href="page_ready_user_profile.html" class="pull-left">
+                                                    <img src="img/placeholders/avatars/avatar9.jpg" alt="Avatar" class="img-circle">
+                                                </a>
+                                                <div class="media-body">
+                                                    <p class="push-bit">
+                                                        <span class="text-muted pull-right">
+                                                            <small>2 hours ago</small>
+                                                        </span>
+                                                        <small><a href="page_ready_user_profile.html">Howard Smith</a> through <a href="javascript:void(0)">Forum</a></small>
+                                                    </p>
+                                                    <h4><strong>Can you help me with the installation?</strong></h4>
+                                                    <p>Hi, I'm having a problem with the installation of the theme, can you help me out? I get the following error message and I don't know what to do:</p>
+                                                    <div class="alert alert-warning">
+                                                        <p><i class="fa fa-angle-right"></i> <strong>Error Establishing Database Connection</strong></p>
+                                                        <p>...</p>
+                                                    </div>
+                                                    <p>
+                                                        <a href="javascript:void(0)" class="btn btn-xs btn-default"><i class="fa fa-support"></i> Ask for Assistance</a>
+                                                        <a href="javascript:void(0)" class="btn btn-xs btn-default"><i class="fa fa-user"></i> Assign this ticket</a>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <!-- END Ticket -->
+
+                                            <!-- Replies -->
+                                            <li class="media">
+                                                <a href="page_ready_user_profile.html" class="pull-left">
+                                                    <img src="img/placeholders/avatars/avatar.jpg" alt="Avatar" class="img-circle">
+                                                </a>
+                                                <div class="media-body">
+                                                    <p class="push-bit">
+                                                        <span class="text-muted pull-right">
+                                                            <small>1 hour ago</small>
+                                                        </span>
+                                                        <small><a href="page_ready_user_profile.html">Support</a></small>
+                                                    </p>
+                                                    <p>Hi Howard and thank you very much for your purchase! There are many reasons this can happen. One is the incorrect information in wp-config.html file. Please open up wp-config.html and ensure that the
+                                                        following are correct:</p>
+                                                    <ul class="fa-ul push">
+                                                        <li><i class="fa fa-li fa-check text-success"></i> Database name</li>
+                                                        <li><i class="fa fa-li fa-check text-success"></i> Database username</li>
+                                                        <li><i class="fa fa-li fa-check text-success"></i> Database password</li>
+                                                        <li><i class="fa fa-li fa-check text-success"></i> Database host</li>
+                                                    </ul>
+                                                    <p>Learn more about <a href="javascript:void(0)">editing the wp-config.html</a></p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <a href="page_ready_user_profile.html" class="pull-left">
+                                                    <img src="img/placeholders/avatars/avatar9.jpg" alt="Avatar" class="img-circle">
+                                                </a>
+                                                <div class="media-body">
+                                                    <p class="push-bit">
+                                                        <span class="text-muted pull-right">
+                                                            <small>30 min ago</small>
+                                                        </span>
+                                                        <small><a href="page_ready_user_profile.html">Howard Smith</a></small>
+                                                    </p>
+                                                    <p>I'm going to check it out and let you know!</p>
+                                                    <p>Thanks a lot!</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <a href="page_ready_user_profile.html" class="pull-left">
+                                                    <img src="img/placeholders/avatars/avatar.jpg" alt="Avatar" class="img-circle">
+                                                </a>
+                                                <div class="media-body">
+                                                    <form action="page_ready_tickets.html#subscription-history" method="post">
+                                                        <textarea id="tickets-reply" name="tickets-reply" class="form-control" rows="5" placeholder="Enter your reply"></textarea>
+                                                        <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-reply"></i> Post Reply</button>
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <!-- END Replies -->
+                                        </ul>
+                                    </div>
+                                    <!-- END Ticket View -->
+                                </div>
+                                <!-- END Tabs Content -->
+                            </div>
+
+
+
+
+                            <div class="row training-list mb-4">
+
+                                <div class="col-md-12">
+                                    <div class="block">
+                                        <!-- Orders Title -->
+                                        <div class="block-title">
+                                            <h2><i class="fa fa-question-circle"></i> <strong>Questions</strong> Details</h2>
+                                        </div>
+                                        <!-- END Orders Title -->
+
+                                        <table class="table table-borderless table-striped table-vcenter">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width: 30%;"><strong>Gender</strong></td>
+                                                    <td>Male</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Age</strong></td>
+                                                    <td>23</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Weight</strong></td>
+                                                    <td>100KG</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Height</strong></td>
+                                                    <td>160CM</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><strong>What is yor training Goal ?</strong></td>
+                                                    <td>Lose Weight</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Activity Level</strong></td>
+                                                    <td>Light Activity</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Body Shape</strong></td>
+                                                    <td>Hour Glass</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Training Place</strong></td>
+                                                    <td>
+                                                        <span>Home</span>
+                                                        <ul class="fa-ul list-inline">
+                                                            <li>
+                                                                <i class="fa fa-li fa-circle text-success"></i> <small>Tool 1</small>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-li fa-circle text-success"></i> <small>Tool 2</small>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-li fa-circle text-success"></i> <small>Tool 3</small>
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Health Problems</strong></td>
+                                                    <td>Heart Problems</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Past Sergeries</strong></td>
+                                                    <td>
+                                                        <span>Yes</span>
+                                                        <ul class="fa-ul m-0">
+                                                            <li>
+                                                                <b>Which Sergery: </b><small>Tool 1</small>
+                                                            </li>
+                                                            <li>
+                                                                <b>Since: </b><small>6 Months</small>
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Pregnancy</strong></td>
+                                                    <td>
+                                                        <span>Yes</span>
+                                                        <ul class="fa-ul m-0">
+                                                            <li>
+                                                                <b>Since: </b><small>6 Months</small>
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="block">
+                                        <!-- Customer Info Title -->
+                                        <div class="block-title">
+                                            <h2><i class="fa fa-comments"></i> <strong>Training</strong> Attended</h2>
+                                        </div>
+                                        <div class="block-section">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                                                        <h6 class="color-primary"><b>Weak 1</b></h6>
+                                                    </div>
+                                                    <table class="table table-striped table-hover table-vcenter">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="">Date</th>
+                                                                <th>Training</th>
+                                                                <th class="text-center">Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="training-img"><b>Sunday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center"><span class="label label-success">Attended</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Tuesday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center"><span class="label label-success">Attended</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Thursday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center"><span class="label label-success">Attended</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                                                        <h6 class="color-primary"><b>Weak 2</b></h6>
+                                                    </div>
+                                                    <table class="table table-striped table-hover table-vcenter">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="">Date</th>
+                                                                <th>Training</th>
+                                                                <th class="text-center">Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="training-img"><b>Sunday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center"><span class="label label-success">Attended</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Tuesday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center"><span class="label label-default">Missed</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Thursday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                                                        <h6 class="color-primary"><b>Weak 3</b></h6>
+                                                    </div>
+                                                    <table class="table table-striped table-hover table-vcenter">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="">Date</th>
+                                                                <th>Training</th>
+                                                                <th class="text-center">Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="training-img"><b>Sunday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Tuesday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Thursday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                                                        <h6 class="color-primary"><b>Weak 4</b></h6>
+                                                    </div>
+                                                    <table class="table table-striped table-hover table-vcenter">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="">Date</th>
+                                                                <th>Training</th>
+                                                                <th class="text-center">Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="training-img"><b>Sunday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Tuesday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="training-img"><b>Thursday</b><br><small>03/05/2018</small></td>
+                                                                <td>Video 1 - Category</td>
+                                                                <td class="text-center">
+                                                                    <span class="label label-warning">Scheduled</span>
+                                                                    <a href="#modal-edit-session" data-toggle="modal" title="" class="btn btn-default" data-original-title="edit">
+                                                                        <i class="fa fa-pencil"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block">
+                                        <!-- Orders Title -->
+                                        <div class="block-title">
+                                            <h2><i class="fa fa-question-circle"></i> <strong>Meals</strong> Details</h2>
+                                        </div>
+                                        <!-- END Orders Title -->
+
+                                        <div class="row meals-container">
+                                            <div class="col-md-6">
+                                                <!-- Advanced Specific Theme Color Widget -->
+                                                <div class="widget">
+                                                    <div class="widget-advanced">
+                                                        <!-- Widget Header -->
+                                                        <div class="widget-header text-center themed-background-dark">
+                                                            <h3 class="widget-content-light">
+                                                                Meal 1
+                                                            </h3>
+                                                        </div>
+                                                        <!-- END Widget Header -->
+
+                                                        <!-- Widget Main -->
+                                                        <div class="widget-main">
+                                                            <a href="javascript:void(0)" class="widget-image-container animation-bigEntrance">
+                                                                <span class="widget-icon themed-background"><i class="fa fa-cutlery"></i></span>
+                                                            </a>
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque vel molestias odio eum hic consectetur dolorem quam accusantium voluptatibus, rerum quod tenetur. Temporibus sit suscipit
+                                                                accusamus dolorem reiciendis nesciunt.</p>
+                                                        </div>
+                                                        <!-- END Widget Main -->
+                                                    </div>
+                                                </div>
+                                                <!-- END Advanced Specific Theme Color Widget -->
+                                            </div>
+                                            <div class="col-md-6">
+                                                <!-- Advanced Specific Theme Color Widget -->
+                                                <div class="widget">
+                                                    <div class="widget-advanced">
+                                                        <!-- Widget Header -->
+                                                        <div class="widget-header text-center themed-background-dark">
+                                                            <h3 class="widget-content-light">
+                                                                Meal 2
+                                                            </h3>
+                                                        </div>
+                                                        <!-- END Widget Header -->
+
+                                                        <!-- Widget Main -->
+                                                        <div class="widget-main">
+                                                            <a href="javascript:void(0)" class="widget-image-container animation-bigEntrance">
+                                                                <span class="widget-icon themed-background"><i class="fa fa-cutlery"></i></span>
+                                                            </a>
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque vel molestias odio eum hic consectetur dolorem quam accusantium voluptatibus, rerum quod tenetur. Temporibus sit suscipit
+                                                                accusamus dolorem reiciendis nesciunt.</p>
+                                                        </div>
+                                                        <!-- END Widget Main -->
+                                                    </div>
+                                                </div>
+                                                <!-- END Advanced Specific Theme Color Widget -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END Latest Orders Block -->
+                        </div>
                     </div>
                     <!-- END All Admin Block -->
                 </div>
