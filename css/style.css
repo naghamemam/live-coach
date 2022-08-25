@@ -936,6 +936,10 @@ a.text-success:focus,
     width: 100%;
 }
 
+.class-item .bootstrap-timepicker-container .chosen-container {
+    max-width: 100%;
+}
+
 .class-item .clear {
     text-align: center;
     border-radius: 50%;
@@ -1075,6 +1079,14 @@ a.text-success:focus,
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.meals-container .widget-advanced .widget-header {
+    height: 120px;
 }
 
 @media screen and (min-width: 768px) {
