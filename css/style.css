@@ -939,10 +939,6 @@ a.text-success:focus,
     width: 100%;
 }
 
-.class-item .bootstrap-timepicker-container .chosen-container {
-    max-width: 100%;
-}
-
 .class-item .clear {
     text-align: center;
     border-radius: 50%;
@@ -1078,7 +1074,6 @@ a.text-success:focus,
     align-items: center;
     justify-content: center;
 }
-
 .status{
     background: #ccc;
     color: #fff;
@@ -1090,17 +1085,6 @@ a.text-success:focus,
 .status.pending{
     background: #8fc322;
 }
-
-
-.align-items-end {
-    align-items: flex-end;
-}
-
-.meals-container .widget-advanced .widget-header {
-    height: 120px;
-}
-
-
 @media screen and (min-width: 768px) {
     #login-container,
     #login-alt-container {
