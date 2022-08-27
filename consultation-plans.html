@@ -44,8 +44,6 @@
     <link rel="stylesheet" href="css/themes.css">
     <!-- END Stylesheets -->
 
-    <link rel="stylesheet" href="css/intlTelInput.min.css">
-
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Modernizr (browser feature detection library) -->
@@ -404,11 +402,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manage Users</span></a>
                                 <ul>
                                     <li>
-                                        <a href="admins.html" class="active">Admins</a>
+                                        <a href="admins.html">Admins</a>
                                     </li>
                                     <li>
                                         <a href="roles-permissions.html">Roles & Permissions</a>
@@ -487,7 +485,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                            <li class="active">
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Nutritions Section</span></a>
                                 <ul>
                                     <li>
@@ -540,7 +538,7 @@
                                                 <a href="meal-plans.html">Meals</a>
                                             </li>
                                             <li>
-                                                <a href="nutrition-subscription.html">Nutrition subscriptions</a>
+                                                <a href="#">Nutrition subscriptions</a>
                                             </li>
                                             <li>
                                                 <a href="#">Nutrition subscribers</a>
@@ -548,17 +546,18 @@
                                         </ul>
                                     </li>
 
-                                    <li>
+                                    <li class="active">
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Nutrition Consultations</a>
                                         <ul>
                                             <li>
                                                 <a href="consultation-request.html">Consultation Requests</a>
                                             </li>
                                             <li>
-                                                <a href="consultation-plans.html">Consultation Plans</a>
+                                                <a href="consultation-plans.html" class="active">Consultation Plans</a>
                                             </li>
                                         </ul>
                                     </li>
+
                                 </ul>
                             </li>
 
@@ -576,7 +575,7 @@
                                                 <a href="shops-2.html">Shops</a>
                                             </li>
                                             <li>
-                                                <a href="branches.html">Branches</a>
+                                                <a href="branches-2.html">Branches</a>
                                             </li>
                                             <li>
                                                 <a href="manage-stock.html">Manage Stock</a>
@@ -605,7 +604,6 @@
                                         </ul>
                                     </li>
 
-
                                     <li>
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Orders</a>
                                         <ul>
@@ -621,7 +619,6 @@
                                     </li>
                                 </ul>
                             </li>
-
                             <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="sidebar-nav-icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="utensils" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 512" class="svg-inline--fa fa-utensils fa-w-13 fa-2x"><path fill="currentColor" d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z" class=""></path></svg></i><span class="sidebar-nav-mini-hide">Healthy Food Market</span></a>
                                 <ul>
@@ -844,7 +841,9 @@
                     <div class="content-header">
                         <div class="header-section">
                             <h1>
-                                <i class="fa fa-user-secret"></i>Admins<br><small>Manage and Edit Admin!</small>
+                                <i class="fa fa-shapes"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-ninja" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-ninja fa-w-14 fa-2x"><path fill="currentColor" d="M325.4 289.2L224 390.6 122.6 289.2C54 295.3 0 352.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-70.2-54-127.1-122.6-133.2zM32 192c27.3 0 51.8-11.5 69.2-29.7 15.1 53.9 64 93.7 122.8 93.7 70.7 0 128-57.3 128-128S294.7 0 224 0c-50.4 0-93.6 29.4-114.5 71.8C92.1 47.8 64 32 32 32c0 33.4 17.1 62.8 43.1 80-26 17.2-43.1 46.6-43.1 80zm144-96h96c17.7 0 32 14.3 32 32H144c0-17.7 14.3-32 32-32z" class=""></path></svg></i>Consultation
+                                Plans
+                                <br><small>Manage and Edit Nutritions Plans!</small>
                             </h1>
                         </div>
                     </div>
@@ -853,9 +852,9 @@
                     <!-- Quick Stats -->
                     <div class="row text-center">
                         <div class="col-sm-6 col-lg-3">
-                            <a href="#modal-add-Admin" data-toggle="modal" class="widget widget-hover-effect2">
+                            <a href="nutrition-plan-setup.html" class="widget widget-hover-effect2">
                                 <div class="widget-extra themed-background-success">
-                                    <h4 class="widget-content-light"><strong>Add</strong> Admin</h4>
+                                    <h4 class="widget-content-light"><strong>Add</strong> Consultation Plan</h4>
                                 </div>
                                 <div class="widget-extra-full"><span class="h2 text-success animation-expandOpen"><i class="fa fa-plus"></i></span></div>
                             </a>
@@ -863,7 +862,7 @@
                         <div class="col-sm-6 col-lg-3">
                             <a href="javascript:void(0)" class="widget widget-hover-effect2">
                                 <div class="widget-extra themed-background-dark">
-                                    <h4 class="widget-content-light"><strong>All</strong> Admins</h4>
+                                    <h4 class="widget-content-light"><strong>All</strong> Consultation Plans</h4>
                                 </div>
                                 <div class="widget-extra-full"><span class="h2 themed-color-dark animation-expandOpen">1000</span></div>
                             </a>
@@ -878,170 +877,164 @@
                             <div class="block-options pull-right">
                                 <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Settings"><i class="fa fa-cog"></i></a>
                             </div>
-                            <h2><strong>All</strong> Users</h2>
+                            <h2><strong>All</strong> Consultation Plans</h2>
                         </div>
                         <!-- END All Admin Title -->
 
                         <!-- All Admin Content -->
-                        <div id="ecom-products_wrapper" class="dataTables_wrapper form-inline no-footer">
+
+                        <div class="filters-container">
                             <div class="row">
-                                <div class="col-sm-6 col-xs-5">
+                                <div class="col-sm-12">
                                     <div class="dataTables_length" id="ecom-products_length">
-                                        <label class="products_length">
-                                                <select name="ecom-products_length" aria-controls="ecom-products" class="form-control">
-                                                    <option value="10">10</option>
-                                                    <option value="20">20</option>
-                                                    <option value="30">30</option>
-                                                    <option value="-1">All</option>
+                                        <label>
+                                                <select name="ecom-products_type" aria-controls="ecom-products" class="form-control">
+                                                    <option>Specialization</option>
+                                                    <option value="published">Specialization 1</option>
+                                                    <option value="hidden">Specialization 2</option>
                                                 </select>
                                             </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-xs-7">
-                                    <div id="ecom-products_filter" class="dataTables_filter">
                                         <label>
-                                                <div class="input-group">
-                                                    <input type="search" class="form-control" placeholder="Search" aria-controls="ecom-products">
-                                                    <span class="input-group-addon">
-                                                        <i class="fa fa-search"></i>
-                                                    </span>
-                                                </div>
+                                                <select name="ecom-products_status" aria-controls="ecom-products" class="form-control">
+                                                    <option>Status</option>
+                                                    <option value="published">published</option>
+                                                    <option value="hidden">hidden</option>
+                                                </select>
                                             </label>
+                                        <label>
+                                                <select name="ecom-products_category" aria-controls="ecom-products" class="form-control">
+                                                    <option>Duration</option>
+                                                    <option value="Category1">1month</option>
+                                                    <option value="Category2">2months</option>
+                                                    <option value="Category3">3months</option>
+                                                </select>
+                                            </label>
+                                        <div class="btn-filter">
+                                            <button type="submit" class="btn btn-primary btn-search">Search</button>
+                                            <button type="button" class="btn btn-danger btn-clear">Delete</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="table-responsive">
-                                <table id="ecom-products" class="table table-bordered table-striped table-vcenter">
-                                    <thead>
-                                        <tr>
-                                            <th class="text-center" style="width: 70px;">ID</th>
-                                            <th>Full Name</th>
-                                            <th>Email</th>
-                                            <th class="text-center">Phone</th>
-                                            <th class="text-center">Role</th>
-                                            <th class="text-center">Status</th>
-                                            <th class="text-center">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center"><a href="#modal-add-Admin" data-toggle="modal"><strong>1</strong></a></td>
-                                            <td><a href="#modal-add-Admin" data-toggle="modal">Ahmed Ahmed</a></td>
-                                            <td>ahmed@email.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">Admin</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="javascript:void(0)" data-toggle="modal" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                    <a href="#modal-add-Admin" data-toggle="modal" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="#modal-add-Admin" data-toggle="modal"><strong>2</strong></a></td>
-                                            <td><a href="#modal-add-Admin" data-toggle="modal">Ahmed Ahmed</a></td>
-                                            <td>ahmed@email.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">HR</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox"><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="javascript:void(0)" data-toggle="modal" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                    <a href="#modal-add-Admin" data-toggle="modal" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="#modal-add-Admin" data-toggle="modal"><strong>3</strong></a></td>
-                                            <td><a href="#modal-add-Admin" data-toggle="modal">Ahmed Ahmed</a></td>
-                                            <td>ahmed@email.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">Finance</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="javascript:void(0)" data-toggle="modal" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                    <a href="#modal-add-Admin" data-toggle="modal" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="#modal-add-Admin" data-toggle="modal"><strong>4</strong></a></td>
-                                            <td><a href="#modal-add-Admin" data-toggle="modal">Ahmed Ahmed</a></td>
-                                            <td>ahmed@email.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">CS</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="javascript:void(0)" data-toggle="modal" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                    <a href="#modal-add-Admin" data-toggle="modal" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="#modal-add-Admin" data-toggle="modal"><strong>5</strong></a></td>
-                                            <td><a href="#modal-add-Admin" data-toggle="modal">Ahmed Ahmed</a></td>
-                                            <td>ahmed@email.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">Dataentry</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="javascript:void(0)" data-toggle="modal" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
-                                                    <a href="#modal-add-Admin" data-toggle="modal" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-5 hidden-xs">
-                                    <div class="dataTables_info" id="ecom-products_info" role="status" aria-live="polite">
-                                        <strong>1</strong>-<strong>20</strong> of <strong>60</strong>
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-xs-12 clearfix">
-                                    <div class="dataTables_paginate paging_bootstrap" id="ecom-products_paginate">
-                                        <ul class="pagination pagination-sm remove-margin">
-                                            <li class="prev disabled"><a href="javascript:void(0)"><i class="fa fa-chevron-left"></i> </a></li>
-                                            <li class="active"><a href="javascript:void(0)">1</a></li>
-                                            <li><a href="javascript:void(0)">2</a></li>
-                                            <li><a href="javascript:void(0)">3</a></li>
-                                            <li class="next">
-                                                <a href="javascript:void(0)"> <i class="fa fa-chevron-right"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table id="ecom-products" class="table table-bordered table-striped table-vcenter">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center" style="width: 70px;">ID</th>
+                                        <th>Plan Name</th>
+                                        <th class="text-center">Discription</th>
+                                        <th class="text-center">Nutrition Specialization</th>
+                                        <th class="text-center">Duration</th>
+                                        <th class="text-center">Status</th>
+                                        <th class="text-center">Price</th>
+                                        <th class="text-center">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center"><a href="nutrition-plan-setup.html"><strong>1</strong></a></td>
+                                        <td><a href="nutrition-plan-setup.html">Plan name 1</a></td>
+                                        <td class="text-center">Discription</td>
+                                        <td class="text-center">Fitness Trainer</td>
+                                        <td class="text-center">2 Months</td>
+                                        <td class="text-center">
+                                            <label class="switch switch-success">
+                                                <input type="checkbox" checked=""><span></span>
+                                            </label>
+                                        </td>
+                                        <td class="text-center">200SAR</td>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><a href="nutrition-plan-setup.html"><strong>2</strong></a></td>
+                                        <td><a href="nutrition-plan-setup.html">Plan name 1</a></td>
+                                        <td class="text-center">Discription</td>
+                                        <td class="text-center">Fitness Trainer</td>
+                                        <td class="text-center">2 Months</td>
+                                        <td class="text-center">
+                                            <label class="switch switch-success">
+                                                <input type="checkbox" checked=""><span></span>
+                                            </label>
+                                        </td>
+                                        <td class="text-center">200SAR</td>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><a href="nutrition-plan-setup.html"><strong>3</strong></a></td>
+                                        <td><a href="nutrition-plan-setup.html">Plan name 1</a></td>
+                                        <td class="text-center">Discription</td>
+                                        <td class="text-center">Fitness Trainer</td>
+                                        <td class="text-center">2 Months</td>
+                                        <td class="text-center">
+                                            <label class="switch switch-success">
+                                                <input type="checkbox" checked=""><span></span>
+                                            </label>
+                                        </td>
+                                        <td class="text-center">200SAR</td>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><a href="nutrition-plan-setup.html"><strong>4</strong></a></td>
+                                        <td><a href="nutrition-plan-setup.html">Plan name 1</a></td>
+                                        <td class="text-center">Discription</td>
+                                        <td class="text-center">Fitness Trainer</td>
+                                        <td class="text-center">2 Months</td>
+                                        <td class="text-center">
+                                            <label class="switch switch-success">
+                                                <input type="checkbox" checked=""><span></span>
+                                            </label>
+                                        </td>
+                                        <td class="text-center">200SAR</td>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><a href="nutrition-plan-setup.html"><strong>5</strong></a></td>
+                                        <td><a href="nutrition-plan-setup.html">Plan name 1</a></td>
+                                        <td class="text-center">Discription</td>
+                                        <td class="text-center">Fitness Trainer</td>
+                                        <td class="text-center">2 Months</td>
+                                        <td class="text-center">
+                                            <label class="switch switch-success">
+                                                <input type="checkbox" checked=""><span></span>
+                                            </label>
+                                        </td>
+                                        <td class="text-center">200SAR</td>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                                <a href="nutrition-plan-setup.html" data-toggle="tooltip" title="edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <!-- END All Admin Content -->
                     </div>
@@ -1165,7 +1158,7 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="admin-phone">Phone</label>
                                 <div class="col-md-8">
-                                    <input type="tel" id="admin-phone" name="admin-phone" class="form-control phone" placeholder="Phone Number">
+                                    <input type="text" id="admin-phone" name="admin-phone" class="form-control" placeholder="Phone Number">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -1258,37 +1251,13 @@
     <script src="js/app.js"></script>
 
     <!-- Load and execute javascript code used only in this page -->
-    <!-- <script src="js/pages/ecomProducts.js"></script>
-        <script>$(function(){ EcomProducts.init(); });</script> -->
-    <script src="js/intlTelInput.js"></script>
-    <script src="js/scripts.js"></script>
-
+    <script src="js/pages/ecomProducts.js"></script>
     <script>
-        var input = document.querySelector("#admin-phone");
-        window.intlTelInput(input, {
-            // allowDropdown: false,
-            // autoHideDialCode: false,
-            // autoPlaceholder: "off",
-            // dropdownContainer: document.body,
-            // excludeCountries: ["us"],
-            // formatOnDisplay: false,
-            // geoIpLookup: function(callback) {
-            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-            //     var countryCode = (resp && resp.country) ? resp.country : "";
-            //     callback(countryCode);
-            //   });
-            // },
-            // hiddenInput: "full_number",
-            // initialCountry: "auto",
-            // localizedCountries: { 'de': 'Deutschland' },
-            // nationalMode: false,
-            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-            // placeholderNumberType: "MOBILE",
-            // preferredCountries: ['cn', 'jp'],
-            // separateDialCode: true,
-            utilsScript: "build/js/utils.js",
+        $(function() {
+            EcomProducts.init();
         });
     </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
