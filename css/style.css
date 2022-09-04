@@ -945,7 +945,17 @@ a.text-success:focus,
     font-size: 12px;
     line-height: 20px;
 }
-
+.meal-feild{
+    display: flex;
+    align-items: flex-start;
+}
+.lang-btn{
+    background: #c00d0e;
+    color: #fff !important;
+}
+.meal-feild .btn{
+    margin-inline-start: 1rem;
+}
 .fa-ul.list-inline {
     margin-left: 0;
 }
@@ -1084,6 +1094,16 @@ a.text-success:focus,
 }
 .status.pending{
     background: #8fc322;
+}
+.assign-plan{
+    padding: 50px;
+}
+.assign-plan .add-new-variation{
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.modal-content .btn{
+    min-width: 70px
 }
 @media screen and (min-width: 768px) {
     #login-container,

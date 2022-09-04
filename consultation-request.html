@@ -889,7 +889,7 @@
                                         <td class="text-center">
                                             <div class="btn-group btn-group-xs">
                                                 <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                <a href="#" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-phone"></i></a>
+                                                <a href="#assignPlan" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-phone"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -906,7 +906,7 @@
                                         <td class="text-center">
                                             <div class="btn-group btn-group-xs">
                                                 <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                <a href="#" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
+                                                <a href="#assignPlan" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -923,7 +923,7 @@
                                         <td class="text-center">
                                             <div class="btn-group btn-group-xs">
                                                 <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                <a href="#" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-phone"></i></a>
+                                                <a href="#assignPlan" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-phone"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -940,7 +940,7 @@
                                         <td class="text-center">
                                             <div class="btn-group btn-group-xs">
                                                 <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                <a href="#" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
+                                                <a href="#assignPlan" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -957,7 +957,7 @@
                                         <td class="text-center">
                                             <div class="btn-group btn-group-xs">
                                                 <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                <a href="#" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
+                                                <a href="#assignPlan" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -974,7 +974,7 @@
                                         <td class="text-center">
                                             <div class="btn-group btn-group-xs">
                                                 <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                <a href="#" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
+                                                <a href="#assignPlan" data-toggle="modal" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-file"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -1071,6 +1071,41 @@
         </div>
     </div>
     <!-- END User Settings -->
+
+    <!-- Assign plan modal -->
+    <div id="assignPlan" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h2 class="modal-title">Assign plan</h2>
+                </div>
+                <!-- END Modal Header -->
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;">
+                        <div class="assign-plan">
+                            <select name="assignplan" class="select-chosen mb-2">
+                                <option value="two">One month plan - heart problem</option>
+                                <option value="three">3 Months</option>
+                            </select>
+                            <div class="add-new-variation">
+                                <a href="#"><i class="fa fa-plus-circle"></i> Add new plan</a>
+                            </div>
+                        </div>
+                        <div class="form-group form-actions">
+                            <div class="col-xs-12 text-right">
+                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-sm btn-primary">Assign</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- END Modal Body -->
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
     <script src="js/vendor/jquery.min.js"></script>

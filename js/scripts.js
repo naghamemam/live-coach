@@ -5,6 +5,16 @@ $(document).ready(function() {
 
     });
 
+    $('.feild-ar').hide();
+
+    $('.lang-btn').on('click',function() {
+        $(this).text(function(i, text){
+            return text === "AR" ? "EN" : "AR";
+        })
+        $(this).closest(".form-group").find('.feild-ar, .feild-en').toggle();
+    });
+
+
     function editSession() {
         $(".new-session").slideUp();
         $(".new-session").slideToggle();
