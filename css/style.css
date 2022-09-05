@@ -588,7 +588,6 @@ table td .access {
     background-color: transparent;
     color: #fff;
 }
-
 .list-group .list-group-item p {
     margin-bottom: 0;
     margin-top: 5px;
@@ -1105,6 +1104,51 @@ a.text-success:focus,
 .modal-content .btn{
     min-width: 70px
 }
+.plan-tabs{
+    padding-top: 5px;
+}
+.nav-tabs > li > a,.plan-tabs{
+   font-size: 14px;
+}
+.plan-tabs h6{
+    font-size: 16px;
+}
+.plan-tabs strong{color: #176A5D;}
+.plan-tabs .note{
+    color: #c00d0e;
+    font-size: 13px;
+}
+.plan-tabs .note i,.meals-option p strong{
+    margin:0 5px 0 0;
+}
+.panel-default > .panel-heading{
+    border-radius: 2px;
+    background: #fbfbfb;
+    padding: 0;
+}
+.panel-default > .panel-heading a{
+    padding: 15px;
+}
+.panel-heading .accordion-toggle:after {
+    color: #043e50 !important;
+}
+.panel-heading .accordion-toggle{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+.panel-heading .accordion-toggle:hover{
+    text-decoration: none;
+    color:#c00d0e;
+}
+.meals-view img{
+    width: 130px;
+    height: 100px;
+    border-radius: 5px;
+    margin:0 10px 0 0;
+    object-fit: cover;
+}
+.meals-option p{margin-bottom: 5px;}
 @media screen and (min-width: 768px) {
     #login-container,
     #login-alt-container {
