@@ -949,8 +949,13 @@ a.text-success:focus,
     align-items: flex-start;
 }
 .lang-btn{
-    background: #c00d0e;
-    color: #fff !important;
+    float: right;
+    padding: 0;
+    text-decoration: underline;
+    margin-top: -10px;
+}
+.lang-btn:focus{
+    box-shadow: none;
 }
 .meal-feild .btn{
     margin-inline-start: 1rem;

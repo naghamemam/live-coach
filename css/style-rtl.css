@@ -268,6 +268,9 @@ div.tagsinput input {
 .meals-view img{
     margin:0 0 0 10px;
 }
+.lang-btn{
+    float: left
+}
 @media (min-width: 768px) {
     .form-horizontal .control-label.text-left {
         text-align: right;

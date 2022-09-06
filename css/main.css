@@ -423,7 +423,7 @@ header.navbar-inverse.navbar-fixed-bottom {
 
 /* Sidebar Content */
 .sidebar-content {
-    width: 200px;
+    width: 220px;
     color: #ffffff;
 }
 
@@ -3962,7 +3962,7 @@ p, .table, .alert, .carousel {
     .sidebar-alt-partial #sidebar-alt:hover,
     .sidebar-alt-visible-lg #sidebar-alt,
     .sidebar-alt-visible-lg.sidebar-alt-partial #sidebar-alt {
-        width: 200px;
+        width: 220px;
         opacity: 1;
     }
 
@@ -3985,7 +3985,7 @@ p, .table, .alert, .carousel {
 
     .sidebar-partial #sidebar:hover + #main-container,
     .sidebar-visible-lg #main-container {
-        margin-left: 200px;
+        margin-left: 220px;
     }
 
     .sidebar-partial.footer-fixed #main-container #page-content + footer,
