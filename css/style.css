@@ -172,7 +172,7 @@ a.text-primary:focus {
 
 .content-header .d-flex .header-datepicker .control-label {
     font-size: 18px;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .table thead th,
@@ -770,9 +770,10 @@ a.text-success:focus,
 
 .nav-horizontal.dashboard-blocks-info li {
     max-width: 100%;
-    flex: 1 0 auto;
+    width: 20%;
     padding: 0 3px 9px;
     margin: 0;
+    border-radius: 8px;
 }
 
 @media (min-width: 992px) {
@@ -794,14 +795,17 @@ a.text-success:focus,
 .nav-horizontal.dashboard-blocks-info li a {
     background-color: var(--red);
     color: #ffffff;
-    font-size: 12px;
-    height: 100%;
-    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-horizontal.dashboard-blocks-info li p{
+    margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
     .nav-horizontal.dashboard-blocks-info li a {
-        min-height: 140px;
+        min-height: 100px;
     }
 }
 

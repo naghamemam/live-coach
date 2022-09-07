@@ -79,8 +79,8 @@ div.dataTables_filter label,
 }
 
 .content-header .d-flex .header-datepicker .control-label {
-    padding-left: 10px;
-    padding-right: 0;
+    padding-right: 10px;
+    padding-left: 0;
 }
 
 .nav-horizontal i {

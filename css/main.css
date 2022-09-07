@@ -4093,20 +4093,10 @@ p, .table, .alert, .carousel {
         display: block !important;
     }
 
-    /* Nav Horizontal */
-    .nav-horizontal a {
-        text-align: center;
-        min-width: 130px;
-        padding: 12px 15px;
-    }
-
     .nav-horizontal i {
-        display: block;
-        height: 55px;
         margin-right: 0;
-        margin-bottom: 10px;
-        font-size: 42px;
-        padding: 10px;
+        font-size: 25px;
+        padding: 0 10px;
     }
 }
 
