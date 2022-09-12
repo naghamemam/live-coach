@@ -18,7 +18,7 @@ var EcomDashboard = function() {
             // Get the elements where we will attach the charts
             var chartOverview = $('#chart-overview');
             var incomeReport = $('#chart-overview1');
-
+        
             // Random data for the charts
             var healthyFoodMarket = [
                 [1, 10600],
@@ -93,37 +93,34 @@ var EcomDashboard = function() {
                 [12, 'Dec']
             ];
 
+            var chartNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+            var ordersData = [    
+                [3, 14], //
+                [5, 12], //
+                [6, 20], //
+                [8, 19], //
+            ];
+
+
             // Overview Chart
             $.plot(chartOverview, [{
-                    label: 'Fitness Market ',
-                    data: fitnessMarket,
-                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
-                    points: { show: true, radius: 6 }
+                    data: ordersData,
                 },
-                {
-                    label: 'Healthy Food Market',
-                    data: healthyFoodMarket,
-                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
-                    points: { show: true, radius: 6 }
-                },
-                {
-                    label: 'Trainers ',
-                    data: trainers,
-                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
-                    points: { show: true, radius: 6 }
-                },
-                {
-                    label: 'Nutritionist ',
-                    data: nutritionist,
-                    lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
-                    points: { show: true, radius: 6 }
-                }
             ], {
-                colors: ['#c00d0e', '#8fc322', '#043e50', '#231916'],
-                legend: { show: true, position: 'nw', margin: [15, 10] },
+                series: {
+                    bars: {
+                        show: true
+                    }
+                },
+                bars: {
+                    align: "center",
+                    barWidth: 1
+                },
+                colors:'#f1f1f1f',
+                legend: { show: true, position: 'nw'},
                 grid: { borderWidth: 0, hoverable: true, clickable: true },
                 yaxis: { ticks: 3, tickColor: '#f1f1f1' },
-                xaxis: { ticks: chartMonths, tickColor: '#ffffff' }
+                xaxis: { ticks: chartNum, tickColor: '#ffffff' }
             });
 
             $.plot(incomeReport, [{
@@ -209,6 +206,29 @@ var EcomDashboard = function() {
                     $('#chart-tooltip').remove();
                     previousPoint = null;
                 }
+            });
+
+            // new consultaions chart
+            var newConsultations= $('#flotcontainer');
+
+            $(function () { 
+                var data = [
+                    {label: "Number of nutrition subscribers", data: 40},
+                    {label: "Number of trainees", data:30},
+                    {label: "data3", data: 30},
+                ];
+             
+                var options = {
+                        series: {
+                            pie: {show: true}
+                                },
+                        colors: ['#231916', '#c00d0e', '#8fc322'],
+                        legend: {
+                            show: false
+                        }
+                     };
+             
+                $.plot($("#flotcontainer"), data, options);  
             });
         }
     };

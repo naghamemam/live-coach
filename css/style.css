@@ -175,6 +175,10 @@ a.text-primary:focus {
     padding-left: 10px;
 }
 
+.select-date{
+    margin: .4rem;
+}
+
 .table thead th,
 .table thead>tr>th {
     font-size: 14px;
@@ -261,6 +265,7 @@ a.text-primary:focus {
 .variation-container .variation-content {
     flex-wrap: wrap;
     display: flex;
+    align-items: flex-start;
 }
 
 .variation-container .variation-content .variation-content-select {
@@ -775,6 +780,11 @@ a.text-success:focus,
     margin: 0;
     border-radius: 8px;
 }
+#flotcontainer {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
 
 @media (min-width: 992px) {
     .nav-horizontal.dashboard-blocks-info li {
@@ -798,6 +808,7 @@ a.text-success:focus,
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 .nav-horizontal.dashboard-blocks-info li p{
     margin-bottom: 0;
@@ -1227,7 +1238,18 @@ a.text-success:focus,
     .header-datepicker {
         margin: 0 3px;
     }
+    .nav-horizontal.dashboard-blocks-info li{
+        width: 33.33%;
+    }
+    .nav-horizontal.dashboard-blocks-info li a{
+        height: 80px;
+    }
 }
+/* @media (max-width: 580px) {
+    .nav-horizontal.dashboard-blocks-info li{
+        width: 25%;
+    }
+} */
 
 @media print {
     a,
