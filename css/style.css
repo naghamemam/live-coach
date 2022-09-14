@@ -355,6 +355,20 @@ a.text-primary:focus {
 a.widget {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .10);
 }
+.widget-mh{min-height: 134px;}
+.widget.widget-mh .widget-extra{
+    min-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widget-mh .widget-extra-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 79px;
+}
+.widget-mh .widget-extra-full .h2{margin: 0 !important;font-size: 25px;}
 
 .widget-with-number {
     display: flex;
@@ -697,7 +711,7 @@ table .product-meta p {
 
 .navbar.navbar-inverse,
 .sidebar-brand {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     color: var(--blue);
 }
 
