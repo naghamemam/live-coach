@@ -275,6 +275,7 @@
                             </div>
                         </div>
                         <!-- END Messages -->
+--> 
                     </div>
                     <!-- END Sidebar Content -->
                 </div>
@@ -364,8 +365,16 @@
 
                         <!-- Sidebar Navigation -->
                         <ul class="sidebar-nav">
-                            <li>
-                                <a href="dashboard-2.html"><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
+                            <li class="active">
+                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="dashboard-2.html" class="active">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="dashboard-delivery.html">Drivers Dashboard</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-cogs sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">General Settings</span></a>
@@ -395,10 +404,34 @@
                                         <a href="notification-settings.html">Notifcation Settings</a>
                                     </li>
                                     <li>
-                                        <a href="shop-membership.html">Shop Memberships</a>
+                                        <a href="backup-settings.html">Backup Settings</a>
                                     </li>
                                     <li>
-                                        <a href="backup-settings.html">Backup Settings</a>
+                                        <a href="#">Uploading Data</a>
+                                    </li>
+                                    <li>
+                                        <a href="complains-settings.html">Complains Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="cancellation-settings.html">Cancellation Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="messages-settings.html">Messages Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-settings.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy-settings.html">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-settings.html">Terms and Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="drivers-controls-settings.html">Drivers Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="social-media-links.html">Social Media Links</a>
                                     </li>
                                 </ul>
                             </li>
@@ -412,19 +445,24 @@
                                         <a href="roles-permissions.html">Roles & Permissions</a>
                                     </li>
                                     <li>
-                                        <a href="shops-join-request.html">Shop join Request</a>
-                                    </li>
+                                        <a href="drivers-join-requests.html">Drivers Join Requests</a>
+                                    </li> 
                                     <li>
-                                        <a href="shop-owners.html">Shop Owners</a>
-                                    </li>
-                                    <li>
-                                        <a href="drivers-join-requests.html">Resturant Join Requests</a>
-                                    </li>
-                                    <li>
-                                        <a href="resturant-owners.html">Resturant Owners</a>
-                                    </li>
+                                        <a href="drivers-all.html">Drivers</a>
+                                    </li> 
                                     <li>
                                         <a href="customers-list.html">Customers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Customers Points</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manage Orders</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="all-orders-2.html">Main Orders</a>
                                     </li>
                                 </ul>
                             </li>
@@ -446,34 +484,28 @@
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Personal Training</a>
                                         <ul>
                                             <li>
-                                                <a href="personal-trainers.html">Personal Training</a>
+                                                <a href="">Personal Training Speciality</a>
                                             </li>
                                             <li>
-                                                <a href="online-trainers.html">Online Training</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Training Settings</a>
-                                        <ul>
-                                            <li>
-                                                <a href="subscription-list.html">Subscriptions</a>
+                                                <a href="packages-list.html">Personal Training Packages</a>
                                             </li>
                                             <li>
-                                                <a href="packages-list.html">Packages</a>
+                                                <a href="training-tools-list.html">Personal Training Tools</a>
                                             </li>
                                             <li>
-                                                <a href="training-tools-list.html">Training Tools</a>
+                                                <a href="personal-trainers.html">Home Personal Training</a>
                                             </li>
-                                            
                                             <li>
-                                                <a href="">Speciality</a>
+                                                <a href="online-trainers.html">Online Personal Training</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Training Subscriptions</a>
                                         <ul>
+                                            <li>
+                                                <a href="subscription-list.html">Subscriptions Setup</a>
+                                            </li>
                                             <li>
                                                 <a href="classes-category.html">Training Categories</a>
                                             </li>
@@ -484,10 +516,10 @@
                                                 <a href="training-plan-subscriptions-list.html">Training Live Subscriptions</a>
                                             </li>
                                             <li>
-                                                <a href="training-plan-subscriptions-list.html">Recorded Subscriptions</a>
+                                                <a href="training-plan-subscriptions-list Rec.html">Recorded Subscriptions</a>
                                             </li>
                                             <li>
-                                                <a href="training-plan-request-list.html">subscribers Requests</a>
+                                                <a href="training-plan-request-list.html">Subscriptions Requests</a>
                                             </li>
                                             <li>
                                                 <a href="training-plan-request-list.html">InComplete Requests</a>
@@ -498,16 +530,15 @@
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Training Consultations</a>
                                         <ul>
                                             <li>
-                                                <a href="consultation-request.html">consultation requests</a>
+                                                <a href="consultation-request.html">consultation Requests</a>
                                             </li>
                                             <li>
-                                                <a href="consultation-plans.html"> Consultation Subscriptionss</a>
+                                                <a href="consultation-plans.html"> Consultation Subscriptions</a>
                                             </li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-
                             <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Nutrition</span></a>
                                 <ul>
@@ -532,10 +563,10 @@
                                                 <a href="meal-alternative.html"> Meal Alternative</a>
                                             </li>
                                             <li>
-                                                <a href="[training-plan-subscriptions-list.html"> Nutrition Subscriptions</a>
+                                                <a href="nutritions-plans.html"> Nutrition Subscriptions Plans</a>
                                             </li>
                                             <li>
-                                                <a href="training-plan-request-list.html"> Subscribers Requests</a>
+                                                <a href="training-plan-request-list.html"> Subscriptions Requests</a>
                                             </li>
                                             <li>
                                                 <a href="training-plan-request-list.html"> InComplete Requests</a>
@@ -552,7 +583,7 @@
                                                 <a href="consultation-request.html">Consultation Requests</a>
                                             </li>
                                             <li>
-                                                <a href="consultation-plans.html">Consultation Subscriptionss</a>
+                                                <a href="consultation-plans.html">Consultation Subscriptions</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -573,7 +604,17 @@
                                                 <a href="shops-2.html">Shops</a>
                                             </li>
                                             <li>
+                                                <a href="shop-membership.html">Shop Memberships</a>
+                                            </li>
+                                            <li>
+                                                <a href="shops-join-request.html">Shop join Request</a>
+                                            </li>
+                                            <li>
                                                 <a href="branches-2.html">Branches</a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="shop-owners.html">Branches Management</a>
                                             </li>
                                             <li>
                                                 <a href="manage-stock.html">Manage Stock</a>
@@ -591,9 +632,6 @@
                                                 <a href="products-fitness-2.html">Products</a>
                                             </li>
                                             <li>
-                                                <a href="offers-2.html">Offers</a>
-                                            </li>
-                                            <li>
                                                 <a href="variations-2.html">Variations</a>
                                             </li>
                                             <li>
@@ -606,13 +644,14 @@
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Orders</a>
                                         <ul>
                                             <li>
-                                                <a href="all-orders-2.html">All Orders</a>
-                                            </li>
-                                            <li>
                                                 <a href="shop-orders-2.html">Shop Orders</a>
                                             </li>
-
-
+                                            <li>
+                                                <a href="delivery-orders-2.html">Delivery Orders</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-orders-2.html">Return Orders</a>
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -630,26 +669,28 @@
                                                 <a href="shops.html">Resturants</a>
                                             </li>
                                             <li>
+                                                <a href="resturant-membership.html">Resturant Memberships</a>
+                                            </li>
+                                            <li>
+                                                <a href="drivers-join-requests.html">Resturant Join Requests</a>
+                                            </li>
+                                            <li>
                                                 <a href="branches.html">Branches</a>
                                             </li>
                                             <li>
-                                                <a href="manage-stock.html">Manage Stock</a>
+                                                <a href="resturant-owners.html">Branch Management</a>
                                             </li>
-
+                                            <li>
+                                                <a href="manage-categories.html">Manage Meals Categories</a>
+                                            </li>
                                             <li>
                                                 <a href="pending-categories.html">Pending Categories</a>
                                             </li>
                                             <li>
-                                                <a href="manage-categories.html">Manage Categories</a>
+                                                <a href="products-2.html">Meals</a>
                                             </li>
                                             <li>
-                                                <a href="products-pending.html">Pending Products</a>
-                                            </li>
-                                            <li>
-                                                <a href="products-2.html">Products</a>
-                                            </li>
-                                            <li>
-                                                <a href="offers.html">Offers</a>
+                                                <a href="products-pending.html">Pending Meals</a>
                                             </li>
                                             <li>
                                                 <a href="variations.html">Variations</a>
@@ -664,13 +705,11 @@
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Orders</a>
                                         <ul>
                                             <li>
-                                                <a href="all-orders.html">All Orders</a>
+                                                <a href="shop-orders.html">resturant Orders</a>
                                             </li>
                                             <li>
-                                                <a href="shop-orders.html">Shop Orders</a>
+                                                <a href="delivery-orders.html">Delivery Orders</a>
                                             </li>
-
-
                                         </ul>
                                     </li>
                                 </ul>
@@ -694,9 +733,12 @@
                                     <li>
                                         <a href="complains.html">Complains</a>
                                     </li>
+                                    <li>
+                                        <a href="#.html">Contact Us</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-area-chart sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manage Payments</span></a>
                                 <ul>
                                     <li>
@@ -706,51 +748,133 @@
                                         <a href="shop-wallet.html">Shop Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="shops-payment-log.html">Shop Transactions </a>
+                                        <a href="shops-payment-log.html">Shop Payment Log </a>
                                     </li>
                                     <li>
-                                        <a href="drivers-wallet.html">Resturant Wallet</a>
+                                        <a href="shops-wallet.html">Resturant Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="drivers-payment-log.html">Resturant Transactions </a>
+                                        <a href="shops-payment-log.html">Resturant Payment Log </a>
                                     </li>
                                     <li>
                                         <a href="customers-wallet.html">Customer Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="customers-payment-log.html" class="active">Customers Transactions </a>
+                                        <a href="customers-payment-log.html">Customers Payment Log </a>
+                                    </li>
+                                    <li>
+                                        <a href="drivers-wallet.html">Driver Wallet</a>
+                                    </li>
+                                    <li>
+                                        <a href="drivers-payment-log.html">Driver Payment Log </a>
                                     </li>
                                     <li>
                                         <a href="trainers-wallet.html">Trianers Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="trainers-payment-log.html">Trianers Transactions </a>
+                                        <a href="trainers-payment-log.html">Trianers Payment Log </a>
                                     </li>
                                     <li>
                                         <a href="nutritionists-wallet.html">Nutritionists Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="nutritionists-payment-log.html">Nutritionists Transactions </a>
+                                        <a href="nutritionists-payment-log.html">Nutritionists Payment Log </a>
                                     </li>
                                     <li>
-                                        <a href="vat-log.html">Vat Log</a>
+                                        <a href="#">Shipping Wallet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shipping Payment Log </a>
+                                    </li>
+                                    <li>
+                                        <a href="vat-log.html">Value Added Tax</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-star sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Ratings</span></a>
                                 <ul>
-
+                                    <li>
+                                        <a href="drivers-rating.html">Drivers Rating</a>
+                                    </li>
                                     <li>
                                         <a href="shops-rating.html">Shops Rating</a>
                                     </li>
                                     <li>
                                         <a href="resturant-rating.html">Resturants Rating</a>
                                     </li>
+                                    <li>
+                                        <a href="#">Fitness Trainers' Rating</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nutritionists Rating</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-bar-chart-o sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Reports</span></a>
+                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-bar-chart-o sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Reports</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Shops Most Least Sales</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Branch Order Dates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Orders Delivery (Drivers)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Cities Most Least Sales</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Customers Transactions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Orders Delivery (Shipping Companies)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Complaints Submitted</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Customers Wallets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Drivers Transactions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Branches Most Least Sales</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Orders (Recieved Transfered Holded)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Peak Times</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shop Load Cost From Delivery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Orders Delivered Correctly</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Discounts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shipping Methods Transactions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Products Transactions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Coupons</a>
+                                    </li>                                    
+                                    <li>
+                                        <a href="#">Favourite Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Returns Transactions</a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
