@@ -24,6 +24,13 @@ ol {
     padding-left: 0;
 }
 
+.row {
+    margin-right: 0 !important;
+}
+.checkbox-inline, .radio-inline{padding-right: 0;}
+
+input[type=date].form-control{text-align: right !important;}
+
 .nav.navbar-nav-custom,
 .sidebar-themes li,
 .sidebar-user-avatar,
