@@ -928,15 +928,17 @@
                                 <i class="fa fa-bell"></i>
                                 <span class="label label-primary label-indicator animation-floating">4</span>
                             </a>
-                            <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
+                            <ul class="dropdown-menu dropdown-custom dropdown-menu-right notification-list">
                                 <li class="dropdown-header text-center">Activity</li>
                                 <li>
                                     <div class="alert alert-success alert-alt">
-                                        <small>5 min ago</small><br>
+                                        <small>5 min ago</small>
+                                        <span class="seen"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span><br>
                                         <i class="fa fa-thumbs-up fa-fw"></i> You had a new sale ($10)
                                     </div>
                                     <div class="alert alert-info alert-alt">
-                                        <small>10 min ago</small><br>
+                                        <small>10 min ago</small>
+                                        <span class="seen"><i class="fa fa-eye-slash" aria-hidden="true"></i></span><br>
                                         <i class="fa fa-arrow-up fa-fw"></i> Upgraded to Pro plan
                                     </div>
                                     <div class="alert alert-warning alert-alt">
@@ -991,117 +993,209 @@
                                 <li>
                                     <a href="trainers-join-request.html">
                                         <i class="gi gi-shopping_cart"></i> 
-                                        <p>Total subscriptions</p>
+                                        <div class="d-flex flex-column">
+                                            <p>Total Subscribers</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="live-classes.html">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Freezed subscriptions<span>34</span></p>
+                                        <i class="gi gi-shopping_cart"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Freezed Subscribers</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>New subscriptions<span>130</span></p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="products-2.html">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Training Orders<span>10,000</span></p>
+                                        <i class="gi gi-shopping_cart"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>New Subscribers</p>
+                                            <p>130</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="customers-list.html">
-                                        <i class="fa fa-money"></i> 
-                                        <p>Trainers join Request<span>2</span></p>
+                                        <i class="gi gi-shopping_cart"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Trainers join Request</p>
+                                            <p>2</p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="trainers-join-request.html">
+                                        <i class="fa fa-money"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Total Consultations</p>
+                                            <p>12</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="live-classes.html">
+                                        <i class="fa fa-money"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Personal Online Training</p>
+                                            <p>12</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa fa-money"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Personal Home Training</p>
+                                            <p>12</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="customers-list.html">
+                                        <i class="fa fa-money"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Total Income</p>
+                                            <p>12500 SAR</p>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="javascript:void(0)" class="themed-background-nutration">
+                                        <i class="gi gi-shopping_cart"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Total Subscribers</p>
+                                            <p>34</p>
+                                        </div>
+                                        
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="themed-background-nutration">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Total subscriptions</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-nutration">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Freezed subscriptions<span>34</span></p>
+                                        <i class="gi gi-shopping_cart"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>New Subscribers</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="products-2.html" class="themed-background-nutration">
                                         <i class="gi gi-shopping_cart"></i>
-                                        <p>New subscriptions<span>150</span></p>
+                                        <div class="d-flex flex-column">
+                                            <p>Nutritions Join Requests</p>
+                                            <p>2</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="customers-list.html" class="themed-background-nutration">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Trainers join Request<span>2</span></p>
+                                        <i class="fa fa-money"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Total Income</p>
+                                            <p>12500 SAR</p>
+                                        </div>
                                     </a>
                                 </li>
+
+
                                 <li>
-                                    <a href="all-orders.html" class="themed-background-nutration">
-                                        <i class="fa fa-money"></i> 
-                                        <p>Total income<span>12500 SAR</span></p>
+                                    <a href="javascript:void(0)" class="themed-background-fit-market">
+                                        <i class="gi gi-shopping_cart"></i> 
+                                        <div class="d-flex flex-column">
+                                            <p>New Shops</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="themed-background-fit-market">
                                         <i class="gi gi-shopping_cart"></i> 
-                                        <p>New shops</p>
+                                        <div class="d-flex flex-column">
+                                            <p>Shop Orders</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="all-orders.html" class="themed-background-fit-market">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Fitness Orders<span>34</span></p>
+                                        <i class="gi gi-shopping_cart"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Returned Orders</p>
+                                            <p>150</p>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="themed-background-fit-market">
                                         <i class="fa fa-money"></i>
-                                        <p>Total Income<span>125 SAR</span></p>   
+                                        <div class="d-flex flex-column">
+                                            <p>Total Income</p>
+                                            <p>12500 SAR</p>
+                                        </div>
                                     </a>
                                 </li>
 
-                                <li class="col-md-4">
-                                    <a href="all-orders.html" class="themed-background-drivers">
-                                        <i class="gi gi-shopping_cart"></i> 
-                                        <p>Delivery Orders<span>34</span></p>
-                                    </a>
-                                </li>
-                                <li class="col-md-4">
-                                    <a href="javascript:void(0)" class="themed-background-drivers">
-                                        <i class="fa fa-user"></i>
-                                        <p>Driver Requests<span>2</span></p>
-                                    </a>
-                                </li>
 
-                                <li>
+                                <li class="three-box">
                                     <a href="javascript:void(0)" class="themed-background-food-market">
                                         <i class="gi gi-shopping_cart"></i> 
-                                        <p>New shops</p>
+                                        <div class="d-flex flex-column">
+                                            <p>New Restaurants</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="three-box">
                                     <a href="all-orders.html" class="themed-background-food-market">
                                         <i class="gi gi-shopping_cart"></i>
-                                        <p>Food Orders<span>34</span></p>
+                                        <div class="d-flex flex-column">
+                                            <p>Food Orders</p>
+                                            <p>34</p>
+                                        </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="three-box">
                                     <a href="javascript:void(0)" class="themed-background-food-market">
                                         <i class="fa fa-money"></i> 
-                                        <p>Total Income<span>125 SAR</span></p>
+                                        <div class="d-flex flex-column">
+                                            <p>Total Income</p>
+                                            <p>12500 SAR</p>
+                                        </div>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-fit-market">
+
+
+                                <li class="three-box">
+                                    <a href="all-orders.html" class="themed-background-drivers">
                                         <i class="gi gi-shopping_cart"></i> 
-                                        <p>Returned orders<span>150</span></p>   
+                                        <div class="d-flex flex-column">
+                                            <p>Delivery Orders</p>
+                                            <p>34</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="three-box">
+                                    <a href="javascript:void(0)" class="themed-background-drivers">
+                                        <i class="fa fa-user"></i>
+                                        <div class="d-flex flex-column">
+                                            <p>Driver Join Requests</p>
+                                            <p>2</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="three-box">
+                                    <a href="javascript:void(0)" class="themed-background-drivers">
+                                        <i class="fa fa-money"></i> 
+                                        <div class="d-flex flex-column">
+                                            <p>Total Income</p>
+                                            <p>12500 SAR</p>
+                                        </div>
                                     </a>
                                 </li>
                                 
@@ -1148,7 +1242,7 @@
 
                     <!-- Orders and Products -->
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <!-- Latest Orders Block -->
                             <div class="block">
                                 <!-- Latest Orders Title -->
@@ -1157,7 +1251,7 @@
                                         <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Show All"><i class="fa fa-eye"></i></a>
                                         <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Settings"><i class="fa fa-cog"></i></a>
                                     </div>
-                                    <h2><strong>New</strong> Member Requests</h2>
+                                    <h2><strong>New</strong> Jion Requests</h2>
                                 </div>
                                 <!-- END Latest Orders Title -->
 
@@ -1245,7 +1339,7 @@
                             </div>
                             <!-- END Latest Orders Block -->
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <!-- Top Products Block -->
                             <div class="block">
                                 <!-- Top Products Title -->
@@ -1316,21 +1410,32 @@
                                                 </a>
                                             </td>
                                         </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Fitness Consultation</strong>
+                                                <div class="text-muted">Mohamed Ahmed</div>
+                                            </td>
+                                            <td class="text-center" style="width: 60px;">
+                                                <a href="javascript:void(0)" class="btn btn-default">
+                                                    <i class="fa fa-comments"></i> Review
+                                                </a>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                                 <!-- END Top Products Content -->
                             </div>
                             <!-- END Top Products Block -->
                         </div>
-                        <div class="col-lg-4">
+                        <!-- <div class="col-lg-6"> -->
                             <!-- Latest Orders Block -->
-                            <div class="block">
+                            <!-- <div class="block"> -->
                                 <!-- Latest Orders Title -->
-                                <div class="block-title">
-                                    <h2><strong>New</strong> Consultations</h2>
+                                <!-- <div class="block-title"> -->
+                                    <!-- <h2><strong>New</strong> Consultations</h2> -->
                                 </div>
                                 <!-- END Latest Orders Title -->
-                                <div id="flotcontainer"></div>
+                                <!-- <div id="flotcontainer"></div> -->
                             </div>
                             <!-- END Latest Orders Block -->
                         </div>
