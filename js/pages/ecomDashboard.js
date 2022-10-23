@@ -94,19 +94,16 @@ var EcomDashboard = function() {
             ];
 
             var chartNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
-            var ordersData = [    
-                [3, 14], //
-                [5, 12], //
-                [6, 20], //
-                [8, 19], //
+            var data = [ 
+                {data: [[3, 14]], color: "#c00d0e"}, 
+                {data: [[5, 12]], color: "#8fc322"}, 
+                {data: [[7, 20]], color: "#043e50"}, 
+                {data: [[9, 19]], color: "#231916"}
             ];
 
 
             // Overview Chart
-            $.plot(chartOverview, [{
-                    data: ordersData,
-                },
-            ], {
+            $.plot(chartOverview,data, {
                 series: {
                     bars: {
                         show: true
@@ -116,11 +113,10 @@ var EcomDashboard = function() {
                     align: "center",
                     barWidth: 1
                 },
-                colors:'#f1f1f1f',
                 legend: { show: true, position: 'nw'},
                 grid: { borderWidth: 0, hoverable: true, clickable: true },
                 yaxis: { ticks: 3, tickColor: '#f1f1f1' },
-                xaxis: { ticks: chartNum, tickColor: '#ffffff' }
+                xaxis: {ticks: [[3,"Fitness Market"],[5,"Healthy Food Market"],[7,"Trainers"],[9,"Nutritionist"]] }
             });
 
             $.plot(incomeReport, [{
