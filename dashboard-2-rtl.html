@@ -281,7 +281,6 @@
                             </div>
                         </div>
                         <!-- END Messages -->
---> 
                     </div>
                     <!-- END Sidebar Content -->
                 </div>
@@ -977,12 +976,16 @@
                             <div class="header-datepicker">
                                 <form action="">
                                     <div class="form-group">
-                                        <label class="control-label" for="example-datepicker"><i class="gi gi-calendar"></i></label>
                                         <div class="input-group input-daterange" data-date-format="mm/dd/yyyy">
-                                            <input type="text" id="example-daterange1" name="example-daterange1" class="form-control text-center" placeholder="من">
-                                            <span class="input-group-addon"><i class="fa fa-angle-right"></i></span>
-                                            <input type="text" id="example-daterange2" name="example-daterange2" class="form-control text-center" placeholder="الي">
+                                            <input type="text" id="example-daterange1" name="example-daterange1" class="form-control text-center" placeholder="From">
                                         </div>
+                                        <label class="control-label" for="example-datepicker"><i class="gi gi-calendar"></i></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group input-daterange" data-date-format="mm/dd/yyyy">
+                                            <input type="text" id="example-daterange2" name="example-daterange2" class="form-control text-center" placeholder="To">
+                                        </div>
+                                        <label class="control-label" for="example-datepicker"><i class="gi gi-calendar"></i></label>
                                     </div>
                                 </form>
                             </div>
@@ -990,68 +993,94 @@
                         <ul class="nav-horizontal text-center dashboard-blocks-info d-flex">
                             <li>
                                 <a href="all-orders.html">
-                                    <i class="gi gi-shopping_cart"></i> أوامر اللياقة
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>أوامر اللياقة</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <i class="fa fa-cutlery"></i> طلبات الوجبات
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>طلبات الوجبات</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-cutlery"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <i class="gi gi-shop"></i> المتاجر الجديدة
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>المتاجر الجديدة</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="gi gi-shop"></i> 
                                 </a>
                             </li>
                             <li>
                                 <a href="products-2.html">
-                                    <i class="gi gi-shop_window"></i> المطاعم الجديدة
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>المطاعم الجديدة</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="gi gi-shop_window"></i> 
                                 </a>
                             </li>
                             <li>
                                 <a href="customers-list.html">
-                                    <i class="fa fa-money"></i> اجمالي الدخل
-                                    <span>10,000 SAR</span>
+                                    <div class="d-flex flex-column">
+                                        <p>اجمالي الدخل</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-money"></i> 
                                 </a>
                             </li>
                         </ul>
                         <ul class="nav-horizontal text-center dashboard-blocks-info d-flex">
                             <li>
                                 <a href="all-orders.html">
-                                    <i class="fa fa-users"></i> المدربون الجداد
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>المدربون الجداد</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-users"></i> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="all-orders.html">
+                                    <div class="d-flex flex-column">
+                                        <p>فصول جديدة</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-users"></i> 
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <i>
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="dumbbell" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-dumbbell"><g class="fa-group"><path fill="currentColor" d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z" class="fa-secondary"></path><path fill="currentColor" d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z" class="fa-primary"></path></g></svg>
-                                    </i> فصول جديدة
-                                    <span>10,000</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <i class="fa fa-users"></i> خبراء التغذية
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>خبراء التغذية</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-leaf" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="products-2.html">
-                                    <i>
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="dumbbell" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-dumbbell"><g class="fa-group"><path fill="currentColor" d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z" class="fa-secondary"></path><path fill="currentColor" d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z" class="fa-primary"></path></g></svg>
-                                    </i> جلسات جديدة
-                                    <span>10,000</span>
+                                    <div class="d-flex flex-column">
+                                        <p>جلسات جديدة</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-users"></i> 
                                 </a>
                             </li>
                             <li>
                                 <a href="customers-list.html">
-                                    <i class="fa fa-money"></i> اجمالي الربح
-                                    <span>10,000 SAR</span>
+                                    <div class="d-flex flex-column">
+                                        <p>اجمالي الربح</p>
+                                        <p>10,000</p>
+                                    </div>
+                                    <i class="fa fa-money"></i> 
                                 </a>
                             </li>
                         </ul>

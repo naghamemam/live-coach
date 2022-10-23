@@ -491,7 +491,8 @@ a.sidebar-title:focus {
 .sidebar-user-avatar img {
     width: 64px;
     height: 64px;
-    border-radius: 32px;
+    border-radius:64px;
+    object-fit: cover;
 }
 
 .sidebar-user-name {
@@ -1334,7 +1335,7 @@ a.widget.widget-hover-effect4:active {
 #to-top {
     display: none;
     position: fixed;
-    bottom: 55px;
+    bottom:15px;
     left: 5px;
     border-radius: 3px;
     padding: 0 12px;
@@ -3742,7 +3743,11 @@ p, .table, .alert, .carousel {
 .themed-background-muted-light {
     background-color: #f9f9f9!important;
 }
-
+.file-uploader .form-group{
+    display: flex;
+    align-items: center;
+}
+.file-uploader img{border-radius: 5px;}
 /*
 =================================================================
 (#m09res) RESPONSIVE

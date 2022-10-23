@@ -297,7 +297,7 @@
                         <!-- User Info -->
                         <div class="sidebar-section sidebar-user clearfix sidebar-nav-mini-hide">
                             <div class="sidebar-user-avatar">
-                                <a href="javascript:void(0)">
+                                <a href="page_ready_user_profile.html">
                                     <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
                                 </a>
                             </div>
@@ -364,7 +364,7 @@
 
                         <!-- Sidebar Navigation -->
                         <ul class="sidebar-nav">
-                            <li class="active">
+                            <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
                                 <ul>
                                     <li>
@@ -875,14 +875,13 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="settings.html">
+                            <li class="active">
+                                <a href="setting.html" class="sidebar-nav-menu">
                                     <i class="fa fa-cog sidebar-nav-icon" aria-hidden="true"></i>
                                     Settings
                                 </a>
                             </li>
                         </ul>
-
                     </div>
                     <!-- END Sidebar Content -->
                 </div>
@@ -916,8 +915,6 @@
                             </a>
                         </li>
                         <!-- END Main Sidebar Toggle Button -->
-
-                        <!-- END Template Options -->
                     </ul>
                     <!-- END Left Header Navigation -->
 
@@ -927,23 +924,22 @@
                     <ul class="nav navbar-nav-custom pull-right">
                         <!-- Alternative Sidebar Toggle Button -->
                         <!-- END Alternative Sidebar Toggle Button -->
+
                         <!-- User Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-bell"></i>
                                 <span class="label label-primary label-indicator animation-floating">4</span>
                             </a>
-                            <ul class="dropdown-menu dropdown-custom dropdown-menu-right notification-list">
+                            <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
                                 <li class="dropdown-header text-center">Activity</li>
                                 <li>
                                     <div class="alert alert-success alert-alt">
-                                        <small>5 min ago</small>
-                                        <span class="seen"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span><br>
+                                        <small>5 min ago</small><br>
                                         <i class="fa fa-thumbs-up fa-fw"></i> You had a new sale ($10)
                                     </div>
                                     <div class="alert alert-info alert-alt">
-                                        <small>10 min ago</small>
-                                        <span class="seen"><i class="fa fa-eye-slash" aria-hidden="true"></i></span><br>
+                                        <small>10 min ago</small><br>
                                         <i class="fa fa-arrow-up fa-fw"></i> Upgraded to Pro plan
                                     </div>
                                     <div class="alert alert-warning alert-alt">
@@ -959,511 +955,83 @@
                         </li>
                         <!-- END User Dropdown -->
                         <li>
-                            <a href="dashboard-2-rtl.html"><b>عربي</b></a>
+                            <a href="#"><b>عربي</b></a>
                         </li>
+                        <!-- END Right Header Navigation -->
                     </ul>
-                    <!-- END Right Header Navigation -->
                 </header>
                 <!-- END Header -->
 
                 <!-- Page content -->
                 <div id="page-content">
-                    <!-- eCommerce Dashboard Header -->
+                    <!-- eCommerce Admin Header -->
                     <div class="content-header">
-                        <div class="d-flex">
-                            <div class="content-title">
-                                <h1>Dashboard</h1>
-                            </div>
-                            <div class="header-datepicker">
-                                <form action="">
-                                    <div class="form-group">
-                                        <div class="input-group input-daterange" data-date-format="mm/dd/yyyy">
-                                            <input type="text" id="example-daterange1" name="example-daterange1" class="form-control text-center" placeholder="From">
-                                        </div>
-                                        <label class="control-label" for="example-datepicker"><i class="gi gi-calendar"></i></label>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="input-group input-daterange" data-date-format="mm/dd/yyyy">
-                                            <input type="text" id="example-daterange2" name="example-daterange2" class="form-control text-center" placeholder="To">
-                                        </div>
-                                        <label class="control-label" for="example-datepicker"><i class="gi gi-calendar"></i></label>
-                                    </div>
-                                </form>
-                            </div>
+                        <div class="header-section">
+                            <h1>
+                                Settings
+                            </h1>
                         </div>
                     </div>
-                    <div class="dashboard-blocks-container mb-2">
-                        <div class="">
-                            <ul class="nav-horizontal text-center dashboard-blocks-info d-flex">
-                                <li>
-                                    <a href="trainers-join-request.html">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Subscribers</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="live-classes.html">
-                                        <div class="d-flex flex-column">
-                                            <p>Freezed Subscribers</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="fa fa-ban" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">
-                                        <div class="d-flex flex-column">
-                                            <p>New Subscribers</p>
-                                            <p>130</p>
-                                        </div>
-                                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="customers-list.html">
-                                        <div class="d-flex flex-column">
-                                            <p>Trainers join Request</p>
-                                            <p>2</p>
-                                        </div>
-                                        <i class="fa fa-address-card" aria-hidden="true"></i>
-                                    </a>
-                                </li>
+                    <!-- END eCommerce Admin Header -->
 
-                                <li>
-                                    <a href="trainers-join-request.html">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Consultations</p>
-                                            <p>12</p>
-                                        </div>
-                                        <i class="fa fa-comments-o" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="live-classes.html">
-                                        <div class="d-flex flex-column">
-                                            <p>Personal Online Training</p>
-                                            <p>12</p>
-                                        </div>
-                                        <i class="fa fa-rss" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">
-                                        <div class="d-flex flex-column">
-                                            <p>Personal Home Training</p>
-                                            <p>12</p>
-                                        </div>
-                                        <i class="fa fa-home" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="customers-list.html">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Income</p>
-                                            <p>12500 SAR</p>
-                                        </div>
-                                        <i class="fa fa-money"></i>
-                                    </a>
-                                </li>
-
-
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-nutration">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Subscribers</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-nutration">
-                                        <div class="d-flex flex-column">
-                                            <p>New Subscribers</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="products-2.html" class="themed-background-nutration">
-                                        <div class="d-flex flex-column">
-                                            <p>Nutritions Join Requests</p>
-                                            <p>2</p>
-                                        </div>
-                                        <i class="fa fa-address-card" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="customers-list.html" class="themed-background-nutration">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Income</p>
-                                            <p>12500 SAR</p>
-                                        </div>
-                                        <i class="fa fa-money"></i>
-                                    </a>
-                                </li>
-
-
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-fit-market">
-                                        <div class="d-flex flex-column">
-                                            <p>New Shops</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="gi gi-shop"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-fit-market">
-                                        <div class="d-flex flex-column">
-                                            <p>Shop Orders</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="gi gi-shopping_cart"></i> 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="all-orders.html" class="themed-background-fit-market">
-                                        <div class="d-flex flex-column">
-                                            <p>Returned Orders</p>
-                                            <p>150</p>
-                                        </div>
-                                        <i class="fa fa-undo" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" class="themed-background-fit-market">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Income</p>
-                                            <p>12500 SAR</p>
-                                        </div>
-                                        <i class="fa fa-money"></i>
-                                    </a>
-                                </li>
-
-
-                                <li class="three-box">
-                                    <a href="javascript:void(0)" class="themed-background-food-market">
-                                        <div class="d-flex flex-column">
-                                            <p>New Restaurants</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li class="three-box">
-                                    <a href="all-orders.html" class="themed-background-food-market">
-                                        <div class="d-flex flex-column">
-                                            <p>Food Orders</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="gi gi-shopping_cart"></i>
-                                    </a>
-                                </li>
-                                <li class="three-box">
-                                    <a href="javascript:void(0)" class="themed-background-food-market">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Income</p>
-                                            <p>12500 SAR</p>
-                                        </div>
-                                        <i class="fa fa-money"></i> 
-                                    </a>
-                                </li>
-
-
-                                <li class="three-box">
-                                    <a href="all-orders.html" class="themed-background-drivers">
-                                        <div class="d-flex flex-column">
-                                            <p>Delivery Orders</p>
-                                            <p>34</p>
-                                        </div>
-                                        <i class="gi gi-shopping_cart"></i> 
-                                    </a>
-                                </li>
-                                <li class="three-box">
-                                    <a href="javascript:void(0)" class="themed-background-drivers">
-                                        <div class="d-flex flex-column">
-                                            <p>Driver Join Requests</p>
-                                            <p>2</p>
-                                        </div>
-                                        <i class="fa fa-id-card-o" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li class="three-box">
-                                    <a href="javascript:void(0)" class="themed-background-drivers">
-                                        <div class="d-flex flex-column">
-                                            <p>Total Income</p>
-                                            <p>12500 SAR</p>
-                                        </div>
-                                        <i class="fa fa-money"></i> 
-                                    </a>
-                                </li>
-                                
-                            </ul>
+                    <div class="block">
+                        <div class="block-title">
+                            <h2><i class="fa fa-cog"></i> <strong>setting</strong></h2>
                         </div>
+                        <form class="form-horizontal form-bordered file-uploader">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
+                                <div class="col-md-9 upload-img">
+                                    <label name="upload-label" class="upload-img-btn">
+                                        <input type="file" class="upload-field-1" style="display:none;" />
+                                        <img class="preview-1" src="img/upload.jpg" style="width:90px!important;" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
+                                <div class="col-md-9 upload-img">
+                                    <label name="upload-label" class="upload-img-btn">
+                                        <input type="file" class="upload-field-2" style="display:none;" />
+                                        <img class="preview-2" src="img/upload.jpg" style="width:90px!important;" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
+                                <div class="col-md-9 upload-img">
+                                    <label name="upload-label" class="upload-img-btn">
+                                        <input type="file" class="upload-field-3" style="display:none;" />
+                                        <img class="preview-3" src="img/upload.jpg" style="width:90px!important;" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
+                                <div class="col-md-9 upload-img">
+                                    <label name="upload-label" class="upload-img-btn">
+                                        <input type="file" class="upload-field-4" style="display:none;" />
+                                        <img class="preview-4" src="img/upload.jpg" style="width:90px!important;" />
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <!-- END eCommerce Dashboard Header -->
-
-                    <!-- eShop Overview Block -->
-
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="block full">
-                                <!-- Latest Orders Title -->
-                                <div class="block-title">
-                                    <select class="form-control pull-right select-date" style="width: 100px;">
-                                        <option value="">2022</option>
-                                        <option value="">2021</option>
-                                        <option value="">2023</option>
-                                    </select>
-                                    <h2><strong>Income</strong> Report</h2>
-                                </div>
-
-                                <div id="chart-overview1" style="height: 350px;"></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="block full">
-                                <!-- Latest Orders Title -->
-                                <div class="block-title">
-                                    <select class="form-control pull-right select-date" style="width: 100px;">
-                                        <option value="">2022</option>
-                                        <option value="">2021</option>
-                                        <option value="">2023</option>
-                                    </select>
-                                    <h2><strong>Daily</strong> Orders / subscriptions</h2>
-                                </div>
-
-                                <div id="chart-overview" style="height: 350px;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END eShop Overview Block -->
-
-                    <!-- Orders and Products -->
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <!-- Latest Orders Block -->
-                            <div class="block">
-                                <!-- Latest Orders Title -->
-                                <div class="block-title">
-                                    <div class="block-options pull-right">
-                                        <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Show All"><i class="fa fa-eye"></i></a>
-                                        <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Settings"><i class="fa fa-cog"></i></a>
-                                    </div>
-                                    <h2><strong>New</strong> Jion Requests</h2>
-                                </div>
-                                <!-- END Latest Orders Title -->
-
-                                <!-- Latest Orders Content -->
-                                <table class="table table-borderless table-striped table-vcenter">
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="text-success">
-                                                    <img src="img/placeholders/avatars/avatar2.jpg" alt="Avatar" class="img-circle">
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="#"><strong>Trainee Name</strong></a>
-                                                <div class="text-muted">Nutritionist</div>
-                                            </td>
-                                            <td class="text-right">
-                                                <div class="text-muted"><small><i class="fa fa-clock-o"></i> 24.10.2020, 15:00</small></div>
-                                                <span class="label label-success">New</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="text-success">
-                                                    <img src="img/placeholders/avatars/avatar2.jpg" alt="Avatar" class="img-circle">
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="#"><strong>Trainee Name</strong></a>
-                                                <div class="text-muted">Coach</div>
-                                            </td>
-                                            <td class="text-right">
-                                                <div class="text-muted"><small><i class="fa fa-clock-o"></i> 24.10.2020, 15:00</small></div>
-                                                <span class="label label-success">New</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="text-success">
-                                                    <img src="img/placeholders/avatars/avatar2.jpg" alt="Avatar" class="img-circle">
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="#"><strong>Trainee Name</strong></a>
-                                                <div class="text-muted">Nutritionist</div>
-                                            </td>
-                                            <td class="text-right">
-                                                <div class="text-muted"><small><i class="fa fa-clock-o"></i> 24.10.2020, 15:00</small></div>
-                                                <span class="label label-success">New</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="text-success">
-                                                    <img src="img/placeholders/avatars/avatar2.jpg" alt="Avatar" class="img-circle">
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="#"><strong>Trainee Name</strong></a>
-                                                <div class="text-muted">Coach</div>
-                                            </td>
-                                            <td class="text-right">
-                                                <div class="text-muted"><small><i class="fa fa-clock-o"></i> 24.10.2020, 15:00</small></div>
-                                                <span class="label label-success">New</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="text-success">
-                                                    <img src="img/placeholders/avatars/avatar2.jpg" alt="Avatar" class="img-circle">
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="#"><strong>Trainee Name</strong></a>
-                                                <div class="text-muted">Nutritionist</div>
-                                            </td>
-                                            <td class="text-right">
-                                                <div class="text-muted"><small><i class="fa fa-clock-o"></i> 24.10.2020, 15:00</small></div>
-                                                <span class="label label-success">New</span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <!-- END Latest Orders Content -->
-                            </div>
-                            <!-- END Latest Orders Block -->
-                        </div>
-                        <div class="col-lg-6">
-                            <!-- Top Products Block -->
-                            <div class="block">
-                                <!-- Top Products Title -->
-                                <div class="block-title">
-                                    <div class="block-options pull-right">
-                                        <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Show All"><i class="fa fa-eye"></i></a>
-                                        <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Settings"><i class="fa fa-cog"></i></a>
-                                    </div>
-                                    <h2><strong>New</strong> Consultations</h2>
-                                </div>
-                                <!-- END Top Products Title -->
-
-                                <!-- Top Products Content -->
-                                <table class="table table-borderless table-striped table-vcenter">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <strong>Fitness Consultation</strong>
-                                                <div class="text-muted">Mohamed Ahmed</div>
-                                            </td>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="btn btn-default">
-                                                    <i class="fa fa-comments"></i> Review
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <strong>Nutrition Consultation</strong>
-                                                <div class="text-muted">Mohamed Ahmed</div>
-                                            </td>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="btn btn-default">
-                                                    <i class="fa fa-comments"></i> Review
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <strong>Fitness Consultation</strong>
-                                                <div class="text-muted">Mohamed Ahmed</div>
-                                            </td>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="btn btn-default">
-                                                    <i class="fa fa-comments"></i> Review
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <strong>Nutrition Consultation</strong>
-                                                <div class="text-muted">Mohamed Ahmed</div>
-                                            </td>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="btn btn-default">
-                                                    <i class="fa fa-comments"></i> Review
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <strong>Fitness Consultation</strong>
-                                                <div class="text-muted">Mohamed Ahmed</div>
-                                            </td>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="btn btn-default">
-                                                    <i class="fa fa-comments"></i> Review
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <strong>Fitness Consultation</strong>
-                                                <div class="text-muted">Mohamed Ahmed</div>
-                                            </td>
-                                            <td class="text-center" style="width: 60px;">
-                                                <a href="javascript:void(0)" class="btn btn-default">
-                                                    <i class="fa fa-comments"></i> Review
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <!-- END Top Products Content -->
-                            </div>
-                            <!-- END Top Products Block -->
-                        </div>
-                        <!-- <div class="col-lg-6"> -->
-                            <!-- Latest Orders Block -->
-                            <!-- <div class="block"> -->
-                                <!-- Latest Orders Title -->
-                                <!-- <div class="block-title"> -->
-                                    <!-- <h2><strong>New</strong> Consultations</h2> -->
-                                </div>
-                                <!-- END Latest Orders Title -->
-                                <!-- <div id="flotcontainer"></div> -->
-                            </div>
-                            <!-- END Latest Orders Block -->
-                        </div>
-                    </div>
-                    <!-- END Orders and Products -->
-                </div>
                 <!-- END Page Content -->
-
-                <!-- Footer -->
-                <footer class="clearfix">
-                    <div class="pull-right">
-                        Crafted with <i class="fa fa-heart text-danger"></i> by <a href="#" target="_blank">G7</a>
-                    </div>
-                    <div class="pull-left">
-                        <span id="year-copy"></span> &copy; <a href="#" target="_blank">My Health</a>
-                    </div>
-                </footer>
-                <!-- END Footer -->
             </div>
-            <!-- END Main Container -->
+            <!-- Footer -->
+            <footer class="clearfix">
+                <div class="pull-right">
+                    Crafted with <i class="fa fa-heart text-danger"></i> by <a href="#" target="_blank">G7</a>
+                </div>
+                <div class="pull-left">
+                    <span id="year-copy"></span> &copy; <a href="#" target="_blank">My Health</a>
+                </div>
+            </footer>
+            <!-- END Footer -->
+            <!-- END Page Wrapper -->
         </div>
-        <!-- END Page Container -->
     </div>
-    <!-- END Page Wrapper -->
 
     <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
     <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
@@ -1484,80 +1052,15 @@
                         <fieldset>
                             <legend>Vital Info</legend>
                             <div class="form-group">
-                                <label class="col-md-4 control-label" for="f-name">First Name</label>
+                                <label class="col-md-4 control-label">Username</label>
                                 <div class="col-md-8">
-                                    <input type="text" id="f-name" name="f-name" class="form-control" placeholder="First Name">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="l-name">Last Name</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="l-name" name="l-name" class="form-control" placeholder="Last Name">
+                                    <p class="form-control-static">Admin</p>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="user-settings-email">Email</label>
                                 <div class="col-md-8">
                                     <input type="email" id="user-settings-email" name="user-settings-email" class="form-control" value="admin@example.com">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="phone">Phone</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Last Name">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="country">Country</label>
-                                <div class="col-md-8">
-                                    <select id="country" name="country" class="select-chosen" data-placeholder="Choose a Country.." style="width: 250px;">
-                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                                        <option value="United States">Country 1</option>
-                                        <option value="United Kingdom">Country 2</option>
-                                        <option value="Zimbabwe">Country 3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="City">City</label>
-                                <div class="col-md-8">
-                                    <select id="City" name="City" class="select-chosen" data-placeholder="Choose a city.." style="width: 250px;">
-                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                                        <option value="United States">City 1</option>
-                                        <option value="United Kingdom">City 2</option>
-                                        <option value="Zimbabwe">city 3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="gender">Gender</label>
-                                <div class="col-md-8">
-                                    <select id="gender" name="gender" class="select-chosen" data-placeholder="Choose a Gender.." style="width: 250px;">
-                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                                        <option value="United States">Male</option>
-                                        <option value="United Kingdom">Female</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="profile-image">Profile Image</label>
-                                <div class="col-md-8">
-                                    <input type="file" id="profile-image" class="mb-2" name="profile-image">
-
-                                    <table class="table table-striped table-vcenter">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="img/placeholders/photos/photo11.jpg" data-toggle="lightbox-image">
-                                                        <img src="img/placeholders/photos/photo11.jpg" alt="" class="img-responsive" style="max-width: 110px;">
-                                                    </a>
-                                                </td>
-                                                <td class="text-right">
-                                                    <a href="javascript:void(0)" class="btn btn-xs btn-danger"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -1599,6 +1102,106 @@
     </div>
     <!-- END User Settings -->
 
+    <!-- Add Category Modal -->
+    <div id="modal-add-driver" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h2 class="modal-title"><i class="fa fa-pencil"></i> Assign Driver</h2>
+                </div>
+                <!-- END Modal Header -->
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered mb-20" onsubmit="return false;">
+                        <fieldset>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="assin-driver">Driver</label>
+                                <div class="col-md-8">
+                                    <!-- Chosen plugin (class is initialized in js/app.js -> uiInit()), for extra usage examples you can check out http://harvesthq.github.io/chosen/ -->
+                                    <select id="assin-driver" name="assin-driver" class="select-chosen" data-placeholder="Choose a Driver.." style="width: 250px;">
+                                        <option></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->
+                                        <option value="United States">Driver 1</option>
+                                        <option value="United Kingdom">Driver 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <div class="row form-actions">
+                        <div class="col-xs-12 text-right">
+                            <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Modal Body -->
+            </div>
+        </div>
+    </div>
+    <!-- END Add Category Modal -->
+
+    <div id="modal-reject" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h2 class="modal-title"><i class="fa fa-pencil"></i> Reject</h2>
+                </div>
+                <!-- END Modal Header -->
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;">
+                        <fieldset>
+                            <div class="form-group">
+                                <label class="col-md-12 control-label text-left" for="reject-reason">Reject Reason</label>
+                                <div class="col-md-12">
+                                    <textarea id="reject-reason" name="reject-reason" class="form-control" rows="3"></textarea>
+                                    <span class="help-block">This is a help text</span>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="form-group form-actions">
+                            <div class="col-xs-12 text-right">
+                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- END Modal Body -->
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-confirmation" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h2 class="modal-title"><i class="fa fa-pencil"></i> Confirmation</h2>
+                </div>
+                <!-- END Modal Header -->
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <p class="text-center">Do you want to delete this?</p>
+
+                    <div class="row form-actions">
+                        <div class="col-xs-12 text-right">
+                            <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">No</button>
+                            <button type="submit" class="btn btn-sm btn-primary">Yes</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Modal Body -->
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
@@ -1606,14 +1209,25 @@
     <script src="js/app.js"></script>
 
     <!-- Load and execute javascript code used only in this page -->
-    <script src="js/pages/ecomDashboard.js"></script>
+    <script src="js/pages/ecomProducts.js"></script>
     <script>
         $(function() {
-            EcomDashboard.init();
+            EcomProducts.init();
+        });
 
-            $('.datepicker, .input-discount-daterange input, .input-datepicker-close, .input-datepicker').datepicker({
-                language: 'XX'
-            });
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();            
+                reader.onload = function (e) {
+                    var num = $(input).attr('class').split('-')[2];
+                    $('.file-uploader .preview-'+num).attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        } 
+    
+        $("[class^=upload-field-]").change(function(){
+            readURL(this);
         });
     </script>
     <script src="js/scripts.js"></script>

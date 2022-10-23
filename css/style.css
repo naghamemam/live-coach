@@ -139,7 +139,7 @@ a.text-primary:focus {
 }
 
 .sidebar-brand img {
-    height: 100%;
+    height: 80%;
 }
 
 .content-header {
@@ -805,7 +805,7 @@ a.text-success:focus,
 .nav-horizontal i {
     font-size: 40px;
     line-height: 1;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #flotcontainer {
@@ -839,6 +839,7 @@ a.text-success:focus,
     color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 8px 20px;
     height: 100%;
 }
@@ -847,7 +848,10 @@ a.text-success:focus,
     margin-bottom: 0;
     font-size: 1.35rem;
 }
-
+.modal-title i{
+    padding: 0 9px;
+    font-size: 25px;
+}
 @media (min-width: 992px) {
     .nav-horizontal.dashboard-blocks-info li a {
         min-height: 100px;
@@ -1299,7 +1303,14 @@ a.text-success:focus,
 a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-title:focus{
     color:black
 }
-
+.your-details .col-md-6{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    border: 1px solid #e8e8e8;
+}
 @media screen and (min-width: 768px) {
 
     #login-container,
@@ -1390,11 +1401,12 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
     }
 }
 
-/* @media (max-width: 580px) {
-    .nav-horizontal.dashboard-blocks-info li{
-        width: 25%;
+@media (max-width: 580px) {
+    .nav-horizontal.dashboard-blocks-info li,
+    .nav-horizontal.dashboard-blocks-info li.three-box{
+        width: 50%;
     }
-} */
+}
 
 @media print {
 

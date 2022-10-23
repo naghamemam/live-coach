@@ -25,9 +25,9 @@ ol {
 }
 
 .row {
-    margin-right: 0 !important;
+    margin: 0 !important;
 }
-.checkbox-inline, .radio-inline{padding-right: 0;}
+/* .checkbox-inline, .radio-inline{padding-right: 0;} */
 
 input[type=date].form-control{text-align: right !important;}
 
@@ -111,9 +111,9 @@ div.dataTables_filter label,
 }
 
 .form-actions .btn {
-    display: inline-flex;
+    /* display: inline-flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center; */
 }
 
 .form-actions .btn i {
@@ -282,9 +282,14 @@ div.tagsinput input {
     float: left;
 }
 .nav-horizontal i{
-    padding-right: 0;
-    padding-left: 10px;
+    padding-left: 0;
+    padding-right: 10px;
 }
+.meal-img .clear-img {
+    left: 5px;
+    right: auto;
+}
+.content-header .d-flex{text-align: right;}
 /* .navbar.navbar-inverse, .sidebar-brand {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } */
@@ -310,7 +315,7 @@ div.tagsinput input {
     }
     .sidebar-partial #sidebar:hover+#main-container,
     .sidebar-visible-lg #main-container {
-        margin-right: 200px;
+        margin-right: 220px;
         margin-left: 0;
     }
 }
