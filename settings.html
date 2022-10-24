@@ -978,41 +978,50 @@
                         <div class="block-title">
                             <h2><i class="fa fa-cog"></i> <strong>setting</strong></h2>
                         </div>
+                        
                         <form class="form-horizontal form-bordered file-uploader">
                             <div class="form-group">
-                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
-                                <div class="col-md-9 upload-img">
-                                    <label name="upload-label" class="upload-img-btn">
-                                        <input type="file" class="upload-field-1" style="display:none;" />
-                                        <img class="preview-1" src="img/upload.jpg" style="width:90px!important;" />
-                                    </label>
+                                <label class="col-md-2 control-label" for="first-name">Title</label>
+                                <div class="col-md-9">
+                                    <div>
+                                        <label for="files" class="btn btn-default">
+                                            upload button
+                                         </label>
+                                         <input type="file" id="files" style="display:none;" multiple/>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
-                                <div class="col-md-9 upload-img">
-                                    <label name="upload-label" class="upload-img-btn">
-                                        <input type="file" class="upload-field-2" style="display:none;" />
-                                        <img class="preview-2" src="img/upload.jpg" style="width:90px!important;" />
-                                    </label>
+                                <label class="col-md-2 control-label" for="first-name">Title</label>
+                                <div class="col-md-9">
+                                    <div>
+                                        <label for="files2" class="btn btn-default">
+                                            upload button
+                                         </label>
+                                         <input type="file" id="files2" style="display:none;" multiple/>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
-                                <div class="col-md-9 upload-img">
-                                    <label name="upload-label" class="upload-img-btn">
-                                        <input type="file" class="upload-field-3" style="display:none;" />
-                                        <img class="preview-3" src="img/upload.jpg" style="width:90px!important;" />
-                                    </label>
+                                <label class="col-md-2 control-label" for="first-name">Title</label>
+                                <div class="col-md-9">
+                                    <div>
+                                        <label for="files3" class="btn btn-default">
+                                            upload button
+                                         </label>
+                                         <input type="file" id="files3" style="display:none;" multiple/>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-2 control-label" for="first-name">Upload image</label>
-                                <div class="col-md-9 upload-img">
-                                    <label name="upload-label" class="upload-img-btn">
-                                        <input type="file" class="upload-field-4" style="display:none;" />
-                                        <img class="preview-4" src="img/upload.jpg" style="width:90px!important;" />
-                                    </label>
+                                <label class="col-md-2 control-label" for="first-name">Title</label>
+                                <div class="col-md-9">
+                                    <div>
+                                        <label for="files4" class="btn btn-default">
+                                            upload button
+                                         </label>
+                                         <input type="file" id="files4" style="display:none;" multiple/>
+                                    </div>
                                 </div>
                             </div>
                         </form>
@@ -1211,24 +1220,32 @@
     <!-- Load and execute javascript code used only in this page -->
     <script src="js/pages/ecomProducts.js"></script>
     <script>
-        $(function() {
-            EcomProducts.init();
-        });
-
-        function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();            
-                reader.onload = function (e) {
-                    var num = $(input).attr('class').split('-')[2];
-                    $('.file-uploader .preview-'+num).attr('src', e.target.result);
-                }
-                reader.readAsDataURL(input.files[0]);
+        $(document).ready(function() {
+        if (window.File && window.FileList && window.FileReader) {
+            $("#files").on("change", function(e) {
+            var files = e.target.files,
+                filesLength = files.length;
+            for (var i = 0; i < filesLength; i++) {
+                var f = files[i]
+                var fileReader = new FileReader();
+                fileReader.onload = (function(e) {
+                var file = e.target;
+                $("<div class=\"pip\">" +
+                    "<img class=\"imageThumb\" src=\"" + e.target.result + "\"/>" +
+                    "<span class=\"remove\"><i class=\"fa fa-times\"></i></span>" +
+                    "</div>").insertAfter("#files");
+                $(".remove").click(function(){
+                    $(this).parent(".pip").remove();
+                });
+                
+                });
+                fileReader.readAsDataURL(f);
             }
-        } 
-    
-        $("[class^=upload-field-]").change(function(){
-            readURL(this);
-        });
+            });
+        } else {
+            alert("Your browser doesn't support to File API")
+        }
+});
     </script>
     <script src="js/scripts.js"></script>
 </body>
