@@ -864,7 +864,7 @@ a.text-success:focus,
 
 .nav-horizontal.dashboard-blocks-info li a i {
     color: #ffffff;
-    opacity: .9;
+    opacity: .97;
 }
 
 .nav-horizontal a{
@@ -1325,6 +1325,13 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
 .preview-images-zone .preview-image .image-zone img {
     width: 100%;
     height: 100%;
+}
+.new-user{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (min-width: 768px) {
 
