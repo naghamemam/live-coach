@@ -1264,6 +1264,14 @@ a.text-success:focus,
 
 .mb-3{margin-bottom: 1rem !important;}
 
+.nutrition-icon{
+    width: 18px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
 .notification-list.dropdown-menu.dropdown-custom {
     min-width: 350px;
     max-height: 280px;

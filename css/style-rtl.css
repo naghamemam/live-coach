@@ -289,6 +289,10 @@ div.tagsinput input {
     left: 5px;
     right: auto;
 }
+.nutrition-icon{
+    margin-right: 0;
+    margin-left: 10px;
+}
 .content-header .d-flex{text-align: right;}
 /* .navbar.navbar-inverse, .sidebar-brand {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
