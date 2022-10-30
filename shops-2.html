@@ -2,55 +2,58 @@
 <!--[if IE 9]>         <html class="no-js lt-ie10" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
     <title>My Health</title>
 
-    <meta name="description" content="My Health.">
-    <meta name="author" content="pixelcave">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <meta name="description" content="My Health." />
+    <meta name="author" content="pixelcave" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=0"
+    />
 
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" href="img/icon57.png" sizes="57x57">
-    <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72">
-    <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76">
-    <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114">
-    <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120">
-    <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144">
-    <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152">
-    <link rel="apple-touch-icon" href="img/icon180.png" sizes="180x180">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/icon57.png" sizes="57x57" />
+    <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72" />
+    <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76" />
+    <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114" />
+    <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144" />
+    <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="img/icon180.png" sizes="180x180" />
     <!-- END Icons -->
 
     <!-- Stylesheets -->
     <!-- Bootstrap is included in its original form, unaltered -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <!-- Related styles of various icon packs and plugins -->
-    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
-    <link rel="stylesheet" href="css/themes/lake.css">
+    <link rel="stylesheet" href="css/themes/lake.css" />
 
     <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
-    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/themes.css" />
     <!-- END Stylesheets -->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Modernizr (browser feature detection library) -->
     <script src="js/vendor/modernizr.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Page Wrapper -->
     <!-- In the PHP version you can set the following options from inc/config file -->
     <!--
@@ -59,21 +62,23 @@
             'page-loading'      enables page preloader
         -->
     <div id="page-wrapper">
-        <!-- Preloader -->
-        <!-- Preloader functionality (initialized in js/app.js) - pageLoading() -->
-        <!-- Used only if page preloader is enabled from inc/config (PHP version) or the class 'page-loading' is added in #page-wrapper element (HTML version) -->
-        <div class="preloader themed-background">
-            <h1 class="push-top-bottom text-light text-center"><strong>Pro</strong>UI</h1>
-            <div class="inner">
-                <h3 class="text-light visible-lt-ie10"><strong>Loading..</strong></h3>
-                <div class="preloader-spinner hidden-lt-ie10"></div>
-            </div>
+      <!-- Preloader -->
+      <!-- Preloader functionality (initialized in js/app.js) - pageLoading() -->
+      <!-- Used only if page preloader is enabled from inc/config (PHP version) or the class 'page-loading' is added in #page-wrapper element (HTML version) -->
+      <div class="preloader themed-background">
+        <h1 class="push-top-bottom text-light text-center">
+          <strong>Pro</strong>UI
+        </h1>
+        <div class="inner">
+          <h3 class="text-light visible-lt-ie10"><strong>Loading..</strong></h3>
+          <div class="preloader-spinner hidden-lt-ie10"></div>
         </div>
-        <!-- END Preloader -->
+      </div>
+      <!-- END Preloader -->
 
-        <!-- Page Container -->
-        <!-- In the PHP version you can set the following options from inc/config file -->
-        <!--
+      <!-- Page Container -->
+      <!-- In the PHP version you can set the following options from inc/config file -->
+      <!--
                 Available #page-container classes:
 
                 '' (None)                                       for a full main and alternative sidebar hidden by default (> 991px)
@@ -102,782 +107,1241 @@
 
                 'enable-cookies'                                enables cookies for remembering active color theme when changed from the sidebar links
             -->
-        <div id="page-container" class="sidebar-partial sidebar-visible-lg sidebar-no-animations">
-            <!-- Alternative Sidebar -->
-            <div id="sidebar-alt">
-                <!-- Wrapper for scrolling functionality -->
-                <div id="sidebar-alt-scroll">
-                    <!-- Sidebar Content -->
-                    <div class="sidebar-content">
-                        <!-- Chat -->
-                        <!-- Chat demo functionality initialized in js/app.js -> chatUi() -->
-                        <a href="chat.html" class="sidebar-title">
-                            <i class="gi gi-comments pull-right"></i> <strong>Chat</strong>UI
-                        </a>
-                        <!-- Chat Users -->
-                        <ul class="chat-users clearfix">
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-online">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar12.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-online">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar15.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-online">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar10.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-online">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-away">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar7.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-away">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar9.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="chat-user-busy">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar16.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar1.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar3.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar13.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <span></span>
-                                    <img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle">
-                                </a>
-                            </li>
-                        </ul>
-                        <!-- END Chat Users -->
+      <div
+        id="page-container"
+        class="sidebar-partial sidebar-visible-lg sidebar-no-animations"
+      >
+        <!-- Alternative Sidebar -->
+        <div id="sidebar-alt">
+          <!-- Wrapper for scrolling functionality -->
+          <div id="sidebar-alt-scroll">
+            <!-- Sidebar Content -->
+            <div class="sidebar-content">
+              <!-- Chat -->
+              <!-- Chat demo functionality initialized in js/app.js -> chatUi() -->
+              <a href="chat.html" class="sidebar-title">
+                <i class="gi gi-comments pull-right"></i>
+                <strong>Chat</strong>UI
+              </a>
+              <!-- Chat Users -->
+              <ul class="chat-users clearfix">
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-online">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar12.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-online">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar15.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-online">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar10.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-online">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar4.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-away">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar7.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-away">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar9.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="chat-user-busy">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar16.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar1.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar4.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar3.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar13.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <span></span>
+                    <img
+                      src="img/placeholders/avatars/avatar5.jpg"
+                      alt="avatar"
+                      class="img-circle"
+                    />
+                  </a>
+                </li>
+              </ul>
+              <!-- END Chat Users -->
 
-                        <!-- Chat Talk -->
-                        <div class="chat-talk display-none">
-                            <!-- Chat Info -->
-                            <div class="chat-talk-info sidebar-section">
-                                <button id="chat-talk-close-btn" class="btn btn-xs btn-default pull-right">
-                                        <i class="fa fa-times"></i>
-                                    </button>
-                                <img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle pull-left">
-                                <strong>John</strong> Doe
-                            </div>
-                            <!-- END Chat Info -->
-
-                            <!-- Chat Messages -->
-                            <ul class="chat-talk-messages">
-                                <li class="text-center"><small>Yesterday, 18:35</small></li>
-                                <li class="chat-talk-msg animation-slideRight">Hey admin?</li>
-                                <li class="chat-talk-msg animation-slideRight">How are you?</li>
-                                <li class="text-center"><small>Today, 7:10</small></li>
-                                <li class="chat-talk-msg chat-talk-msg-highlight themed-border animation-slideLeft">I'm fine, thanks!</li>
-                            </ul>
-                            <!-- END Chat Messages -->
-
-                            <!-- Chat Input -->
-                            <form action="index.html" method="post" id="sidebar-chat-form" class="chat-form">
-                                <input type="text" id="sidebar-chat-message" name="sidebar-chat-message" class="form-control form-control-borderless" placeholder="Type a message..">
-                            </form>
-                            <!-- END Chat Input -->
-                        </div>
-                        <!--  END Chat Talk -->
-                        <!-- END Chat -->
-
-                        <!-- Activity -->
-                        <a href="javascript:void(0)" class="sidebar-title">
-                            <i class="fa fa-globe pull-right"></i> <strong>Activity</strong>UI
-                        </a>
-                        <div class="sidebar-section">
-                            <div class="alert alert-danger alert-alt">
-                                <small>just now</small><br>
-                                <i class="fa fa-thumbs-up fa-fw"></i> Upgraded to Pro plan
-                            </div>
-                            <div class="alert alert-info alert-alt">
-                                <small>2 hours ago</small><br>
-                                <i class="gi gi-coins fa-fw"></i> You had a new sale!
-                            </div>
-                            <div class="alert alert-success alert-alt">
-                                <small>3 hours ago</small><br>
-                                <i class="fa fa-plus fa-fw"></i> <a href="page_ready_user_profile.html"><strong>John Doe</strong></a> would like to become friends!<br>
-                                <a href="javascript:void(0)" class="btn btn-xs btn-primary"><i class="fa fa-check"></i> Accept</a>
-                                <a href="javascript:void(0)" class="btn btn-xs btn-default"><i class="fa fa-times"></i> Ignore</a>
-                            </div>
-                            <div class="alert alert-warning alert-alt">
-                                <small>2 days ago</small><br> Running low on space<br><strong>18GB in use</strong> 2GB left<br>
-                                <a href="page_ready_pricing_tables.html" class="btn btn-xs btn-primary"><i class="fa fa-arrow-up"></i> Upgrade Plan</a>
-                            </div>
-                        </div>
-                        <!-- END Activity -->
-
-                        <!-- Messages -->
-                        <a href="page_ready_inbox.html" class="sidebar-title">
-                            <i class="fa fa-envelope pull-right"></i> <strong>Messages</strong>UI (5)
-                        </a>
-                        <div class="sidebar-section">
-                            <div class="alert alert-alt">
-                                Debra Stanley<small class="pull-right">just now</small><br>
-                                <a href="page_ready_inbox_message.html"><strong>New Follower</strong></a>
-                            </div>
-                            <div class="alert alert-alt">
-                                Sarah Cole<small class="pull-right">2 min ago</small><br>
-                                <a href="page_ready_inbox_message.html"><strong>Your subscription was updated</strong></a>
-                            </div>
-                            <div class="alert alert-alt">
-                                Bryan Porter<small class="pull-right">10 min ago</small><br>
-                                <a href="page_ready_inbox_message.html"><strong>A great opportunity</strong></a>
-                            </div>
-                            <div class="alert alert-alt">
-                                Jose Duncan<small class="pull-right">30 min ago</small><br>
-                                <a href="page_ready_inbox_message.html"><strong>Account Activation</strong></a>
-                            </div>
-                            <div class="alert alert-alt">
-                                Henry Ellis<small class="pull-right">40 min ago</small><br>
-                                <a href="page_ready_inbox_message.html"><strong>You reached 10.000 Followers!</strong></a>
-                            </div>
-                        </div>
-                        <!-- END Messages -->
---> 
-                    </div>
-                    <!-- END Sidebar Content -->
+              <!-- Chat Talk -->
+              <div class="chat-talk display-none">
+                <!-- Chat Info -->
+                <div class="chat-talk-info sidebar-section">
+                  <button
+                    id="chat-talk-close-btn"
+                    class="btn btn-xs btn-default pull-right"
+                  >
+                    <i class="fa fa-times"></i>
+                  </button>
+                  <img
+                    src="img/placeholders/avatars/avatar5.jpg"
+                    alt="avatar"
+                    class="img-circle pull-left"
+                  />
+                  <strong>John</strong> Doe
                 </div>
-                <!-- END Wrapper for scrolling functionality -->
+                <!-- END Chat Info -->
+
+                <!-- Chat Messages -->
+                <ul class="chat-talk-messages">
+                  <li class="text-center"><small>Yesterday, 18:35</small></li>
+                  <li class="chat-talk-msg animation-slideRight">Hey admin?</li>
+                  <li class="chat-talk-msg animation-slideRight">
+                    How are you?
+                  </li>
+                  <li class="text-center"><small>Today, 7:10</small></li>
+                  <li
+                    class="chat-talk-msg chat-talk-msg-highlight themed-border animation-slideLeft"
+                  >
+                    I'm fine, thanks!
+                  </li>
+                </ul>
+                <!-- END Chat Messages -->
+
+                <!-- Chat Input -->
+                <form
+                  action="index.html"
+                  method="post"
+                  id="sidebar-chat-form"
+                  class="chat-form"
+                >
+                  <input
+                    type="text"
+                    id="sidebar-chat-message"
+                    name="sidebar-chat-message"
+                    class="form-control form-control-borderless"
+                    placeholder="Type a message.."
+                  />
+                </form>
+                <!-- END Chat Input -->
+              </div>
+              <!--  END Chat Talk -->
+              <!-- END Chat -->
+
+              <!-- Activity -->
+              <a href="javascript:void(0)" class="sidebar-title">
+                <i class="fa fa-globe pull-right"></i>
+                <strong>Activity</strong>UI
+              </a>
+              <div class="sidebar-section">
+                <div class="alert alert-danger alert-alt">
+                  <small>just now</small><br />
+                  <i class="fa fa-thumbs-up fa-fw"></i> Upgraded to Pro plan
+                </div>
+                <div class="alert alert-info alert-alt">
+                  <small>2 hours ago</small><br />
+                  <i class="gi gi-coins fa-fw"></i> You had a new sale!
+                </div>
+                <div class="alert alert-success alert-alt">
+                  <small>3 hours ago</small><br />
+                  <i class="fa fa-plus fa-fw"></i>
+                  <a href="page_ready_user_profile.html"
+                    ><strong>John Doe</strong></a
+                  >
+                  would like to become friends!<br />
+                  <a href="javascript:void(0)" class="btn btn-xs btn-primary"
+                    ><i class="fa fa-check"></i> Accept</a
+                  >
+                  <a href="javascript:void(0)" class="btn btn-xs btn-default"
+                    ><i class="fa fa-times"></i> Ignore</a
+                  >
+                </div>
+                <div class="alert alert-warning alert-alt">
+                  <small>2 days ago</small><br />
+                  Running low on space<br /><strong>18GB in use</strong> 2GB
+                  left<br />
+                  <a
+                    href="page_ready_pricing_tables.html"
+                    class="btn btn-xs btn-primary"
+                    ><i class="fa fa-arrow-up"></i> Upgrade Plan</a
+                  >
+                </div>
+              </div>
+              <!-- END Activity -->
+
+              <!-- Messages -->
+              <a href="page_ready_inbox.html" class="sidebar-title">
+                <i class="fa fa-envelope pull-right"></i>
+                <strong>Messages</strong>UI (5)
+              </a>
+              <div class="sidebar-section">
+                <div class="alert alert-alt">
+                  Debra Stanley<small class="pull-right">just now</small><br />
+                  <a href="page_ready_inbox_message.html"
+                    ><strong>New Follower</strong></a
+                  >
+                </div>
+                <div class="alert alert-alt">
+                  Sarah Cole<small class="pull-right">2 min ago</small><br />
+                  <a href="page_ready_inbox_message.html"
+                    ><strong>Your subscription was updated</strong></a
+                  >
+                </div>
+                <div class="alert alert-alt">
+                  Bryan Porter<small class="pull-right">10 min ago</small><br />
+                  <a href="page_ready_inbox_message.html"
+                    ><strong>A great opportunity</strong></a
+                  >
+                </div>
+                <div class="alert alert-alt">
+                  Jose Duncan<small class="pull-right">30 min ago</small><br />
+                  <a href="page_ready_inbox_message.html"
+                    ><strong>Account Activation</strong></a
+                  >
+                </div>
+                <div class="alert alert-alt">
+                  Henry Ellis<small class="pull-right">40 min ago</small><br />
+                  <a href="page_ready_inbox_message.html"
+                    ><strong>You reached 10.000 Followers!</strong></a
+                  >
+                </div>
+              </div>
+              <!-- END Messages -->
+              -->
             </div>
-            <!-- END Alternative Sidebar -->
+            <!-- END Sidebar Content -->
+          </div>
+          <!-- END Wrapper for scrolling functionality -->
+        </div>
+        <!-- END Alternative Sidebar -->
 
-            <!-- Main Sidebar -->
-            <div id="sidebar">
-                <!-- Wrapper for scrolling functionality -->
-                <div id="sidebar-scroll">
-                    <!-- Sidebar Content -->
-                    <div class="sidebar-content">
-                        <!-- Brand -->
-                        <a href="index.html" class="sidebar-brand">
-                            <img src="img/logoEn.png" alt="Login Full Background">
-                        </a>
-                        <!-- END Brand -->
+        <!-- Main Sidebar -->
+        <div id="sidebar">
+          <!-- Wrapper for scrolling functionality -->
+          <div id="sidebar-scroll">
+            <!-- Sidebar Content -->
+            <div class="sidebar-content">
+              <!-- Brand -->
+              <a href="index.html" class="sidebar-brand">
+                <img src="img/logoEn.png" alt="Login Full Background" />
+              </a>
+              <!-- END Brand -->
 
-                        <!-- User Info -->
-                        <div class="sidebar-section sidebar-user clearfix sidebar-nav-mini-hide">
-                            <div class="sidebar-user-avatar">
-                                <a href="page_ready_user_profile.html">
-                                    <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
-                                </a>
-                            </div>
-                            <div class="sidebar-user-name">John Doe</div>
-                            <div class="sidebar-user-links">
-                                <a href="javascript:void(0)" class="enable-tooltip" data-placement="bottom" title="Settings" onclick="$('#modal-user-settings').modal('show');"><i class="gi gi-user"></i></a>
-                                <a href="login.html" data-toggle="tooltip" data-placement="bottom" title="Logout"><i class="gi gi-exit"></i></a>
-                            </div>
-                        </div>
-                        <!-- END User Info -->
+              <!-- User Info -->
+              <div
+                class="sidebar-section sidebar-user clearfix sidebar-nav-mini-hide"
+              >
+                <div class="sidebar-user-avatar">
+                  <a href="page_ready_user_profile.html">
+                    <img
+                      src="img/placeholders/avatars/avatar2.jpg"
+                      alt="avatar"
+                    />
+                  </a>
+                </div>
+                <div class="sidebar-user-name">John Doe</div>
+                <div class="sidebar-user-links">
+                  <a
+                    href="javascript:void(0)"
+                    class="enable-tooltip"
+                    data-placement="bottom"
+                    title="Settings"
+                    onclick="$('#modal-user-settings').modal('show');"
+                    ><i class="gi gi-user"></i
+                  ></a>
+                  <a
+                    href="login.html"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Logout"
+                    ><i class="gi gi-exit"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- END User Info -->
 
-                        <!-- Theme Colors -->
-                        <!-- Change Color Theme functionality can be found in js/app.js - templateOptions() -->
-                        <ul class="sidebar-section sidebar-themes clearfix sidebar-nav-mini-hide">
-                            <!-- You can also add the default color theme
+              <!-- Theme Colors -->
+              <!-- Change Color Theme functionality can be found in js/app.js - templateOptions() -->
+              <ul
+                class="sidebar-section sidebar-themes clearfix sidebar-nav-mini-hide"
+              >
+                <!-- You can also add the default color theme
                                 <li class="active">
                                     <a href="javascript:void(0)" class="themed-background-dark-default themed-border-default" data-theme="default" data-toggle="tooltip" title="Default Blue"></a>
                                 </li>
                                 -->
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-night themed-border-night" data-theme="css/themes/night.css" data-toggle="tooltip" title="Night"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-amethyst themed-border-amethyst" data-theme="css/themes/amethyst.css" data-toggle="tooltip" title="Amethyst"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-modern themed-border-modern" data-theme="css/themes/modern.css" data-toggle="tooltip" title="Modern"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-autumn themed-border-autumn" data-theme="css/themes/autumn.css" data-toggle="tooltip" title="Autumn"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-flatie themed-border-flatie" data-theme="css/themes/flatie.css" data-toggle="tooltip" title="Flatie"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-spring themed-border-spring" data-theme="css/themes/spring.css" data-toggle="tooltip" title="Spring"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-fancy themed-border-fancy" data-theme="css/themes/fancy.css" data-toggle="tooltip" title="Fancy"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-fire themed-border-fire" data-theme="css/themes/fire.css" data-toggle="tooltip" title="Fire"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-coral themed-border-coral" data-theme="css/themes/coral.css" data-toggle="tooltip" title="Coral"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-lake themed-border-lake" data-theme="css/themes/lake.css" data-toggle="tooltip" title="Lake"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-forest themed-border-forest" data-theme="css/themes/forest.css" data-toggle="tooltip" title="Forest"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-waterlily themed-border-waterlily" data-theme="css/themes/waterlily.css" data-toggle="tooltip" title="Waterlily"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-emerald themed-border-emerald" data-theme="css/themes/emerald.css" data-toggle="tooltip" title="Emerald"></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-blackberry themed-border-blackberry" data-theme="css/themes/blackberry.css" data-toggle="tooltip" title="Blackberry"></a>
-                            </li>
-                        </ul>
-                        <!-- END Theme Colors -->
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-night themed-border-night"
+                    data-theme="css/themes/night.css"
+                    data-toggle="tooltip"
+                    title="Night"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-amethyst themed-border-amethyst"
+                    data-theme="css/themes/amethyst.css"
+                    data-toggle="tooltip"
+                    title="Amethyst"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-modern themed-border-modern"
+                    data-theme="css/themes/modern.css"
+                    data-toggle="tooltip"
+                    title="Modern"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-autumn themed-border-autumn"
+                    data-theme="css/themes/autumn.css"
+                    data-toggle="tooltip"
+                    title="Autumn"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-flatie themed-border-flatie"
+                    data-theme="css/themes/flatie.css"
+                    data-toggle="tooltip"
+                    title="Flatie"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-spring themed-border-spring"
+                    data-theme="css/themes/spring.css"
+                    data-toggle="tooltip"
+                    title="Spring"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-fancy themed-border-fancy"
+                    data-theme="css/themes/fancy.css"
+                    data-toggle="tooltip"
+                    title="Fancy"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-fire themed-border-fire"
+                    data-theme="css/themes/fire.css"
+                    data-toggle="tooltip"
+                    title="Fire"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-coral themed-border-coral"
+                    data-theme="css/themes/coral.css"
+                    data-toggle="tooltip"
+                    title="Coral"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-lake themed-border-lake"
+                    data-theme="css/themes/lake.css"
+                    data-toggle="tooltip"
+                    title="Lake"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-forest themed-border-forest"
+                    data-theme="css/themes/forest.css"
+                    data-toggle="tooltip"
+                    title="Forest"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-waterlily themed-border-waterlily"
+                    data-theme="css/themes/waterlily.css"
+                    data-toggle="tooltip"
+                    title="Waterlily"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-emerald themed-border-emerald"
+                    data-theme="css/themes/emerald.css"
+                    data-toggle="tooltip"
+                    title="Emerald"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="themed-background-dark-blackberry themed-border-blackberry"
+                    data-theme="css/themes/blackberry.css"
+                    data-toggle="tooltip"
+                    title="Blackberry"
+                  ></a>
+                </li>
+              </ul>
+              <!-- END Theme Colors -->
 
-                        <!-- Sidebar Navigation -->
-                        <ul class="sidebar-nav">
-                            <li class="active">
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="dashboard-2.html" class="active">Dashboard</a>
-                                    </li>
-                                    <li>
-                                        <a href="dashboard-delivery.html">Drivers Dashboard</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-cogs sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">General Settings</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="countries.html">Countries</a>
-                                    </li>
-                                    <li>
-                                        <a href="cities.html">Cities</a>
-                                    </li>
-                                    <li>
-                                        <a href="currencies.html">Currencies</a>
-                                    </li>
-                                    <li>
-                                        <a href="zipcodes.html">Zipcodes</a>
-                                    </li>
-                                    <li>
-                                        <a href="banners-2.html">Banners</a>
-                                    </li>
-                                    <li>
-                                        <a href="banners-2-pending.html">Pending Banners</a>
-                                    </li>
-                                    <li>
-                                        <a href="financial-settings.html">Financial Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="notification-settings.html">Notifcation Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="backup-settings.html">Backup Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Uploading Data</a>
-                                    </li>
-                                    <li>
-                                        <a href="complains-settings.html">Complains Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="cancellation-settings.html">Cancellation Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="messages-settings.html">Messages Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="about-settings.html">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="privacy-policy-settings.html">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="terms-settings.html">Terms and Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a href="drivers-controls-settings.html">Drivers Terms & Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a href="social-media-links.html">Social Media Links</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manage Users</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="admins.html">Admins</a>
-                                    </li>
-                                    <li>
-                                        <a href="roles-permissions.html">Roles & Permissions</a>
-                                    </li>
-                                    <li>
-                                        <a href="drivers-join-requests.html">Drivers Join Requests</a>
-                                    </li> 
-                                    <li>
-                                        <a href="drivers-all.html">Drivers</a>
-                                    </li> 
-                                    <li>
-                                        <a href="customers-list.html">Customers</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Customers Points</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manage Orders</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="all-orders-2.html">Main Orders</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="sidebar-nav-icon"><svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="dumbbell" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-dumbbell"><g class="fa-group"><path fill="currentColor" d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z" class="fa-secondary"></path><path fill="currentColor" d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z" class="fa-primary"></path></g></svg></i><span class="sidebar-nav-mini-hide">Fitness Training </span></a>
-                                <ul>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Trainers</a>
-                                        <ul>
-                                            <li>
-                                                <a href="trainers.html">All Trainers</a>
-                                            </li>
-                                            <li>
-                                                <a href="trainers-join-request.html">Trainers Join Requests</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Personal Training</a>
-                                        <ul>
-                                            <li>
-                                                <a href="">Personal Training Speciality</a>
-                                            </li>
-                                            <li>
-                                                <a href="packages-list.html">Personal Training Packages</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-tools-list.html">Personal Training Tools</a>
-                                            </li>
-                                            <li>
-                                                <a href="personal-trainers.html">Home Personal Training</a>
-                                            </li>
-                                            <li>
-                                                <a href="online-trainers.html">Online Personal Training</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Training Subscriptions</a>
-                                        <ul>
-                                            <li>
-                                                <a href="subscription-list.html">Subscriptions Setup</a>
-                                            </li>
-                                            <li>
-                                                <a href="classes-category.html">Training Categories</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-subscription-list.html">Training Videos</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-subscriptions-list.html">Training Live Subscriptions</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-subscriptions-list Rec.html">Recorded Subscriptions</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-request-list.html">Subscriptions Requests</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-request-list.html">InComplete Requests</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Training Consultations</a>
-                                        <ul>
-                                            <li>
-                                                <a href="consultation-request.html">consultation Requests</a>
-                                            </li>
-                                            <li>
-                                                <a href="consultation-plans.html"> Consultation Subscriptions</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Nutrition</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Nutritions</a>
-                                        <ul>
-                                            <li>
-                                                <a href="nutritions.html">All Nutritions</a>
-                                            </li>
-                                            <li>
-                                                <a href="nutritions-join-request.html">Nutritions Join Requests</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Nutritions Subscriptions</a>
-                                        <ul>
-                                            <li>
-                                                <a href="subscription-list.html">Subscriptions Setup</a>
-                                            </li>
-                                            <li>
-                                                <a href="meal-alternative.html"> Meal Alternative</a>
-                                            </li>
-                                            <li>
-                                                <a href="nutritions-plans.html"> Nutrition Subscriptions Plans</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-request-list.html"> Subscriptions Requests</a>
-                                            </li>
-                                            <li>
-                                                <a href="training-plan-request-list.html"> InComplete Requests</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </li>
+              <!-- Sidebar Navigation -->
+              <ul class="sidebar-nav">
+                <li class="active">
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="gi gi-stopwatch sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Dashboard</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="dashboard-2.html" class="active">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="dashboard-delivery.html">Drivers Dashboard</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-cogs sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide"
+                      >General Settings</span
+                    ></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="countries.html">Countries</a>
+                    </li>
+                    <li>
+                      <a href="cities.html">Cities</a>
+                    </li>
+                    <li>
+                      <a href="currencies.html">Currencies</a>
+                    </li>
+                    <li>
+                      <a href="zipcodes.html">Zipcodes</a>
+                    </li>
+                    <li>
+                      <a href="banners-2.html">Banners</a>
+                    </li>
+                    <li>
+                      <a href="banners-2-pending.html">Pending Banners</a>
+                    </li>
+                    <li>
+                      <a href="financial-settings.html">Financial Settings</a>
+                    </li>
+                    <li>
+                      <a href="notification-settings.html"
+                        >Notifcation Settings</a
+                      >
+                    </li>
+                    <li>
+                      <a href="backup-settings.html">Backup Settings</a>
+                    </li>
+                    <li>
+                      <a href="#">Uploading Data</a>
+                    </li>
+                    <li>
+                      <a href="complains-settings.html">Complains Settings</a>
+                    </li>
+                    <li>
+                      <a href="cancellation-settings.html"
+                        >Cancellation Settings</a
+                      >
+                    </li>
+                    <li>
+                      <a href="messages-settings.html">Messages Settings</a>
+                    </li>
+                    <li>
+                      <a href="about-settings.html">About us</a>
+                    </li>
+                    <li>
+                      <a href="privacy-policy-settings.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="terms-settings.html">Terms and Conditions</a>
+                    </li>
+                    <li>
+                      <a href="drivers-controls-settings.html"
+                        >Drivers Terms & Conditions</a
+                      >
+                    </li>
+                    <li>
+                      <a href="social-media-links.html">Social Media Links</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-users sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Manage Users</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="admins.html">Admins</a>
+                    </li>
+                    <li>
+                      <a href="roles-permissions.html">Roles & Permissions</a>
+                    </li>
+                    <li>
+                      <a href="drivers-join-requests.html"
+                        >Drivers Join Requests</a
+                      >
+                    </li>
+                    <li>
+                      <a href="drivers-all.html">Drivers</a>
+                    </li>
+                    <li>
+                      <a href="customers-list.html">Customers</a>
+                    </li>
+                    <li>
+                      <a href="#">Customers Points</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-users sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Manage Orders</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="all-orders-2.html">Main Orders</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="sidebar-nav-icon"
+                      ><svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fad"
+                        data-icon="dumbbell"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 512"
+                        class="svg-inline--fa fa-dumbbell"
+                      >
+                        <g class="fa-group">
+                          <path
+                            fill="currentColor"
+                            d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"
+                            class="fa-secondary"
+                          ></path>
+                          <path
+                            fill="currentColor"
+                            d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z"
+                            class="fa-primary"
+                          ></path>
+                        </g></svg></i
+                    ><span class="sidebar-nav-mini-hide"
+                      >Fitness Training
+                    </span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Trainers</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="trainers.html">All Trainers</a>
+                        </li>
+                        <li>
+                          <a href="trainers-join-request.html"
+                            >Trainers Join Requests</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Personal Training</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="">Personal Training Speciality</a>
+                        </li>
+                        <li>
+                          <a href="packages-list.html"
+                            >Personal Training Packages</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-tools-list.html"
+                            >Personal Training Tools</a
+                          >
+                        </li>
+                        <li>
+                          <a href="personal-trainers.html"
+                            >Home Personal Training</a
+                          >
+                        </li>
+                        <li>
+                          <a href="online-trainers.html"
+                            >Online Personal Training</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Training Subscriptions</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="subscription-list.html"
+                            >Subscriptions Setup</a
+                          >
+                        </li>
+                        <li>
+                          <a href="classes-category.html"
+                            >Training Categories</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-subscription-list.html"
+                            >Training Videos</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-subscriptions-list.html"
+                            >Training Live Subscriptions</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-subscriptions-list Rec.html"
+                            >Recorded Subscriptions</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-request-list.html"
+                            >Subscriptions Requests</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-request-list.html"
+                            >InComplete Requests</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Training Consultations</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="consultation-request.html"
+                            >consultation Requests</a
+                          >
+                        </li>
+                        <li>
+                          <a href="consultation-plans.html">
+                            Consultation Subscriptions</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-users sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Nutrition</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Nutritions</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="nutritions.html">All Nutritions</a>
+                        </li>
+                        <li>
+                          <a href="nutritions-join-request.html"
+                            >Nutritions Join Requests</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Nutritions Subscriptions</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="subscription-list.html"
+                            >Subscriptions Setup</a
+                          >
+                        </li>
+                        <li>
+                          <a href="meal-alternative.html"> Meal Alternative</a>
+                        </li>
+                        <li>
+                          <a href="nutritions-plans.html">
+                            Nutrition Subscriptions Plans</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-request-list.html">
+                            Subscriptions Requests</a
+                          >
+                        </li>
+                        <li>
+                          <a href="training-plan-request-list.html">
+                            InComplete Requests</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
 
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Nutrition Consultations</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="consultation-request.html"
+                            >Consultation Requests</a
+                          >
+                        </li>
+                        <li>
+                          <a href="consultation-plans.html"
+                            >Consultation Subscriptions</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
 
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Nutrition Consultations</a>
-                                        <ul>
-                                            <li>
-                                                <a href="consultation-request.html">Consultation Requests</a>
-                                            </li>
-                                            <li>
-                                                <a href="consultation-plans.html">Consultation Subscriptions</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="sidebar-nav-icon"
+                      ><svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fad"
+                        data-icon="dumbbell"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 512"
+                        class="svg-inline--fa fa-dumbbell"
+                      >
+                        <g class="fa-group">
+                          <path
+                            fill="currentColor"
+                            d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"
+                            class="fa-secondary"
+                          ></path>
+                          <path
+                            fill="currentColor"
+                            d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z"
+                            class="fa-primary"
+                          ></path>
+                        </g></svg></i
+                    ><span class="sidebar-nav-mini-hide"
+                      >Fitness Market</span
+                    ></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Manage Market</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="shop-category-2.html">Shop Category</a>
+                        </li>
+                        <li>
+                          <a href="shops-2.html">Shops</a>
+                        </li>
+                        <li>
+                          <a href="shop-membership.html">Shop Memberships</a>
+                        </li>
+                        <li>
+                          <a href="shops-join-request.html"
+                            >Shop join Request</a
+                          >
+                        </li>
+                        <li>
+                          <a href="branches-2.html">Branches</a>
+                        </li>
 
-                                </ul>
-                            </li>
+                        <li>
+                          <a href="shop-owners.html">Branches Management</a>
+                        </li>
+                        <li>
+                          <a href="manage-stock.html">Manage Stock</a>
+                        </li>
+                        <li>
+                          <a href="pending-categories-2.html"
+                            >Pending Categories</a
+                          >
+                        </li>
+                        <li>
+                          <a href="manage-categories-2.html"
+                            >Manage Categories</a
+                          >
+                        </li>
+                        <li>
+                          <a href="products-pending-2.html">Pending Products</a>
+                        </li>
+                        <li>
+                          <a href="products-fitness-2.html">Products</a>
+                        </li>
+                        <li>
+                          <a href="variations-2.html">Variations</a>
+                        </li>
+                        <li>
+                          <a href="discounts-2.html">Coupons</a>
+                        </li>
+                      </ul>
+                    </li>
 
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="sidebar-nav-icon"><svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="dumbbell" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-dumbbell"><g class="fa-group"><path fill="currentColor" d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z" class="fa-secondary"></path><path fill="currentColor" d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z" class="fa-primary"></path></g></svg></i><span class="sidebar-nav-mini-hide">Fitness Market</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Market</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-category-2.html">Shop Category</a>
-                                            </li>
-                                            <li>
-                                                <a href="shops-2.html">Shops</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-membership.html">Shop Memberships</a>
-                                            </li>
-                                            <li>
-                                                <a href="shops-join-request.html">Shop join Request</a>
-                                            </li>
-                                            <li>
-                                                <a href="branches-2.html">Branches</a>
-                                            </li>
-                                            
-                                            <li>
-                                                <a href="shop-owners.html">Branches Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="manage-stock.html">Manage Stock</a>
-                                            </li>
-                                            <li>
-                                                <a href="pending-categories-2.html">Pending Categories</a>
-                                            </li>
-                                            <li>
-                                                <a href="manage-categories-2.html">Manage Categories</a>
-                                            </li>
-                                            <li>
-                                                <a href="products-pending-2.html">Pending Products</a>
-                                            </li>
-                                            <li>
-                                                <a href="products-fitness-2.html">Products</a>
-                                            </li>
-                                            <li>
-                                                <a href="variations-2.html">Variations</a>
-                                            </li>
-                                            <li>
-                                                <a href="discounts-2.html">Coupons</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Manage Orders</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="shop-orders-2.html">Shop Orders</a>
+                        </li>
+                        <li>
+                          <a href="delivery-orders-2.html">Delivery Orders</a>
+                        </li>
+                        <li>
+                          <a href="shop-orders-2.html">Return Orders</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="sidebar-nav-icon"
+                      ><svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="utensils"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 416 512"
+                        class="svg-inline--fa fa-utensils fa-w-13 fa-2x"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"
+                          class=""
+                        ></path></svg></i
+                    ><span class="sidebar-nav-mini-hide"
+                      >Healthy Food Market</span
+                    ></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Manage Market</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="shop-category.html">Resturant Category</a>
+                        </li>
+                        <li>
+                          <a href="shops.html">Resturants</a>
+                        </li>
+                        <li>
+                          <a href="resturant-membership.html"
+                            >Resturant Memberships</a
+                          >
+                        </li>
+                        <li>
+                          <a href="drivers-join-requests.html"
+                            >Resturant Join Requests</a
+                          >
+                        </li>
+                        <li>
+                          <a href="branches.html">Branches</a>
+                        </li>
+                        <li>
+                          <a href="resturant-owners.html">Branch Management</a>
+                        </li>
+                        <li>
+                          <a href="manage-categories.html"
+                            >Manage Meals Categories</a
+                          >
+                        </li>
+                        <li>
+                          <a href="pending-categories.html"
+                            >Pending Categories</a
+                          >
+                        </li>
+                        <li>
+                          <a href="products-2.html">Meals</a>
+                        </li>
+                        <li>
+                          <a href="products-pending.html">Pending Meals</a>
+                        </li>
+                        <li>
+                          <a href="variations.html">Variations</a>
+                        </li>
+                        <li>
+                          <a href="discounts.html">Coupons</a>
+                        </li>
+                      </ul>
+                    </li>
 
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Orders</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-orders-2.html">Shop Orders</a>
-                                            </li>
-                                            <li>
-                                                <a href="delivery-orders-2.html">Delivery Orders</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-orders-2.html">Return Orders</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="sidebar-nav-icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="utensils" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 512" class="svg-inline--fa fa-utensils fa-w-13 fa-2x"><path fill="currentColor" d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z" class=""></path></svg></i><span class="sidebar-nav-mini-hide">Healthy Food Market</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Market</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-category.html">Resturant Category</a>
-                                            </li>
-                                            <li>
-                                                <a href="shops.html">Resturants</a>
-                                            </li>
-                                            <li>
-                                                <a href="resturant-membership.html">Resturant Memberships</a>
-                                            </li>
-                                            <li>
-                                                <a href="drivers-join-requests.html">Resturant Join Requests</a>
-                                            </li>
-                                            <li>
-                                                <a href="branches.html">Branches</a>
-                                            </li>
-                                            <li>
-                                                <a href="resturant-owners.html">Branch Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="manage-categories.html">Manage Meals Categories</a>
-                                            </li>
-                                            <li>
-                                                <a href="pending-categories.html">Pending Categories</a>
-                                            </li>
-                                            <li>
-                                                <a href="products-2.html">Meals</a>
-                                            </li>
-                                            <li>
-                                                <a href="products-pending.html">Pending Meals</a>
-                                            </li>
-                                            <li>
-                                                <a href="variations.html">Variations</a>
-                                            </li>
-                                            <li>
-                                                <a href="discounts.html">Coupons</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                    <li>
+                      <a href="#" class="sidebar-nav-submenu"
+                        ><i class="fa fa-angle-left sidebar-nav-indicator"></i
+                        >Manage Orders</a
+                      >
+                      <ul>
+                        <li>
+                          <a href="shop-orders.html">resturant Orders</a>
+                        </li>
+                        <li>
+                          <a href="delivery-orders.html">Delivery Orders</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
 
-                                    <li>
-                                        <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Orders</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-orders.html">resturant Orders</a>
-                                            </li>
-                                            <li>
-                                                <a href="delivery-orders.html">Delivery Orders</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-comments sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Customer Support</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="messages-groups.html">Messages Groups</a>
-                                    </li>
-                                    <li>
-                                        <a href="sms-log.html">SMS Log</a>
-                                    </li>
-                                    <li>
-                                        <a href="send-sms.html">Send SMS</a>
-                                    </li>
-                                    <li>
-                                        <a href="chat.html">Chat</a>
-                                    </li>
-                                    <li>
-                                        <a href="complains.html">Complains</a>
-                                    </li>
-                                    <li>
-                                        <a href="#.html">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-area-chart sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manage Payments</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="income-log.html">Income Log</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop-wallet.html">Shop Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="shops-payment-log.html">Shop Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="shops-wallet.html">Resturant Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="shops-payment-log.html">Resturant Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="customers-wallet.html">Customer Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="customers-payment-log.html">Customers Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="drivers-wallet.html">Driver Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="drivers-payment-log.html">Driver Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="trainers-wallet.html">Trianers Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="trainers-payment-log.html">Trianers Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="nutritionists-wallet.html">Nutritionists Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="nutritionists-payment-log.html">Nutritionists Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shipping Wallet</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shipping Payment Log </a>
-                                    </li>
-                                    <li>
-                                        <a href="vat-log.html">Value Added Tax</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-star sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Ratings</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="drivers-rating.html">Drivers Rating</a>
-                                    </li>
-                                    <li>
-                                        <a href="shops-rating.html">Shops Rating</a>
-                                    </li>
-                                    <li>
-                                        <a href="resturant-rating.html">Resturants Rating</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Fitness Trainers' Rating</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Nutritionists Rating</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-bar-chart-o sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Reports</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Shops Most Least Sales</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Branch Order Dates</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Orders Delivery (Drivers)</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Cities Most Least Sales</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Customers Transactions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Orders Delivery (Shipping Companies)</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Complaints Submitted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Customers Wallets</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drivers Transactions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Branches Most Least Sales</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Orders (Recieved Transfered Holded)</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Peak Times</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shop Load Cost From Delivery</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Orders Delivered Correctly</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Discounts</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shipping Methods Transactions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Products Transactions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Coupons</a>
-                                    </li>                                    
-                                    <li>
-                                        <a href="#">Favourite Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Returns Transactions</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-<!-- Sidebar Navigation  
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-comments sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide"
+                      >Customer Support</span
+                    ></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="messages-groups.html">Messages Groups</a>
+                    </li>
+                    <li>
+                      <a href="sms-log.html">SMS Log</a>
+                    </li>
+                    <li>
+                      <a href="send-sms.html">Send SMS</a>
+                    </li>
+                    <li>
+                      <a href="chat.html">Chat</a>
+                    </li>
+                    <li>
+                      <a href="complains.html">Complains</a>
+                    </li>
+                    <li>
+                      <a href="#.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-area-chart sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide"
+                      >Manage Payments</span
+                    ></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="income-log.html">Income Log</a>
+                    </li>
+                    <li>
+                      <a href="shop-wallet.html">Shop Wallet</a>
+                    </li>
+                    <li>
+                      <a href="shops-payment-log.html">Shop Payment Log </a>
+                    </li>
+                    <li>
+                      <a href="shops-wallet.html">Resturant Wallet</a>
+                    </li>
+                    <li>
+                      <a href="shops-payment-log.html"
+                        >Resturant Payment Log
+                      </a>
+                    </li>
+                    <li>
+                      <a href="customers-wallet.html">Customer Wallet</a>
+                    </li>
+                    <li>
+                      <a href="customers-payment-log.html"
+                        >Customers Payment Log
+                      </a>
+                    </li>
+                    <li>
+                      <a href="drivers-wallet.html">Driver Wallet</a>
+                    </li>
+                    <li>
+                      <a href="drivers-payment-log.html">Driver Payment Log </a>
+                    </li>
+                    <li>
+                      <a href="trainers-wallet.html">Trianers Wallet</a>
+                    </li>
+                    <li>
+                      <a href="trainers-payment-log.html"
+                        >Trianers Payment Log
+                      </a>
+                    </li>
+                    <li>
+                      <a href="nutritionists-wallet.html"
+                        >Nutritionists Wallet</a
+                      >
+                    </li>
+                    <li>
+                      <a href="nutritionists-payment-log.html"
+                        >Nutritionists Payment Log
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Shipping Wallet</a>
+                    </li>
+                    <li>
+                      <a href="#">Shipping Payment Log </a>
+                    </li>
+                    <li>
+                      <a href="vat-log.html">Value Added Tax</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-star sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Ratings</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="drivers-rating.html">Drivers Rating</a>
+                    </li>
+                    <li>
+                      <a href="shops-rating.html">Shops Rating</a>
+                    </li>
+                    <li>
+                      <a href="resturant-rating.html">Resturants Rating</a>
+                    </li>
+                    <li>
+                      <a href="#">Fitness Trainers' Rating</a>
+                    </li>
+                    <li>
+                      <a href="#">Nutritionists Rating</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-bar-chart-o sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Reports</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="#">Shops Most Least Sales</a>
+                    </li>
+                    <li>
+                      <a href="#">Branch Order Dates</a>
+                    </li>
+                    <li>
+                      <a href="#">Orders Delivery (Drivers)</a>
+                    </li>
+                    <li>
+                      <a href="#">Cities Most Least Sales</a>
+                    </li>
+                    <li>
+                      <a href="#">Customers Transactions</a>
+                    </li>
+                    <li>
+                      <a href="#">Orders Delivery (Shipping Companies)</a>
+                    </li>
+                    <li>
+                      <a href="#">Complaints Submitted</a>
+                    </li>
+                    <li>
+                      <a href="#">Customers Wallets</a>
+                    </li>
+                    <li>
+                      <a href="#">Drivers Transactions</a>
+                    </li>
+                    <li>
+                      <a href="#">Branches Most Least Sales</a>
+                    </li>
+                    <li>
+                      <a href="#">Orders (Recieved Transfered Holded)</a>
+                    </li>
+                    <li>
+                      <a href="#">Peak Times</a>
+                    </li>
+                    <li>
+                      <a href="#">Shop Load Cost From Delivery</a>
+                    </li>
+                    <li>
+                      <a href="#">Orders Delivered Correctly</a>
+                    </li>
+                    <li>
+                      <a href="#">Discounts</a>
+                    </li>
+                    <li>
+                      <a href="#">Shipping Methods Transactions</a>
+                    </li>
+                    <li>
+                      <a href="#">Products Transactions</a>
+                    </li>
+                    <li>
+                      <a href="#">Coupons</a>
+                    </li>
+                    <li>
+                      <a href="#">Favourite Products</a>
+                    </li>
+                    <li>
+                      <a href="#">Returns Transactions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="blogs.html"
+                    ><i class="fa fa-pencil-square-o sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Blogs</span></a
+                  >
+                </li>
+              </ul>
+              <!-- Sidebar Navigation  
                         <ul class="sidebar-nav">
                             <li>
                                 <a href="dashboard-2.html"><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
@@ -1291,19 +1755,19 @@
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-bar-chart-o sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Reports</span></a>
                             </li>
                         </ul>
---> 
-                    </div>
-                    <!-- END Sidebar Content -->
-                </div>
-                <!-- END Wrapper for scrolling functionality -->
+-->
             </div>
-            <!-- END Main Sidebar -->
+            <!-- END Sidebar Content -->
+          </div>
+          <!-- END Wrapper for scrolling functionality -->
+        </div>
+        <!-- END Main Sidebar -->
 
-            <!-- Main Container -->
-            <div id="main-container">
-                <!-- Header -->
-                <!-- In the PHP version you can set the following options from inc/config file -->
-                <!--
+        <!-- Main Container -->
+        <div id="main-container">
+          <!-- Header -->
+          <!-- In the PHP version you can set the following options from inc/config file -->
+          <!--
                         Available header.navbar classes:
 
                         'navbar-default'            for the default light header
@@ -1315,317 +1779,504 @@
                         'navbar-fixed-bottom'       for a bottom fixed header (fixed sidebars with scroll will be auto initialized, functionality can be found in js/app.js - handleSidebar()))
                             'header-fixed-bottom'   has to be added on #page-container only if the class 'navbar-fixed-bottom' was added
                     -->
-                <header class="navbar navbar-inverse">
-                    <!-- Left Header Navigation -->
-                    <ul class="nav navbar-nav-custom">
-                        <!-- Main Sidebar Toggle Button -->
-                        <li>
-                            <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar');this.blur();">
-                                <i class="fa fa-bars fa-fw"></i>
-                            </a>
-                        </li>
-                        <!-- END Main Sidebar Toggle Button -->
-                    </ul>
-                    <!-- END Left Header Navigation -->
+          <header class="navbar navbar-inverse">
+            <!-- Left Header Navigation -->
+            <ul class="nav navbar-nav-custom">
+              <!-- Main Sidebar Toggle Button -->
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  onclick="App.sidebar('toggle-sidebar');this.blur();"
+                >
+                  <i class="fa fa-bars fa-fw"></i>
+                </a>
+              </li>
+              <!-- END Main Sidebar Toggle Button -->
+            </ul>
+            <!-- END Left Header Navigation -->
 
+            <!-- Right Header Navigation -->
+            <ul class="nav navbar-nav-custom pull-right">
+              <!-- Alternative Sidebar Toggle Button -->
+              <!-- END Alternative Sidebar Toggle Button -->
 
-
-                    <!-- Right Header Navigation -->
-                    <ul class="nav navbar-nav-custom pull-right">
-                        <!-- Alternative Sidebar Toggle Button -->
-                        <!-- END Alternative Sidebar Toggle Button -->
-
-                        <!-- User Dropdown -->
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-bell"></i>
-                                <span class="label label-primary label-indicator animation-floating">4</span>
-                            </a>
-                            <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                <li class="dropdown-header text-center">Activity</li>
-                                <li>
-                                    <div class="alert alert-success alert-alt">
-                                        <small>5 min ago</small><br>
-                                        <i class="fa fa-thumbs-up fa-fw"></i> You had a new sale ($10)
-                                    </div>
-                                    <div class="alert alert-info alert-alt">
-                                        <small>10 min ago</small><br>
-                                        <i class="fa fa-arrow-up fa-fw"></i> Upgraded to Pro plan
-                                    </div>
-                                    <div class="alert alert-warning alert-alt">
-                                        <small>3 hours ago</small><br>
-                                        <i class="fa fa-exclamation fa-fw"></i> Running low on space<br><strong>18GB in use</strong> 2GB left
-                                    </div>
-                                    <div class="alert alert-danger alert-alt">
-                                        <small>Yesterday</small><br>
-                                        <i class="fa fa-bug fa-fw"></i> <a href="javascript:void(0)" class="alert-link">New bug submitted</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- END User Dropdown -->
-                        <li>
-                            <a href="#"><b>عربي</b></a>
-                        </li>
-                        <!-- END Right Header Navigation -->
-                    </ul>
-                </header>
-                <!-- END Header -->
-
-                <!-- Page content -->
-                <div id="page-content">
-                    <!-- eCommerce Categories Header -->
-                    <div class="content-header">
-                        <div class="header-section">
-                            <h1>
-                                <i class="gi gi-shop"></i>Shops<br><small>Manage and Edit Shops!</small>
-                            </h1>
-                        </div>
+              <!-- User Dropdown -->
+              <li class="dropdown">
+                <a
+                  href="javascript:void(0)"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                >
+                  <i class="fa fa-bell"></i>
+                  <span
+                    class="label label-primary label-indicator animation-floating"
+                    >4</span
+                  >
+                </a>
+                <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
+                  <li class="dropdown-header text-center">Activity</li>
+                  <li>
+                    <div class="alert alert-success alert-alt">
+                      <small>5 min ago</small><br />
+                      <i class="fa fa-thumbs-up fa-fw"></i> You had a new sale
+                      ($10)
                     </div>
-                    <!-- END eCommerce Categories Header -->
-
-                    <!-- Quick Stats -->
-                    <div class="row text-center">
-                        <div class="col-sm-6 col-lg-3">
-                            <a href="shop-add-new-2.html" class="widget widget-hover-effect2">
-                                <div class="widget-extra themed-background-success">
-                                    <h4 class="widget-content-light"><strong>Add</strong> Shop</h4>
-                                </div>
-                                <div class="widget-extra-full"><span class="h2 text-success animation-expandOpen"><i class="fa fa-plus"></i></span></div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a href="javascript:void(0)" class="widget widget-hover-effect2">
-                                <div class="widget-extra themed-background-dark">
-                                    <h4 class="widget-content-light"><strong>All</strong> Shops</h4>
-                                </div>
-                                <div class="widget-extra-full"><span class="h2 themed-color-dark animation-expandOpen">4.982</span></div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a href="javascript:void(0)" class="widget widget-hover-effect2">
-                                <div class="widget-extra themed-background-dark">
-                                    <h4 class="widget-content-light"><strong>Available</strong> Shops</h4>
-                                </div>
-                                <div class="widget-extra-full"><span class="h2 themed-color-dark animation-expandOpen">4.982</span></div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a href="javascript:void(0)" class="widget widget-hover-effect2">
-                                <div class="widget-extra themed-background-fire">
-                                    <h4 class="widget-content-light"><strong>Un Available</strong> Shops</h4>
-                                </div>
-                                <div class="widget-extra-full"><span class="h2 themed-color-dark animation-expandOpen">4.982</span></div>
-                            </a>
-                        </div>
+                    <div class="alert alert-info alert-alt">
+                      <small>10 min ago</small><br />
+                      <i class="fa fa-arrow-up fa-fw"></i> Upgraded to Pro plan
                     </div>
-                    <!-- END Quick Stats -->
-
-                    <!-- All Categories Block -->
-                    <div class="block full">
-                        <!-- All Categories Title -->
-                        <div class="block-title">
-                            <div class="block-options pull-right">
-                                <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="Settings"><i class="fa fa-cog"></i></a>
-                            </div>
-                            <h2><strong>All</strong> Shops</h2>
-                        </div>
-                        <!-- END All Categories Title -->
-
-                        <!-- All Categories Content -->
-                        <div id="ecom-products_wrapper" class="dataTables_wrapper form-inline no-footer">
-                            <div class="row">
-                                <div class="col-sm-6 col-xs-5">
-                                    <div class="dataTables_length" id="ecom-products_length">
-                                        <label class="products_length">
-                                                <select name="ecom-products_length" aria-controls="ecom-products" class="form-control">
-                                                    <option value="10">10</option>
-                                                    <option value="20">20</option>
-                                                    <option value="30">30</option>
-                                                    <option value="-1">All</option>
-                                                </select>
-                                            </label>
-                                        <label>
-                                                <select name="ecom-products_category" aria-controls="ecom-products" class="form-control">
-                                                    <option>Category</option>
-                                                    <option value="Category1">Category1</option>
-                                                    <option value="Category2">Category2</option>
-                                                    <option value="Category3">Category3</option>
-                                                </select>
-                                            </label>
-                                        <label>
-                                                <select name="ecom-products_city" aria-controls="ecom-products" class="form-control">
-                                                    <option>City</option>
-                                                    <option value="cat1">cat1</option>
-                                                    <option value="cat2">cat2</option>
-                                                </select>
-                                            </label>
-                                        <label>
-                                                <select name="ecom-products_country" aria-controls="ecom-products" class="form-control">
-                                                    <option>Country</option>
-                                                    <option value="cat1">cat1</option>
-                                                    <option value="cat2">cat2</option>
-                                                </select>
-                                            </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-xs-7">
-                                    <div id="ecom-products_filter" class="dataTables_filter">
-                                        <label>
-                                                <div class="input-group">
-                                                    <input type="search" class="form-control" placeholder="Search" aria-controls="ecom-products">
-                                                    <span class="input-group-addon">
-                                                        <i class="fa fa-search"></i>
-                                                    </span>
-                                                </div>
-                                            </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="table-responsive">
-                                <table id="ecom-products" class="table table-bordered table-striped table-vcenter">
-                                    <thead>
-                                        <tr>
-                                            <th class="text-center" style="width: 70px;">ID</th>
-                                            <th>Shop Name</th>
-                                            <th class="text-center">Location</th>
-                                            <th class="text-center">Shop Category</th>
-                                            <th class="text-center">Owner Name</th>
-                                            <th class="text-center">Email</th>
-                                            <th class="text-center">Phone</th>
-                                            <th class="text-center">Active</th>
-                                            <th class="text-center">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center"><a href="shop-add-new-2.html"><strong>1</strong></a></td>
-                                            <td><a href="shop-add-new-2.html">Shop #99</a></td>
-                                            <td class="text-center">alexandria - egypt</td>
-                                            <td class="text-center">Shop Category 1</td>
-                                            <td class="text-center">Ahmed Ahmed</td>
-                                            <td class="text-center">ahmed@mail.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked=""><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                    <a href="shop-add-new-2.html" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="#modal-confirmation" data-toggle="modal" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="shop-add-new-2.html"><strong>2</strong></a></td>
-                                            <td><a href="shop-add-new-2.html">Shop #98</a></td>
-                                            <td class="text-center">alexandria - egypt</td>
-                                            <td class="text-center">Shop Category 1</td>
-                                            <td class="text-center">Ahmed Ahmed</td>
-                                            <td class="text-center">ahmed@mail.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked=""><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                    <a href="shop-add-new-2.html" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="#modal-confirmation" data-toggle="modal" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="shop-add-new-2.html"><strong>3</strong></a></td>
-                                            <td><a href="shop-add-new-2.html">Shop #97</a></td>
-                                            <td class="text-center">alexandria - egypt</td>
-                                            <td class="text-center">Shop Category 1</td>
-                                            <td class="text-center">Ahmed Ahmed</td>
-                                            <td class="text-center">ahmed@mail.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked=""><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                    <a href="shop-add-new-2.html" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="#modal-confirmation" data-toggle="modal" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center"><a href="shop-add-new-2.html"><strong>4</strong></a></td>
-                                            <td><a href="shop-add-new-2.html">Shop #96</a></td>
-                                            <td class="text-center">alexandria - egypt</td>
-                                            <td class="text-center">Shop Category 1</td>
-                                            <td class="text-center">Ahmed Ahmed</td>
-                                            <td class="text-center">ahmed@mail.com</td>
-                                            <td class="text-center">012235932</td>
-                                            <td class="text-center">
-                                                <label class="switch switch-success">
-                                                        <input type="checkbox" checked=""><span></span>
-                                                    </label>
-                                            </td>
-                                            <td class="text-center">
-                                                <div class="btn-group btn-group-xs">
-                                                    <a href="#" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="View"><i class="fa fa-eye"></i></a>
-                                                    <a href="shop-add-new-2.html" data-toggle="tooltip" title="Edit" class="btn btn-default"><i class="fa fa-pencil"></i></a>
-                                                    <a href="#modal-confirmation" data-toggle="modal" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-5 hidden-xs">
-                                    <div class="dataTables_info" id="ecom-products_info" role="status" aria-live="polite">
-                                        <strong>1</strong>-<strong>20</strong> of <strong>60</strong>
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-xs-12 clearfix">
-                                    <div class="dataTables_paginate paging_bootstrap" id="ecom-products_paginate">
-                                        <ul class="pagination pagination-sm remove-margin">
-                                            <li class="prev disabled"><a href="javascript:void(0)"><i class="fa fa-chevron-left"></i> </a></li>
-                                            <li class="active"><a href="javascript:void(0)">1</a></li>
-                                            <li><a href="javascript:void(0)">2</a></li>
-                                            <li><a href="javascript:void(0)">3</a></li>
-                                            <li class="next">
-                                                <a href="javascript:void(0)"> <i class="fa fa-chevron-right"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END All Categories Content -->
+                    <div class="alert alert-warning alert-alt">
+                      <small>3 hours ago</small><br />
+                      <i class="fa fa-exclamation fa-fw"></i> Running low on
+                      space<br /><strong>18GB in use</strong> 2GB left
                     </div>
-                    <!-- END All Categories Block -->
-                </div>
-                <!-- END Page Content -->
+                    <div class="alert alert-danger alert-alt">
+                      <small>Yesterday</small><br />
+                      <i class="fa fa-bug fa-fw"></i>
+                      <a href="javascript:void(0)" class="alert-link"
+                        >New bug submitted</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- END User Dropdown -->
+              <li>
+                <a href="#"><b>عربي</b></a>
+              </li>
+              <!-- END Right Header Navigation -->
+            </ul>
+          </header>
+          <!-- END Header -->
 
-                <!-- Footer -->
-                <footer class="clearfix">
-                    <div class="pull-right">
-                        Crafted with <i class="fa fa-heart text-danger"></i> by <a href="#" target="_blank">G7</a>
-                    </div>
-                    <div class="pull-left">
-                        <span id="year-copy"></span> &copy; <a href="#" target="_blank">My Health</a>
-                    </div>
-                </footer>
-                <!-- END Footer -->
+          <!-- Page content -->
+          <div id="page-content">
+            <!-- eCommerce Categories Header -->
+            <div class="content-header">
+              <div class="header-section">
+                <h1>
+                  <i class="gi gi-shop"></i>Shops<br /><small
+                    >Manage and Edit Shops!</small
+                  >
+                </h1>
+              </div>
             </div>
-            <!-- END Main Container -->
+            <!-- END eCommerce Categories Header -->
+
+            <!-- Quick Stats -->
+            <div class="row text-center">
+              <div class="col-sm-6 col-lg-3">
+                <a
+                  href="shop-add-new-2.html"
+                  class="widget widget-hover-effect2"
+                >
+                  <div class="widget-extra themed-background-success">
+                    <h4 class="widget-content-light">
+                      <strong>Add</strong> Shop
+                    </h4>
+                  </div>
+                  <div class="widget-extra-full">
+                    <span class="h2 text-success animation-expandOpen"
+                      ><i class="fa fa-plus"></i
+                    ></span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a
+                  href="javascript:void(0)"
+                  class="widget widget-hover-effect2"
+                >
+                  <div class="widget-extra themed-background-dark">
+                    <h4 class="widget-content-light">
+                      <strong>All</strong> Shops
+                    </h4>
+                  </div>
+                  <div class="widget-extra-full">
+                    <span class="h2 themed-color-dark animation-expandOpen"
+                      >4.982</span
+                    >
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a
+                  href="javascript:void(0)"
+                  class="widget widget-hover-effect2"
+                >
+                  <div class="widget-extra themed-background-dark">
+                    <h4 class="widget-content-light">
+                      <strong>Available</strong> Shops
+                    </h4>
+                  </div>
+                  <div class="widget-extra-full">
+                    <span class="h2 themed-color-dark animation-expandOpen"
+                      >4.982</span
+                    >
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a
+                  href="javascript:void(0)"
+                  class="widget widget-hover-effect2"
+                >
+                  <div class="widget-extra themed-background-fire">
+                    <h4 class="widget-content-light">
+                      <strong>Un Available</strong> Shops
+                    </h4>
+                  </div>
+                  <div class="widget-extra-full">
+                    <span class="h2 themed-color-dark animation-expandOpen"
+                      >4.982</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- END Quick Stats -->
+
+            <!-- All Categories Block -->
+            <div class="block full">
+              <!-- All Categories Title -->
+              <div class="block-title">
+                <div class="block-options pull-right">
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-alt btn-sm btn-default"
+                    data-toggle="tooltip"
+                    title="Settings"
+                    ><i class="fa fa-cog"></i
+                  ></a>
+                </div>
+                <h2><strong>All</strong> Shops</h2>
+              </div>
+              <!-- END All Categories Title -->
+
+              <!-- All Categories Content -->
+              <div
+                id="ecom-products_wrapper"
+                class="dataTables_wrapper form-inline no-footer"
+              >
+                <div class="row">
+                  <div class="col-sm-6 col-xs-5">
+                    <div class="dataTables_length" id="ecom-products_length">
+                      <label class="products_length">
+                        <select
+                          name="ecom-products_length"
+                          aria-controls="ecom-products"
+                          class="form-control"
+                        >
+                          <option value="10">10</option>
+                          <option value="20">20</option>
+                          <option value="30">30</option>
+                          <option value="-1">All</option>
+                        </select>
+                      </label>
+                      <label>
+                        <select
+                          name="ecom-products_category"
+                          aria-controls="ecom-products"
+                          class="form-control"
+                        >
+                          <option>Category</option>
+                          <option value="Category1">Category1</option>
+                          <option value="Category2">Category2</option>
+                          <option value="Category3">Category3</option>
+                        </select>
+                      </label>
+                      <label>
+                        <select
+                          name="ecom-products_city"
+                          aria-controls="ecom-products"
+                          class="form-control"
+                        >
+                          <option>City</option>
+                          <option value="cat1">cat1</option>
+                          <option value="cat2">cat2</option>
+                        </select>
+                      </label>
+                      <label>
+                        <select
+                          name="ecom-products_country"
+                          aria-controls="ecom-products"
+                          class="form-control"
+                        >
+                          <option>Country</option>
+                          <option value="cat1">cat1</option>
+                          <option value="cat2">cat2</option>
+                        </select>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-xs-7">
+                    <div id="ecom-products_filter" class="dataTables_filter">
+                      <label>
+                        <div class="input-group">
+                          <input
+                            type="search"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-controls="ecom-products"
+                          />
+                          <span class="input-group-addon">
+                            <i class="fa fa-search"></i>
+                          </span>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-responsive">
+                  <table
+                    id="ecom-products"
+                    class="table table-bordered table-striped table-vcenter"
+                  >
+                    <thead>
+                      <tr>
+                        <th class="text-center" style="width: 70px">ID</th>
+                        <th>Shop Name</th>
+                        <th class="text-center">Location</th>
+                        <th class="text-center">Shop Category</th>
+                        <th class="text-center">Owner Name</th>
+                        <th class="text-center">Email</th>
+                        <th class="text-center">Phone</th>
+                        <th class="text-center">Active</th>
+                        <th class="text-center">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="text-center">
+                          <a href="shop-add-new-2.html"><strong>1</strong></a>
+                        </td>
+                        <td><a href="shop-add-new-2.html">Shop #99</a></td>
+                        <td class="text-center">alexandria - egypt</td>
+                        <td class="text-center">Shop Category 1</td>
+                        <td class="text-center">Ahmed Ahmed</td>
+                        <td class="text-center">ahmed@mail.com</td>
+                        <td class="text-center">012235932</td>
+                        <td class="text-center">
+                          <label class="switch switch-success">
+                            <input type="checkbox" checked="" /><span></span>
+                          </label>
+                        </td>
+                        <td class="text-center">
+                          <div class="btn-group btn-group-xs">
+                            <a
+                              href="#"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-default"
+                              data-original-title="View"
+                              ><i class="fa fa-eye"></i
+                            ></a>
+                            <a
+                              href="shop-add-new-2.html"
+                              data-toggle="tooltip"
+                              title="Edit"
+                              class="btn btn-default"
+                              ><i class="fa fa-pencil"></i
+                            ></a>
+                            <a
+                              href="#modal-confirmation"
+                              data-toggle="modal"
+                              title="Delete"
+                              class="btn btn-xs btn-danger"
+                              ><i class="fa fa-trash"></i
+                            ></a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">
+                          <a href="shop-add-new-2.html"><strong>2</strong></a>
+                        </td>
+                        <td><a href="shop-add-new-2.html">Shop #98</a></td>
+                        <td class="text-center">alexandria - egypt</td>
+                        <td class="text-center">Shop Category 1</td>
+                        <td class="text-center">Ahmed Ahmed</td>
+                        <td class="text-center">ahmed@mail.com</td>
+                        <td class="text-center">012235932</td>
+                        <td class="text-center">
+                          <label class="switch switch-success">
+                            <input type="checkbox" checked="" /><span></span>
+                          </label>
+                        </td>
+                        <td class="text-center">
+                          <div class="btn-group btn-group-xs">
+                            <a
+                              href="#"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-default"
+                              data-original-title="View"
+                              ><i class="fa fa-eye"></i
+                            ></a>
+                            <a
+                              href="shop-add-new-2.html"
+                              data-toggle="tooltip"
+                              title="Edit"
+                              class="btn btn-default"
+                              ><i class="fa fa-pencil"></i
+                            ></a>
+                            <a
+                              href="#modal-confirmation"
+                              data-toggle="modal"
+                              title="Delete"
+                              class="btn btn-xs btn-danger"
+                              ><i class="fa fa-trash"></i
+                            ></a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">
+                          <a href="shop-add-new-2.html"><strong>3</strong></a>
+                        </td>
+                        <td><a href="shop-add-new-2.html">Shop #97</a></td>
+                        <td class="text-center">alexandria - egypt</td>
+                        <td class="text-center">Shop Category 1</td>
+                        <td class="text-center">Ahmed Ahmed</td>
+                        <td class="text-center">ahmed@mail.com</td>
+                        <td class="text-center">012235932</td>
+                        <td class="text-center">
+                          <label class="switch switch-success">
+                            <input type="checkbox" checked="" /><span></span>
+                          </label>
+                        </td>
+                        <td class="text-center">
+                          <div class="btn-group btn-group-xs">
+                            <a
+                              href="#"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-default"
+                              data-original-title="View"
+                              ><i class="fa fa-eye"></i
+                            ></a>
+                            <a
+                              href="shop-add-new-2.html"
+                              data-toggle="tooltip"
+                              title="Edit"
+                              class="btn btn-default"
+                              ><i class="fa fa-pencil"></i
+                            ></a>
+                            <a
+                              href="#modal-confirmation"
+                              data-toggle="modal"
+                              title="Delete"
+                              class="btn btn-xs btn-danger"
+                              ><i class="fa fa-trash"></i
+                            ></a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">
+                          <a href="shop-add-new-2.html"><strong>4</strong></a>
+                        </td>
+                        <td><a href="shop-add-new-2.html">Shop #96</a></td>
+                        <td class="text-center">alexandria - egypt</td>
+                        <td class="text-center">Shop Category 1</td>
+                        <td class="text-center">Ahmed Ahmed</td>
+                        <td class="text-center">ahmed@mail.com</td>
+                        <td class="text-center">012235932</td>
+                        <td class="text-center">
+                          <label class="switch switch-success">
+                            <input type="checkbox" checked="" /><span></span>
+                          </label>
+                        </td>
+                        <td class="text-center">
+                          <div class="btn-group btn-group-xs">
+                            <a
+                              href="#"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-default"
+                              data-original-title="View"
+                              ><i class="fa fa-eye"></i
+                            ></a>
+                            <a
+                              href="shop-add-new-2.html"
+                              data-toggle="tooltip"
+                              title="Edit"
+                              class="btn btn-default"
+                              ><i class="fa fa-pencil"></i
+                            ></a>
+                            <a
+                              href="#modal-confirmation"
+                              data-toggle="modal"
+                              title="Delete"
+                              class="btn btn-xs btn-danger"
+                              ><i class="fa fa-trash"></i
+                            ></a>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="row">
+                  <div class="col-sm-5 hidden-xs">
+                    <div
+                      class="dataTables_info"
+                      id="ecom-products_info"
+                      role="status"
+                      aria-live="polite"
+                    >
+                      <strong>1</strong>-<strong>20</strong> of
+                      <strong>60</strong>
+                    </div>
+                  </div>
+                  <div class="col-sm-7 col-xs-12 clearfix">
+                    <div
+                      class="dataTables_paginate paging_bootstrap"
+                      id="ecom-products_paginate"
+                    >
+                      <ul class="pagination pagination-sm remove-margin">
+                        <li class="prev disabled">
+                          <a href="javascript:void(0)"
+                            ><i class="fa fa-chevron-left"></i>
+                          </a>
+                        </li>
+                        <li class="active">
+                          <a href="javascript:void(0)">1</a>
+                        </li>
+                        <li><a href="javascript:void(0)">2</a></li>
+                        <li><a href="javascript:void(0)">3</a></li>
+                        <li class="next">
+                          <a href="javascript:void(0)">
+                            <i class="fa fa-chevron-right"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END All Categories Content -->
+            </div>
+            <!-- END All Categories Block -->
+          </div>
+          <!-- END Page Content -->
+
+          <!-- Footer -->
+          <footer class="clearfix">
+            <div class="pull-right">
+              Crafted with <i class="fa fa-heart text-danger"></i> by
+              <a href="#" target="_blank">G7</a>
+            </div>
+            <div class="pull-left">
+              <span id="year-copy"></span> &copy;
+              <a href="#" target="_blank">My Health</a>
+            </div>
+          </footer>
+          <!-- END Footer -->
         </div>
-        <!-- END Page Container -->
+        <!-- END Main Container -->
+      </div>
+      <!-- END Page Container -->
     </div>
     <!-- END Page Wrapper -->
 
@@ -1633,137 +2284,251 @@
     <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
 
     <!-- User Settings, modal which opens from Settings link (found in top right user menu) and the Cog link (found in sidebar user info) -->
-    <div id="modal-user-settings" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header text-center">
-                    <h2 class="modal-title"><i class="fa fa-pencil"></i> Settings</h2>
-                </div>
-                <!-- END Modal Header -->
+    <div
+      id="modal-user-settings"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header text-center">
+            <h2 class="modal-title"><i class="fa fa-pencil"></i> Settings</h2>
+          </div>
+          <!-- END Modal Header -->
 
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;">
-                        <fieldset>
-                            <legend>Vital Info</legend>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">Username</label>
-                                <div class="col-md-8">
-                                    <p class="form-control-static">Admin</p>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="user-settings-email">Email</label>
-                                <div class="col-md-8">
-                                    <input type="email" id="user-settings-email" name="user-settings-email" class="form-control" value="admin@example.com">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="user-settings-notifications">Email Notifications</label>
-                                <div class="col-md-8">
-                                    <label class="switch switch-primary">
-                                            <input type="checkbox" id="user-settings-notifications" name="user-settings-notifications" value="1" checked>
-                                            <span></span>
-                                        </label>
-                                </div>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Password Update</legend>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="user-settings-password">New Password</label>
-                                <div class="col-md-8">
-                                    <input type="password" id="user-settings-password" name="user-settings-password" class="form-control" placeholder="Please choose a complex one..">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="user-settings-repassword">Confirm New Password</label>
-                                <div class="col-md-8">
-                                    <input type="password" id="user-settings-repassword" name="user-settings-repassword" class="form-control" placeholder="..and confirm it!">
-                                </div>
-                            </div>
-                        </fieldset>
-                        <div class="form-group form-actions">
-                            <div class="col-xs-12 text-right">
-                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
-                            </div>
-                        </div>
-                    </form>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <form
+              action="index.html"
+              method="post"
+              enctype="multipart/form-data"
+              class="form-horizontal form-bordered"
+              onsubmit="return false;"
+            >
+              <fieldset>
+                <legend>Vital Info</legend>
+                <div class="form-group">
+                  <label class="col-md-4 control-label">Username</label>
+                  <div class="col-md-8">
+                    <p class="form-control-static">Admin</p>
+                  </div>
                 </div>
-                <!-- END Modal Body -->
-            </div>
+                <div class="form-group">
+                  <label
+                    class="col-md-4 control-label"
+                    for="user-settings-email"
+                    >Email</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="email"
+                      id="user-settings-email"
+                      name="user-settings-email"
+                      class="form-control"
+                      value="admin@example.com"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label
+                    class="col-md-4 control-label"
+                    for="user-settings-notifications"
+                    >Email Notifications</label
+                  >
+                  <div class="col-md-8">
+                    <label class="switch switch-primary">
+                      <input
+                        type="checkbox"
+                        id="user-settings-notifications"
+                        name="user-settings-notifications"
+                        value="1"
+                        checked
+                      />
+                      <span></span>
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Password Update</legend>
+                <div class="form-group">
+                  <label
+                    class="col-md-4 control-label"
+                    for="user-settings-password"
+                    >New Password</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="password"
+                      id="user-settings-password"
+                      name="user-settings-password"
+                      class="form-control"
+                      placeholder="Please choose a complex one.."
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label
+                    class="col-md-4 control-label"
+                    for="user-settings-repassword"
+                    >Confirm New Password</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="password"
+                      id="user-settings-repassword"
+                      name="user-settings-repassword"
+                      class="form-control"
+                      placeholder="..and confirm it!"
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <div class="form-group form-actions">
+                <div class="col-xs-12 text-right">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-default"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="submit" class="btn btn-sm btn-primary">
+                    Save Changes
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- END Modal Body -->
         </div>
+      </div>
     </div>
     <!-- END User Settings -->
 
     <!-- Add Category Modal -->
-    <div id="modal-add-category" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header text-center">
-                    <h2 class="modal-title"><i class="fa fa-pencil"></i> Add Shop Category</h2>
-                </div>
-                <!-- END Modal Header -->
+    <div
+      id="modal-add-category"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header text-center">
+            <h2 class="modal-title">
+              <i class="fa fa-pencil"></i> Add Shop Category
+            </h2>
+          </div>
+          <!-- END Modal Header -->
 
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;">
-                        <fieldset>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="example-text-input">Category Name (EN)</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="example-text-input" name="example-text-input" class="form-control" placeholder="Category Name (EN)">
-                                    <span class="help-block">This is a help text</span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="example-text-input">Category Name (AR)</label>
-                                <div class="col-md-8">
-                                    <input type="text" id="example-text-input" name="example-text-input" class="form-control" placeholder="Category Name (AR)">
-                                    <span class="help-block">This is a help text</span>
-                                </div>
-                            </div>
-                        </fieldset>
-                        <div class="form-group form-actions">
-                            <div class="col-xs-12 text-right">
-                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
-                            </div>
-                        </div>
-                    </form>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <form
+              action="index.html"
+              method="post"
+              enctype="multipart/form-data"
+              class="form-horizontal form-bordered"
+              onsubmit="return false;"
+            >
+              <fieldset>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="example-text-input"
+                    >Category Name (EN)</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="example-text-input"
+                      name="example-text-input"
+                      class="form-control"
+                      placeholder="Category Name (EN)"
+                    />
+                    <span class="help-block">This is a help text</span>
+                  </div>
                 </div>
-                <!-- END Modal Body -->
-            </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="example-text-input"
+                    >Category Name (AR)</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="example-text-input"
+                      name="example-text-input"
+                      class="form-control"
+                      placeholder="Category Name (AR)"
+                    />
+                    <span class="help-block">This is a help text</span>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="form-group form-actions">
+                <div class="col-xs-12 text-right">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-default"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="submit" class="btn btn-sm btn-primary">
+                    Save Changes
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- END Modal Body -->
         </div>
+      </div>
     </div>
     <!-- END Add Category Modal -->
 
-    <div id="modal-confirmation" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header text-center">
-                    <h2 class="modal-title"><i class="fa fa-pencil"></i> Confirmation</h2>
-                </div>
-                <!-- END Modal Header -->
+    <div
+      id="modal-confirmation"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header text-center">
+            <h2 class="modal-title">
+              <i class="fa fa-pencil"></i> Confirmation
+            </h2>
+          </div>
+          <!-- END Modal Header -->
 
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <p class="text-center">Do you want to delete this?</p>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <p class="text-center">Do you want to delete this?</p>
 
-                    <div class="row form-actions">
-                        <div class="col-xs-12 text-right">
-                            <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">No</button>
-                            <button type="submit" class="btn btn-sm btn-primary">Yes</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- END Modal Body -->
+            <div class="row form-actions">
+              <div class="col-xs-12 text-right">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-default"
+                  data-dismiss="modal"
+                >
+                  No
+                </button>
+                <button type="submit" class="btn btn-sm btn-primary">
+                  Yes
+                </button>
+              </div>
             </div>
+          </div>
+          <!-- END Modal Body -->
         </div>
+      </div>
     </div>
 
     <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
@@ -1776,6 +2541,5 @@
     <!-- <script src="js/pages/ecomProducts.js"></script>
         <script>$(function(){ EcomProducts.init(); });</script> -->
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>

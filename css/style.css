@@ -1341,6 +1341,9 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
     align-items: center;
     justify-content: center;
 }
+#modal-add-Blog .modal-dialog {
+    width: 80%;
+}
 @media screen and (min-width: 768px) {
 
     #login-container,
