@@ -27,6 +27,8 @@ ol {
 .row {
     margin: 0 !important;
 }
+.me-2{margin-right: 0;margin-left: .5rem;}
+.float-end{float: left;}
 /* .checkbox-inline, .radio-inline{padding-right: 0;} */
 
 input[type=date].form-control{text-align: right !important;}

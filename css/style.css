@@ -904,8 +904,54 @@ a.text-success:focus,
     font-size: 17px;
 }
 
+.w-15{width: 15% !important;}
+.p-3{padding: 3px !important;padding-left: 12px !important;padding-right: 12px !important;}
+.border{border: 1px solid #dae8e7;}
+.postion-relative{position: relative;}
+.px-3{padding-left: 12px !important;padding-right: 12px !important;}
+.bold{font-weight: bold;}
+.me-2{margin-right: .5rem;}
+.panel-custom a[role="button"]{font-size: 1.4rem;}
+.float-end{float: right;}
+.d-inline-block{display: inline-block !important;}
+.d-flex{display: flex !important;}
+.m-0{margin: 0 !important;}
+.align-items-center{align-items: center;}
+.mt-3{margin-top: 1rem;}
+.align-items-end{align-items: flex-end;}
+.btn-submit .btn{
+    min-width: 70px;
+}
+.checkAll{
+    font-size: 1.4rem;
+    color: var(--blue);
+}
+
+.upload-tab-content .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .upload-tab-content .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .upload-tab-content .panel-default{height: 100%;}
+
 .tabs-container .nav-justified>li>a {
     font-size: 16px;
+}
+
+.tabs-container .sub-nav-2.nav-justified>li>a{
+    font-size: 13px;
+}
+
+.tab-content.bordered.block{
+    border-radius: 0 0 4px 4px;
+    padding-top: 9px !important;
+    padding-bottom: 20px;
 }
 
 .form-bordered fieldset legend {
@@ -1404,6 +1450,10 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
 }
 
 @media (max-width: 767px) {
+    .w-15 {
+        width: 50% !important;
+        display: flex;
+    }
     .variation-container .variation-content .form-group.m-15 {
         flex: 1 0 100%;
     }
@@ -1438,6 +1488,13 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
     .nav-horizontal.dashboard-blocks-info li,
     .nav-horizontal.dashboard-blocks-info li.three-box{
         width: 50%;
+    }
+    .upload-tab-content .row > [class*='col-'] {
+        width: 100%;
+    }
+    .align-items-end {
+        align-items: flex-start;
+        margin-top: 2rem;
     }
 }
 
