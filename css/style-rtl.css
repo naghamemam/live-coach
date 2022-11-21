@@ -213,7 +213,7 @@ div.dataTables_filter label,
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: calc(100% - 10px);
+    width: 100%;
     border-top: 0;
 }
 
@@ -299,6 +299,37 @@ div.tagsinput input {
 /* .navbar.navbar-inverse, .sidebar-brand {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } */
+.float-end{
+    float: left;
+}
+.dataTables_info{
+    width: auto;
+    max-width: fit-content;
+    direction: ltr;
+}
+.dataTables_info .total{
+    margin-bottom: 7px;
+}
+strong {
+    font-weight: 500;
+}
+.block-title h1, .block-title h2, .block-title h3, .block-title h4, .block-title h5, .block-title h6 {
+    font-size: 16px;
+}
+.table thead th, .table thead>tr>th {
+    font-size: 13px;
+}
+.form-group label{
+    font-weight: 500;
+}
+.sidebar-nav a.active, .sidebar-nav ul a.active, .sidebar-nav ul a.active:hover {
+    border-right: 5px solid #c00d0e;
+    border-left: none;
+}
+.table.table-vcenter td{
+    font-size: 13px;
+}
+/* Month target dashboard */
 @media (min-width: 768px) {
     .form-horizontal .control-label.text-left {
         text-align: right;

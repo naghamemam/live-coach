@@ -581,7 +581,7 @@
 
               <!-- Sidebar Navigation -->
               <ul class="sidebar-nav">
-                <li class="active">
+                <li>
                   <a href="#" class="sidebar-nav-menu"
                     ><i
                       class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
@@ -591,7 +591,7 @@
                   >
                   <ul>
                     <li>
-                      <a href="dashboard-2.html" class="active">Dashboard</a>
+                      <a href="dashboard-2.html">Dashboard</a>
                     </li>
                     <li>
                       <a href="dashboard-delivery.html">Drivers Dashboard</a>
@@ -661,7 +661,7 @@
                     <li>
                       <a href="about-settings.html">About us</a>
                     </li>
-                    <li>
+                    <li>class="active"
                       <a href="privacy-policy-settings.html">Privacy Policy</a>
                     </li>
                     <li>
@@ -674,6 +674,23 @@
                     </li>
                     <li>
                       <a href="social-media-links.html">Social Media Links</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="active">
+                  <a href="#" class="sidebar-nav-menu"
+                    ><i
+                      class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
+                    ></i
+                    ><i class="fa fa-line-chart sidebar-nav-icon"></i
+                    ><span class="sidebar-nav-mini-hide">Manage Marketing</span></a
+                  >
+                  <ul>
+                    <li>
+                      <a href="target-index.html" class="active">Monthly Target</a>
+                    </li>
+                    <li>
+                      <a href="commission-reports.html">Commission Reports</a>
                     </li>
                   </ul>
                 </li>
@@ -1466,785 +1483,312 @@
             <div class="content-header">
               <div class="d-flex">
                 <div class="content-title">
-                  <h1>لوحة التحكم الرئيسية</h1>
-                </div>
-                <div class="header-datepicker">
-                  <form action="">
-                    <div class="form-group">
-                      <div
-                        class="input-group input-daterange"
-                        data-date-format="mm/dd/yyyy"
-                      >
-                        <input
-                          type="text"
-                          id="example-daterange1"
-                          name="example-daterange1"
-                          class="form-control text-center"
-                          placeholder="From"
-                        />
-                      </div>
-                      <label class="control-label" for="example-datepicker"
-                        ><i class="gi gi-calendar"></i
-                      ></label>
-                    </div>
-                    <div class="form-group">
-                      <div
-                        class="input-group input-daterange"
-                        data-date-format="mm/dd/yyyy"
-                      >
-                        <input
-                          type="text"
-                          id="example-daterange2"
-                          name="example-daterange2"
-                          class="form-control text-center"
-                          placeholder="To"
-                        />
-                      </div>
-                      <label class="control-label" for="example-datepicker"
-                        ><i class="gi gi-calendar"></i
-                      ></label>
-                    </div>
-                  </form>
+                  <h1>الهدف الشهري</h1>
                 </div>
               </div>
-              <ul
-                class="nav-horizontal text-center dashboard-blocks-info d-flex"
-              >
-                <li>
-                  <a href="all-orders.html">
-                    <div class="d-flex flex-column">
-                      <p>أوامر اللياقة</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">
-                    <div class="d-flex flex-column">
-                      <p>طلبات الوجبات</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-cutlery"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">
-                    <div class="d-flex flex-column">
-                      <p>المتاجر الجديدة</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="gi gi-shop"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="products-2.html">
-                    <div class="d-flex flex-column">
-                      <p>المطاعم الجديدة</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="gi gi-shop_window"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="customers-list.html">
-                    <div class="d-flex flex-column">
-                      <p>اجمالي الدخل</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-money"></i>
-                  </a>
-                </li>
-              </ul>
-              <ul
-                class="nav-horizontal text-center dashboard-blocks-info d-flex"
-              >
-                <li>
-                  <a href="all-orders.html">
-                    <div class="d-flex flex-column">
-                      <p>المدربون الجداد</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-users"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="all-orders.html">
-                    <div class="d-flex flex-column">
-                      <p>فصول جديدة</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-users"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">
-                    <div class="d-flex flex-column">
-                      <p>خبراء التغذية</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-leaf" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="products-2.html">
-                    <div class="d-flex flex-column">
-                      <p>جلسات جديدة</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-users"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="customers-list.html">
-                    <div class="d-flex flex-column">
-                      <p>اجمالي الربح</p>
-                      <p>10,000</p>
-                    </div>
-                    <i class="fa fa-money"></i>
-                  </a>
-                </li>
-              </ul>
             </div>
             <!-- END eCommerce Dashboard Header -->
-
-            <!-- eShop Overview Block -->
-
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="block full">
-                  <!-- Latest Orders Title -->
-                  <div class="block-title">
-                    <div class="block-options pull-right">
-                      <a
-                        href="all-orders.html"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Show All"
-                        ><i class="fa fa-eye"></i
-                      ></a>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Settings"
-                        ><i class="fa fa-cog"></i
-                      ></a>
+            <div>
+              <!-- Quick Stats -->
+              <div class="row text-center m-auto">
+                <div class="col-sm-6 col-lg-3">
+                  <a
+                    href="add-target.html"
+                    class="widget widget-hover-effect2"
+                  >
+                    <div class="widget-extra themed-background-success">
+                      <h4 class="widget-content-light">
+                        إضافة هدف شهري
+                      </h4>
                     </div>
-                    <h2><strong>اجمالي</strong> الدخل</h2>
-                  </div>
-
-                  <div id="chart-overview1" style="height: 350px"></div>
+                    <div class="widget-extra-full">
+                      <span class="h2 text-success animation-expandOpen"
+                        ><i class="fa fa-plus"></i
+                      ></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <a
+                    href="javascript:void(0)"
+                    class="widget widget-hover-effect2"
+                  >
+                    <div class="widget-extra themed-background-dark">
+                      <h4 class="widget-content-light">
+                        الأهداف الشهرية المحددة
+                      </h4>
+                    </div>
+                    <div class="widget-extra-full">
+                      <span class="h2 themed-color-dark animation-expandOpen"
+                        >8</span
+                      >
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <a
+                    href="javascript:void(0)"
+                    class="widget widget-hover-effect2"
+                  >
+                    <div class="widget-extra themed-background-dark-amethyst">
+                      <h4 class="widget-content-light">
+                        شهور لم يحدد الهدف
+                      </h4>
+                    </div>
+                    <div class="widget-extra-full">
+                      <span class="h2 themed-color-dark animation-expandOpen"
+                        >7</span
+                      >
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <a
+                    href="javascript:void(0)"
+                    class="widget widget-hover-effect2"
+                  >
+                    <div class="widget-extra themed-background">
+                      <h4 class="widget-content-light">
+                        أهداف الشهور المنتهية
+                      </h4>
+                    </div>
+                    <div class="widget-extra-full">
+                      <span class="h2 themed-color-dark animation-expandOpen"
+                        >10</span
+                      >
+                    </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="block full">
-                  <!-- Latest Orders Title -->
-                  <div class="block-title">
-                    <div class="block-options pull-right">
-                      <a
-                        href="all-orders.html"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Show All"
-                        ><i class="fa fa-eye"></i
-                      ></a>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Settings"
-                        ><i class="fa fa-cog"></i
-                      ></a>
-                    </div>
-                    <h2><strong>الطلبات</strong> اليومية</h2>
-                  </div>
+              <!-- END Quick Stats -->
 
-                  <div id="chart-overview" style="height: 350px"></div>
+              <div class="block full">
+                <form>
+                  <div class="row m-auto">
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label>رقم الحركة</label>
+                        <input type="number" class="form-control" placeholder="رقم الحركة"/>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="months">الشهر</label>
+                        <select
+                          id="months"
+                          name="months"
+                          class="select-chosen"
+                          data-placeholder="الشهر">
+                          <option></option>
+                          <!-- Required for data-placeholder attribute to work with Chosen plugin -->
+                          <option value="">يناير</option>
+                          <option value="">فبراير</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="directorMarketing">مديري التسويق</label>
+                        <select
+                          id="directorMarketing"
+                          name="directorMarketing"
+                          class="select-chosen"
+                          data-placeholder="مدير التسويق">
+                          <option></option>
+                          <!-- Required for data-placeholder attribute to work with Chosen plugin -->
+                          <option value="">مديرين التسويق</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="monthlyTarget">الهدف الشهري</label>
+                        <input type="text" class="form-control" placeholder="الهدف الشهري"/>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="btn btn-sm btn-primary main-btn float-end mb-3">عرض</button>
+                    </div>
+                  </div>
+                </form>
+                <div class="dataTables_wrapper form-inline no-footer mb-3 mt-3">
+                  <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-vcenter">
+                      <thead>
+                        <tr>
+                          <th>التاريخ</th>
+                          <th class="text-center">رقم الحركة</th>
+                          <th class="text-center">الشهر</th>
+                          <th class="text-center">الهدف الشهري</th>
+                          <th class="text-center">مدير التسويق</th>
+                          <th class="text-center">الملاحظات</th>
+                          <th class="text-center"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="#modal-add-contact" data-toggle="modal"
+                              >11/12/2022</a>
+                          </td>
+                          <td class="text-center">12352144</td>
+                          <td class="text-center">مارس</td>
+                          <td class="text-center"></td>
+                          <td></td>
+                          <td class="text-center"></td>
+                          <td class="text-center">
+                            <div class="btn-group btn-group-xs">
+                              <a
+                                href="#modal-add-contact"
+                                data-toggle="modal"
+                                data-toggle="tooltip"
+                                title="Edit"
+                                class="btn btn-default"
+                                ><i class="fa fa-pencil"></i
+                              ></a>
+                              <a
+                                href="javascript:void(0)"
+                                data-toggle="tooltip"
+                                title="Delete"
+                                class="btn btn-xs btn-danger"
+                                ><i class="fa fa-times"></i
+                              ></a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#modal-add-contact" data-toggle="modal"
+                              >11/12/2022</a>
+                          </td>
+                          <td class="text-center">12352144</td>
+                          <td class="text-center">مارس</td>
+                          <td class="text-center"></td>
+                          <td></td>
+                          <td class="text-center"></td>
+                          <td class="text-center">
+                            <div class="btn-group btn-group-xs">
+                              <a
+                                href="#modal-add-contact"
+                                data-toggle="modal"
+                                data-toggle="tooltip"
+                                title="Edit"
+                                class="btn btn-default"
+                                ><i class="fa fa-pencil"></i
+                              ></a>
+                              <a
+                                href="javascript:void(0)"
+                                data-toggle="tooltip"
+                                title="Delete"
+                                class="btn btn-xs btn-danger"
+                                ><i class="fa fa-times"></i
+                              ></a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#modal-add-contact" data-toggle="modal"
+                              >11/12/2022</a>
+                          </td>
+                          <td class="text-center">12352144</td>
+                          <td class="text-center">مارس</td>
+                          <td class="text-center"></td>
+                          <td></td>
+                          <td class="text-center"></td>
+                          <td class="text-center">
+                            <div class="btn-group btn-group-xs">
+                              <a
+                                href="#modal-add-contact"
+                                data-toggle="modal"
+                                data-toggle="tooltip"
+                                title="Edit"
+                                class="btn btn-default"
+                                ><i class="fa fa-pencil"></i
+                              ></a>
+                              <a
+                                href="javascript:void(0)"
+                                data-toggle="tooltip"
+                                title="Delete"
+                                class="btn btn-xs btn-danger"
+                                ><i class="fa fa-times"></i
+                              ></a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#modal-add-contact" data-toggle="modal"
+                              >11/12/2022</a>
+                          </td>
+                          <td class="text-center">12352144</td>
+                          <td class="text-center">مارس</td>
+                          <td class="text-center"></td>
+                          <td></td>
+                          <td class="text-center"></td>
+                          <td class="text-center">
+                            <div class="btn-group btn-group-xs">
+                              <a
+                                href="#modal-add-contact"
+                                data-toggle="modal"
+                                data-toggle="tooltip"
+                                title="Edit"
+                                class="btn btn-default"
+                                ><i class="fa fa-pencil"></i
+                              ></a>
+                              <a
+                                href="javascript:void(0)"
+                                data-toggle="tooltip"
+                                title="Delete"
+                                class="btn btn-xs btn-danger"
+                                ><i class="fa fa-times"></i
+                              ></a>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-5 hidden-xs">
+                      <div
+                        class="dataTables_info"
+                        id="ecom-products_info"
+                        role="status"
+                        aria-live="polite"
+                      >
+                        <strong>1</strong>-<strong>20</strong> of
+                        <strong>60</strong>
+                      </div>
+                    </div>
+                    <div class="col-sm-7 col-xs-12 clearfix">
+                      <div
+                        class="dataTables_paginate paging_bootstrap"
+                        id="ecom-products_paginate"
+                      >
+                        <ul class="pagination pagination-sm remove-margin">
+                          <li class="prev disabled">
+                            <a href="javascript:void(0)"
+                              ><i class="fa fa-chevron-left"></i>
+                            </a>
+                          </li>
+                          <li class="active">
+                            <a href="javascript:void(0)">1</a>
+                          </li>
+                          <li><a href="javascript:void(0)">2</a></li>
+                          <li><a href="javascript:void(0)">3</a></li>
+                          <li class="next">
+                            <a href="javascript:void(0)">
+                              <i class="fa fa-chevron-right"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- END eShop Overview Block -->
-
-            <!-- Orders and Products -->
-            <div class="row">
-              <div class="col-lg-4">
-                <!-- Top Products Block -->
-                <div class="block">
-                  <!-- Top Products Title -->
-                  <div class="block-title">
-                    <div class="block-options pull-right">
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Show All"
-                        ><i class="fa fa-eye"></i
-                      ></a>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Settings"
-                        ><i class="fa fa-cog"></i
-                      ></a>
-                    </div>
-                    <h2><strong>الطلبات</strong> الجديدة</h2>
-                  </div>
-                  <!-- END Top Products Title -->
-
-                  <!-- Top Products Content -->
-                  <table
-                    class="table table-borderless table-striped table-vcenter"
-                  >
-                    <tbody>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <strong>Fitness Plan Request</strong>
-                          <div class="text-muted">Mohamed Ahmed</div>
-                        </td>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="btn btn-default">
-                            <i class="fa fa-comments"></i> Review
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- END Top Products Content -->
-                </div>
-                <!-- END Top Products Block -->
-              </div>
-              <div class="col-lg-4">
-                <!-- Latest Orders Block -->
-                <div class="block">
-                  <!-- Latest Orders Title -->
-                  <div class="block-title">
-                    <div class="block-options pull-right">
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Show All"
-                        ><i class="fa fa-eye"></i
-                      ></a>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Settings"
-                        ><i class="fa fa-cog"></i
-                      ></a>
-                    </div>
-                    <h2><strong>الفئات</strong> في انتظار الموافقة</h2>
-                  </div>
-                  <!-- END Latest Orders Title -->
-
-                  <!-- Latest Orders Content -->
-                  <table
-                    class="table table-borderless table-striped table-vcenter"
-                  >
-                    <tbody>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 90px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/photos/photo23.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Class Name</strong></a>
-                          <div class="text-muted">My Healthing</div>
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> Starts
-                              24.10.2020</small
-                            >
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- END Latest Orders Content -->
-                </div>
-                <!-- END Latest Orders Block -->
-              </div>
-
-              <div class="col-lg-4">
-                <!-- Latest Orders Block -->
-                <div class="block">
-                  <!-- Latest Orders Title -->
-                  <div class="block-title">
-                    <div class="block-options pull-right">
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Show All"
-                        ><i class="fa fa-eye"></i
-                      ></a>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title="Settings"
-                        ><i class="fa fa-cog"></i
-                      ></a>
-                    </div>
-                    <h2><strong>احدث</strong> طلبات الأعضاء</h2>
-                  </div>
-                  <!-- END Latest Orders Title -->
-
-                  <!-- Latest Orders Content -->
-                  <table
-                    class="table table-borderless table-striped table-vcenter"
-                  >
-                    <tbody>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Nutritionist</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Coach</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Nutritionist</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Coach</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Nutritionist</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Coach</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Nutritionist</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Coach</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-center" style="width: 60px">
-                          <a href="javascript:void(0)" class="text-success">
-                            <img
-                              src="img/placeholders/avatars/avatar2.jpg"
-                              alt="Avatar"
-                              class="img-circle"
-                            />
-                          </a>
-                        </td>
-                        <td>
-                          <a href="#"><strong>Trainee Name</strong></a>
-                          <div class="text-muted">Coach</div>
-                        </td>
-                        <td class="text-right">
-                          <div class="text-muted">
-                            <small
-                              ><i class="fa fa-clock-o"></i> 24.10.2020,
-                              15:00</small
-                            >
-                          </div>
-                          <span class="label label-success">New</span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- END Latest Orders Content -->
-                </div>
-                <!-- END Latest Orders Block -->
-              </div>
-            </div>
-            <!-- END Orders and Products -->
           </div>
           <!-- END Page Content -->
 
@@ -2269,6 +1813,192 @@
 
     <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
     <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+   <!-- Add a contact -->
+  <div
+  id="modal-add-contact"
+  class="modal fade"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+  >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header text-center">
+        <h2 class="modal-title"><i class="fa fa-pencil"></i>إضافة جهة اتصال</h2>
+      </div>
+      <!-- END Modal Header -->
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <form
+              action="index.html"
+              method="post"
+              enctype="multipart/form-data"
+              class="form-horizontal form-bordered mb-20"
+              onsubmit="return false;"
+            >
+              <fieldset>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="date-of-contact"
+                    >تاريخ الإتصال</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="date-of-contact"
+                      name="date-of-contact"
+                      class="form-control input-datepicker"
+                      data-date-format="dd/mm/yy"
+                      placeholder="dd/mm/yy"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="time-of-contact"
+                    >وقت الإتصال</label
+                  >
+                  <div class="col-md-8">
+                    <div class="input-group bootstrap-timepicker">
+                      <input
+                        type="text"
+                        id="time-of-contact"
+                        class="form-control input-timepicker"
+                      />
+                      <span class="input-group-btn">
+                        <a href="javascript:void(0)" class="btn btn-primary"
+                          ><i class="fa fa-clock-o"></i
+                        ></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="code-copoun"
+                    >كود الكوبون المرسل للعميل</label
+                  >
+                  <div class="col-md-8">
+                    <select
+                      id="code-copoun"
+                      name="code-copoun"
+                      class="select-chosen"
+                      data-placeholder="كود الكوبون"
+                      style="width: 250px"
+                    >
+                      <option></option>
+                      <!-- Required for data-placeholder attribute to work with Chosen plugin -->
+                      <option value="">252222</option>
+                      <option value="">124563</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="username"
+                    >اسم العميل</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="username"
+                      name="username"
+                      class="form-control"
+                      placeholder="اسم العميل"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="status"
+                    >حالة العميل</label
+                  >
+                  <div class="col-md-8">
+                    <select class="select-chosen" data-placeholder="حالة العميل">
+                      <option></option>
+                      <option>مسجل</option>
+                      <option>غير مسجل</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="admin-phone"
+                    >الجوال</label
+                  >
+                  <div class="col-md-8">
+                    <input
+                      type="tel"
+                      id="admin-phone"
+                      name="admin-phone"
+                      class="form-control phone"
+                      placeholder="رقم الجوال"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="gender"
+                    >الجنس</label
+                  >
+                  <div class="col-md-8">
+                    <select class="select-chosen" data-placeholder="الجنس">
+                      <option></option>
+                      <option value="male">ذكر</option>
+                      <option value="female">أنثى</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="address"
+                    >موقع العميل</label
+                  >
+                  <div class="col-md-8">
+                    <select
+                      id="address"
+                      name="address"
+                      class="select-chosen"
+                      data-placeholder="موقع العميل"
+                      style="width: 250px"
+                    >
+                      <option></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="status2"
+                    >حالة الإتصال</label
+                  >
+                  <div class="col-md-8">
+                    <select class="select-chosen" data-placeholder="حالة الإتصال">
+                      <option></option>
+                      <option>متفاعل</option>
+                      <option>مهتم</option>
+                      <option>غير مهتم</option>
+                    </select>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+
+        <div class="row form-actions">
+          <div class="col-xs-12 text-right">
+            <button
+              type="button"
+              class="btn btn-sm btn-default"
+              data-dismiss="modal"
+            >
+              إلغاء
+            </button>
+            <button type="submit" class="btn btn-sm btn-primary">
+              حفظ 
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- END Modal Body -->
+    </div>
+  </div>
+  </div>
+  <!-- END add a contact Modal -->
 
     <!-- User Settings, modal which opens from Settings link (found in top right user menu) and the Cog link (found in sidebar user info) -->
     <div
@@ -2404,6 +2134,7 @@
 
     <!-- Load and execute javascript code used only in this page -->
     <script src="js/pages/ecomDashboard.js"></script>
+    <script src="js/pages/ecomDashboard2.js"></script>
     <script>
       $(function () {
         EcomDashboard.init();

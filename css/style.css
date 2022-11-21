@@ -186,6 +186,10 @@ a.text-primary:focus {
     font-size: 14px;
     font-weight: 700;
 }
+.dataTables_wrapper {
+    display: inline-block;
+    width: 100%;
+}
 
 .dataTables_wrapper .table-responsive {
     background: transparent;
@@ -1389,6 +1393,44 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
 }
 #modal-add-Blog .modal-dialog {
     width: 80%;
+}
+/* Month goal dashboard */
+.month-target .row{
+    margin: 0 -15px !important;
+}
+.main-btn{
+    min-width: 120px;
+    color: #fff;
+}
+.month-target .table>thead:first-child>tr:first-child>th{
+    font-size: 1.1rem;
+}
+.target-chart{
+    margin: 4rem 0;
+}
+.float-end{
+    float: right;
+}
+.targets-grid .col-md-3:nth-child(4) div{
+    background: #ed8b12;
+}
+.m-auto.row{
+    margin: 0 -15px !important;
+}
+.year-month{
+    justify-content: space-between;
+}
+.year-month .form-group{
+    width: calc(50% - 4px);
+}
+.form-group label{
+    font-size: 13px;
+}
+.target-table{
+    overflow: visible;
+}
+.target-chart .legend table{
+    width: 155px;
 }
 @media screen and (min-width: 768px) {
 
