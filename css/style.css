@@ -1405,8 +1405,8 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
 .month-target .table>thead:first-child>tr:first-child>th{
     font-size: 1.1rem;
 }
-.target-chart{
-    margin: 4rem 0;
+.chart{
+    margin: 50px 0 0 0;
 }
 .float-end{
     float: right;
@@ -1429,8 +1429,20 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
 .target-table{
     overflow: visible;
 }
-.target-chart .legend table{
-    width: 155px;
+.legend table,.legend>div{
+    left: 0 !important;
+    top: -40px !important;
+}
+.legend table{
+    width: 100%;
+}
+.legend table tr{
+    display:inline-block;
+    margin:0 .5rem;
+    padding:0;
+}
+.legend table td {
+    font-size: 12px;
 }
 @media screen and (min-width: 768px) {
 
