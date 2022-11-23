@@ -1444,6 +1444,11 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
 .legend table td {
     font-size: 12px;
 }
+.tagify {
+    border-radius: 8px;
+    padding: 5px 10px;
+    width:100%
+}
 @media screen and (min-width: 768px) {
 
     #login-container,
