@@ -597,7 +597,9 @@
                       <a href="dashboard-delivery.html">Drivers Dashboard</a>
                     </li>
                     <li>
-                      <a href="dashboard2.html" class="active">لوحة تحكم التسويق</a>
+                      <a href="dashboard2.html" class="active"
+                        >لوحة تحكم التسويق</a
+                      >
                     </li>
                     <li>
                       <a href="dashboard-delivery.html">لوحة تحكم التوصيل</a>
@@ -683,7 +685,9 @@
                       class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"
                     ></i
                     ><i class="fa fa-line-chart sidebar-nav-icon"></i
-                    ><span class="sidebar-nav-mini-hide">Manage Marketing</span></a
+                    ><span class="sidebar-nav-mini-hide"
+                      >Manage Marketing</span
+                    ></a
                   >
                   <ul>
                     <li>
@@ -1190,6 +1194,11 @@
                       <a href="complains.html">Complains</a>
                     </li>
                     <li>
+                      <a href="follow-up-complains-rtl.html"
+                        >Follow-up Complains</a
+                      >
+                    </li>
+                    <li>
                       <a href="#.html">Contact Us</a>
                     </li>
                   </ul>
@@ -1503,7 +1512,8 @@
                           id="monthlyTarget"
                           name="monthlyTarget"
                           class="select-chosen"
-                          data-placeholder="الهدف الشهري لشهر">
+                          data-placeholder="الهدف الشهري لشهر"
+                        >
                           <option></option>
                           <!-- Required for data-placeholder attribute to work with Chosen plugin -->
                           <option value="">يناير</option>
@@ -1522,7 +1532,8 @@
                           id="divisionMonth"
                           name="divisionMonth"
                           class="select-chosen"
-                          data-placeholder="تقسيم الشهر">
+                          data-placeholder="تقسيم الشهر"
+                        >
                           <option></option>
                           <!-- Required for data-placeholder attribute to work with Chosen plugin -->
                           <option value="">كامل الشهر</option>
@@ -1537,7 +1548,8 @@
                           id="directorMarketing"
                           name="directorMarketing"
                           class="select-chosen"
-                          data-placeholder="مدير التسويق">
+                          data-placeholder="مدير التسويق"
+                        >
                           <option></option>
                           <!-- Required for data-placeholder attribute to work with Chosen plugin -->
                           <option value="">مديرين التسويق</option>
@@ -1551,7 +1563,8 @@
                           id="marketer"
                           name="marketer"
                           class="select-chosen"
-                          data-placeholder="المسوق">
+                          data-placeholder="المسوق"
+                        >
                           <option></option>
                           <!-- Required for data-placeholder attribute to work with Chosen plugin -->
                           <option value="">الكل</option>
@@ -1561,7 +1574,9 @@
                       </div>
                     </div>
                     <div class="col-md-12">
-                      <button class="btn btn-sm btn-primary main-btn float-end">عرض</button>
+                      <button class="btn btn-sm btn-primary main-btn float-end">
+                        عرض
+                      </button>
                     </div>
                   </div>
                 </form>
@@ -1624,37 +1639,51 @@
                 </div>
               </div>
             </div>
-          
+
             <div class="row m-auto">
               <div class="col-lg-6">
-                  <div class="block full">
-                      <!-- Latest Orders Title -->
-                      <div class="block-title">
-                          <select class="form-control pull-right select-date" style="width: 100px;">
-                              <option value="">2022</option>
-                              <option value="">2021</option>
-                              <option value="">2023</option>
-                          </select>
-                          <h2>الهدف الشهري / المبلغ المحقق</h2>
-                      </div>
+                <div class="block full">
+                  <!-- Latest Orders Title -->
+                  <div class="block-title">
+                    <select
+                      class="form-control pull-right select-date"
+                      style="width: 100px"
+                    >
+                      <option value="">2022</option>
+                      <option value="">2021</option>
+                      <option value="">2023</option>
+                    </select>
+                    <h2>الهدف الشهري / المبلغ المحقق</h2>
+                  </div>
 
-                      <div id="chart-monthlyTarget" class="chart" style="height: 350px;"></div>
-                    </div>
+                  <div
+                    id="chart-monthlyTarget"
+                    class="chart"
+                    style="height: 350px"
+                  ></div>
+                </div>
               </div>
               <div class="col-lg-6">
-                  <div class="block full" style="height: 461px;">
-                      <!-- Latest Orders Title -->
-                      <div class="block-title">
-                          <select class="form-control pull-right select-date" style="width: 100px;">
-                              <option value="">2022</option>
-                              <option value="">2021</option>
-                              <option value="">2023</option>
-                          </select>
-                          <h2>النسبة المحققة</h2>
-                      </div>
+                <div class="block full" style="height: 461px">
+                  <!-- Latest Orders Title -->
+                  <div class="block-title">
+                    <select
+                      class="form-control pull-right select-date"
+                      style="width: 100px"
+                    >
+                      <option value="">2022</option>
+                      <option value="">2021</option>
+                      <option value="">2023</option>
+                    </select>
+                    <h2>النسبة المحققة</h2>
+                  </div>
 
-                      <div id="flot-placeholder" class="chart" style="height:300px; width: 388px;"></div>
-                    </div>
+                  <div
+                    id="flot-placeholder"
+                    class="chart"
+                    style="height: 300px; width: 388px"
+                  ></div>
+                </div>
               </div>
             </div>
 
@@ -1663,11 +1692,18 @@
                 <h2>جهات الإتصال</h2>
               </div>
               <div>
-                <button class="btn themed-background-success main-btn float-end"  href="#modal-add-contact"
-                data-toggle="modal"><i class="fa fa-plus"></i> إضافة جهة اتصال</button>
+                <button
+                  class="btn themed-background-success main-btn float-end"
+                  href="#modal-add-contact"
+                  data-toggle="modal"
+                >
+                  <i class="fa fa-plus"></i> إضافة جهة اتصال
+                </button>
                 <div class="dataTables_wrapper form-inline no-footer mb-3 mt-3">
                   <div class="table-responsive">
-                    <table class="table table-bordered table-striped table-vcenter">
+                    <table
+                      class="table table-bordered table-striped table-vcenter"
+                    >
                       <thead>
                         <tr>
                           <th class="text-center" style="width: 50px">م</th>
@@ -1692,7 +1728,8 @@
                           </td>
                           <td>
                             <a href="#modal-add-contact" data-toggle="modal"
-                              >11/12/2022</a>
+                              >11/12/2022</a
+                            >
                           </td>
                           <td class="text-center">10:25 AM</td>
                           <td class="text-center">12352144</td>
@@ -1730,7 +1767,8 @@
                           </td>
                           <td>
                             <a href="#modal-add-contact" data-toggle="modal"
-                              >11/12/2022</a>
+                              >11/12/2022</a
+                            >
                           </td>
                           <td class="text-center">10:25 AM</td>
                           <td class="text-center">12352144</td>
@@ -1768,7 +1806,8 @@
                           </td>
                           <td>
                             <a href="#modal-add-contact" data-toggle="modal"
-                              >11/12/2022</a>
+                              >11/12/2022</a
+                            >
                           </td>
                           <td class="text-center">10:25 AM</td>
                           <td class="text-center">12352144</td>
@@ -1866,25 +1905,27 @@
     <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
     <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
 
-   <!-- Add a contact -->
-  <div
-  id="modal-add-contact"
-  class="modal fade"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  >
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- Modal Header -->
-      <div class="modal-header text-center">
-        <h2 class="modal-title"><i class="fa fa-pencil"></i>إضافة جهة اتصال</h2>
-      </div>
-      <!-- END Modal Header -->
+    <!-- Add a contact -->
+    <div
+      id="modal-add-contact"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header text-center">
+            <h2 class="modal-title">
+              <i class="fa fa-pencil"></i>إضافة جهة اتصال
+            </h2>
+          </div>
+          <!-- END Modal Header -->
 
-      <!-- Modal Body -->
-      <div class="modal-body">
-        <form
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <form
               action="index.html"
               method="post"
               enctype="multipart/form-data"
@@ -1964,7 +2005,10 @@
                     >حالة العميل</label
                   >
                   <div class="col-md-8">
-                    <select class="select-chosen" data-placeholder="حالة العميل">
+                    <select
+                      class="select-chosen"
+                      data-placeholder="حالة العميل"
+                    >
                       <option></option>
                       <option>مسجل</option>
                       <option>غير مسجل</option>
@@ -2020,7 +2064,10 @@
                     >حالة الإتصال</label
                   >
                   <div class="col-md-8">
-                    <select class="select-chosen" data-placeholder="حالة الإتصال">
+                    <select
+                      class="select-chosen"
+                      data-placeholder="حالة الإتصال"
+                    >
                       <option></option>
                       <option>متفاعل</option>
                       <option>مهتم</option>
@@ -2031,26 +2078,26 @@
               </fieldset>
             </form>
 
-        <div class="row form-actions">
-          <div class="col-xs-12 text-right">
-            <button
-              type="button"
-              class="btn btn-sm btn-default"
-              data-dismiss="modal"
-            >
-              إلغاء
-            </button>
-            <button type="submit" class="btn btn-sm btn-primary">
-              حفظ 
-            </button>
+            <div class="row form-actions">
+              <div class="col-xs-12 text-right">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-default"
+                  data-dismiss="modal"
+                >
+                  إلغاء
+                </button>
+                <button type="submit" class="btn btn-sm btn-primary">
+                  حفظ
+                </button>
+              </div>
+            </div>
           </div>
+          <!-- END Modal Body -->
         </div>
       </div>
-      <!-- END Modal Body -->
     </div>
-  </div>
-  </div>
-  <!-- END Add add a contact Modal -->
+    <!-- END Add add a contact Modal -->
 
     <!-- User Settings, modal which opens from Settings link (found in top right user menu) and the Cog link (found in sidebar user info) -->
     <div

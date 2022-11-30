@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="css/main.css" />
 
     <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
-    <link rel="stylesheet" href="css/themes/lake.css" />
+    <link rel="stylesheet" href="css/themes/flatie.css">
 
     <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
     <link rel="stylesheet" href="css/themes.css" />
@@ -1162,6 +1162,9 @@
                       <a href="complains.html">Complains</a>
                     </li>
                     <li>
+                      <a href="follow-up-complains-rtl.html">Follow-up Complains</a>
+                    </li>
+                    <li>
                       <a href="#.html">Contact Us</a>
                     </li>
                   </ul>
@@ -1884,171 +1887,490 @@
                   Current Status: <strong>OPEN</strong>
                 </div>
 
-                <div class="clearfix">
-                  <a
+                <div class="clearfix mb-4">
+                  <!-- <a
                     href="javascript:void(0)"
                     class="btn btn-xs btn-default pull-right"
                     ><i class="fa fa-check"></i> Flag as Closed</a
-                  >
+                  > -->
+                  <button type="button" class="btn btn-sm btn-danger pull-right">
+                    <i class="fa fa-times me-2"></i> Exit
+                  </button>
+                  <button type="button" class="btn btn-sm btn-default me-2 pull-right">
+                    <i class="fa fa-check me-2"></i> Flag as Closed
+                  </button>
+                  
                 </div>
                 <!-- <a href="javascript:void(0)" class="btn btn-xs btn-danger"><i class="fa fa-flag"></i> Flag as Urgent</a>
-                            <a href="javascript:void(0)" class="btn btn-xs btn-warning"><i class="fa fa-flag"></i> Flag as Invalid</a> -->
-                <hr />
-                <ul class="media-list media-feed push">
-                  <!-- Ticket -->
-                  <li class="media">
-                    <a href="page_ready_user_profile.html" class="pull-left">
-                      <img
-                        src="img/placeholders/avatars/avatar9.jpg"
-                        alt="Avatar"
-                        class="img-circle"
-                      />
-                    </a>
-                    <div class="media-body">
-                      <p class="push-bit">
-                        <span class="text-muted pull-right">
-                          <small>2 hours ago</small>
-                        </span>
-                        <small
-                          ><a href="page_ready_user_profile.html"
-                            >Howard Smith</a
-                          >
-                          through <a href="javascript:void(0)">Forum</a></small
-                        >
-                      </p>
-                      <h4>
-                        <strong>Can you help me with the installation?</strong>
-                      </h4>
-                      <p>
-                        Hi, I'm having a problem with the installation of the
-                        theme, can you help me out? I get the following error
-                        message and I don't know what to do:
-                      </p>
-                      <div class="alert alert-warning">
-                        <p>
-                          <i class="fa fa-angle-right"></i>
-                          <strong
-                            >Error Establishing Database Connection</strong
-                          >
-                        </p>
-                        <p>...</p>
-                      </div>
-                      <p>
-                        <!-- <a href="javascript:void(0)" class="btn btn-xs btn-default"><i class="fa fa-support"></i> Ask for Assistance</a> -->
-                        <a
-                          href="javascript:void(0)"
-                          class="btn btn-xs btn-default"
-                          ><i class="fa fa-user"></i> Reassign this ticket</a
-                        >
-                      </p>
-                    </div>
-                  </li>
-                  <!-- END Ticket -->
-
-                  <!-- Replies -->
-                  <li class="media">
-                    <a href="page_ready_user_profile.html" class="pull-left">
-                      <img
-                        src="img/placeholders/avatars/avatar.jpg"
-                        alt="Avatar"
-                        class="img-circle"
-                      />
-                    </a>
-                    <div class="media-body">
-                      <p class="push-bit">
-                        <span class="text-muted pull-right">
-                          <small>1 hour ago</small>
-                        </span>
-                        <small
-                          ><a href="page_ready_user_profile.html"
-                            >Support</a
-                          ></small
-                        >
-                      </p>
-                      <p>
-                        Hi Howard and thank you very much for your purchase!
-                        There are many reasons this can happen. One is the
-                        incorrect information in wp-config.html file. Please
-                        open up wp-config.html and ensure that the following are
-                        correct:
-                      </p>
-                      <ul class="fa-ul push">
-                        <li>
-                          <i class="fa fa-li fa-check text-success"></i>
-                          Database name
-                        </li>
-                        <li>
-                          <i class="fa fa-li fa-check text-success"></i>
-                          Database username
-                        </li>
-                        <li>
-                          <i class="fa fa-li fa-check text-success"></i>
-                          Database password
-                        </li>
-                        <li>
-                          <i class="fa fa-li fa-check text-success"></i>
-                          Database host
-                        </li>
+                <a href="javascript:void(0)" class="btn btn-xs btn-warning"><i class="fa fa-flag"></i> Flag as Invalid</a> -->
+                <div class="tabs-container">
+                  <div class="form-group">
+                      <ul class="nav nav-pills nav-justified">
+                          <li class="active"><a data-toggle="tab" href="#chat">Chat</a></li>
+                          <li><a data-toggle="tab" href="#complains">Follow-ups</a></li>
                       </ul>
-                      <p>
-                        Learn more about
-                        <a href="javascript:void(0)"
-                          >editing the wp-config.html</a
-                        >
-                      </p>
-                    </div>
-                  </li>
-                  <li class="media">
-                    <a href="page_ready_user_profile.html" class="pull-left">
-                      <img
-                        src="img/placeholders/avatars/avatar9.jpg"
-                        alt="Avatar"
-                        class="img-circle"
-                      />
-                    </a>
-                    <div class="media-body">
-                      <p class="push-bit">
-                        <span class="text-muted pull-right">
-                          <small>30 min ago</small>
-                        </span>
-                        <small
-                          ><a href="page_ready_user_profile.html"
-                            >Howard Smith</a
-                          ></small
-                        >
-                      </p>
-                      <p>I'm going to check it out and let you know!</p>
-                      <p>Thanks a lot!</p>
-                    </div>
-                  </li>
-                  <li class="media">
-                    <a href="page_ready_user_profile.html" class="pull-left">
-                      <img
-                        src="img/placeholders/avatars/avatar.jpg"
-                        alt="Avatar"
-                        class="img-circle"
-                      />
-                    </a>
-                    <div class="media-body">
-                      <form
-                        action="page_ready_tickets.html#tickets-single"
-                        method="post"
-                      >
-                        <textarea
-                          id="tickets-reply"
-                          name="tickets-reply"
-                          class="form-control"
-                          rows="5"
-                          placeholder="Enter your reply"
-                        ></textarea>
-                        <button type="submit" class="btn btn-sm btn-primary">
-                          <i class="fa fa-reply"></i> Post Reply
-                        </button>
-                      </form>
-                    </div>
-                  </li>
-                  <!-- END Replies -->
-                </ul>
+                  </div>
+
+                  <div class="tab-content">
+                      <div id="chat" class="tab-pane fade in active">
+                        <hr />
+                        <ul class="media-list media-feed push">
+                          <!-- Ticket -->
+                          <li class="media">
+                            <a href="page_ready_user_profile.html" class="pull-left">
+                              <img
+                                src="img/placeholders/avatars/avatar9.jpg"
+                                alt="Avatar"
+                                class="img-circle"
+                              />
+                            </a>
+                            <div class="media-body">
+                              <p class="push-bit">
+                                <span class="text-muted pull-right">
+                                  <small>2 hours ago</small>
+                                </span>
+                                <small
+                                  ><a href="page_ready_user_profile.html"
+                                    >Howard Smith</a
+                                  >
+                                  through <a href="javascript:void(0)">Forum</a></small
+                                >
+                              </p>
+                              <h4>
+                                <strong>Can you help me with the installation?</strong>
+                              </h4>
+                              <p>
+                                Hi, I'm having a problem with the installation of the
+                                theme, can you help me out? I get the following error
+                                message and I don't know what to do:
+                              </p>
+                              <div class="alert alert-warning">
+                                <p>
+                                  <i class="fa fa-angle-right"></i>
+                                  <strong
+                                    >Error Establishing Database Connection</strong
+                                  >
+                                </p>
+                                <p>...</p>
+                              </div>
+                              <p>
+                                <!-- <a href="javascript:void(0)" class="btn btn-xs btn-default"><i class="fa fa-support"></i> Ask for Assistance</a> -->
+                                <a
+                                  href="javascript:void(0)"
+                                  class="btn btn-xs btn-default"
+                                  ><i class="fa fa-user"></i> Reassign this ticket</a
+                                >
+                              </p>
+                            </div>
+                          </li>
+                          <!-- END Ticket -->
+
+                          <!-- Replies -->
+                          <li class="media">
+                            <a href="page_ready_user_profile.html" class="pull-left">
+                              <img
+                                src="img/placeholders/avatars/avatar.jpg"
+                                alt="Avatar"
+                                class="img-circle"
+                              />
+                            </a>
+                            <div class="media-body">
+                              <p class="push-bit">
+                                <span class="text-muted pull-right">
+                                  <small>1 hour ago</small>
+                                </span>
+                                <small
+                                  ><a href="page_ready_user_profile.html"
+                                    >Support</a
+                                  ></small
+                                >
+                              </p>
+                              <p>
+                                Hi Howard and thank you very much for your purchase!
+                                There are many reasons this can happen. One is the
+                                incorrect information in wp-config.html file. Please
+                                open up wp-config.html and ensure that the following are
+                                correct:
+                              </p>
+                              <ul class="fa-ul push">
+                                <li>
+                                  <i class="fa fa-li fa-check text-success"></i>
+                                  Database name
+                                </li>
+                                <li>
+                                  <i class="fa fa-li fa-check text-success"></i>
+                                  Database username
+                                </li>
+                                <li>
+                                  <i class="fa fa-li fa-check text-success"></i>
+                                  Database password
+                                </li>
+                                <li>
+                                  <i class="fa fa-li fa-check text-success"></i>
+                                  Database host
+                                </li>
+                              </ul>
+                              <p>
+                                Learn more about
+                                <a href="javascript:void(0)"
+                                  >editing the wp-config.html</a
+                                >
+                              </p>
+                            </div>
+                          </li>
+                          <li class="media">
+                            <a href="page_ready_user_profile.html" class="pull-left">
+                              <img
+                                src="img/placeholders/avatars/avatar9.jpg"
+                                alt="Avatar"
+                                class="img-circle"
+                              />
+                            </a>
+                            <div class="media-body">
+                              <p class="push-bit">
+                                <span class="text-muted pull-right">
+                                  <small>30 min ago</small>
+                                </span>
+                                <small
+                                  ><a href="page_ready_user_profile.html"
+                                    >Howard Smith</a
+                                  ></small
+                                >
+                              </p>
+                              <p>I'm going to check it out and let you know!</p>
+                              <p>Thanks a lot!</p>
+                            </div>
+                          </li>
+                          <li class="media">
+                            <a href="page_ready_user_profile.html" class="pull-left">
+                              <img
+                                src="img/placeholders/avatars/avatar.jpg"
+                                alt="Avatar"
+                                class="img-circle"
+                              />
+                            </a>
+                            <div class="media-body">
+                              <form
+                                action="page_ready_tickets.html#tickets-single"
+                                method="post"
+                              >
+                                <textarea
+                                  id="tickets-reply"
+                                  name="tickets-reply"
+                                  class="form-control"
+                                  rows="5"
+                                  placeholder="Enter your reply"
+                                ></textarea>
+                                <button type="submit" class="btn btn-sm btn-primary">
+                                  <i class="fa fa-reply"></i> Post Reply
+                                </button>
+                              </form>
+                            </div>
+                          </li>
+                          <!-- END Replies -->
+                        </ul>
+                      </div>
+                      <div id="complains" class="tab-pane fade">
+                        <div class="card card_index mt-4 border-0">
+                          <div class="card-header border-0 p-0">
+                              <!-- START TABS DIV -->
+                              <div class="single-tab tabbable-responsive overflow-none">
+                                  <div class="tabbable">
+                                      <ul class="nav nav-tabs border-0" role="tablist">
+                                          <li class="nav-item float-left">
+                                              <a class="nav-link text-center bold active">Complaints follow-up</a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card-body p-0">
+                              <div class="tab-content bg-white mt--5 p-3">
+                                <div class="row text-center mb-4">
+                                  <div class="col-sm-6 col-lg-3">
+                                    <a class="widget widget-hover-effect2">
+                                      <div class="widget-extra themed-background-success">
+                                        <h4 class="widget-content-light">
+                                          <strong>All</strong> Follow-ups
+                                        </h4>
+                                      </div>
+                                      <div class="widget-extra-full">
+                                        <span class="h2 themed-color-dark animation-expandOpen">10</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-sm-6 col-lg-3">
+                                    <a href="javascript:void(0)" class="widget widget-hover-effect2">
+                                      <div class="widget-extra themed-background-dark-amethyst">
+                                        <h4 class="widget-content-light">
+                                          <strong>Ended</strong> Follow-ups
+                                        </h4>
+                                      </div>
+                                      <div class="widget-extra-full">
+                                        <span class="h2 themed-color-dark animation-expandOpen">15</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-sm-6 col-lg-3">
+                                    <a href="javascript:void(0)" class="widget widget-hover-effect2">
+                                      <div class="widget-extra themed-background-dark-fancy">
+                                        <h4 class="widget-content-light">
+                                          <strong>Open</strong> Follow-ups
+                                        </h4>
+                                      </div>
+                                      <div class="widget-extra-full">
+                                        <span class="h2 themed-color-dark animation-expandOpen">10</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-sm-6 col-lg-3">
+                                    <a href="javascript:void(0)" class="widget widget-hover-effect2">
+                                      <div class="widget-extra themed-background-dark-lake">
+                                        <h4 class="widget-content-light">
+                                          <strong>Late</strong> Follow-ups
+                                        </h4>
+                                      </div>
+                                      <div class="widget-extra-full">
+                                        <span class="h2 themed-color-dark animation-expandOpen">4</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+
+                                  <form>
+                                      <div class="form-row no-gutters my-4 d-inline-block w-100">
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="users">User - Customer Service</label>
+                                              <select class="form-control select-chosen" id="users" name="users" tabindex="-1" aria-hidden="true">
+                                                  <option value=" " selected>Users</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6  col-sm-12 px-3">
+                                              <label for="Customer">Client</label>
+                                              <select class="form-control select-chosen" id="Customer" name="Customer" tabindex="-1" aria-hidden="true" disabled>
+                                                  <option value=" " selected>Clients</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="Administrator"> Responsible employee</label>
+                                              <select class="form-control select-chosen" id="Administrator" name="Administrator" tabindex="-1" aria-hidden="true">
+                                                  <option value=" " selected>Employees</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="alert">Alert management</label>
+                                              <select class="form-control select-chosen" id="alert" name="alert" tabindex="-1" aria-hidden="true">
+                                                  <option value=" " selected>Manegers</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="complainNo">Complain No</label>
+                                              <input type="number" class="form-control search-field" id="complainNo">
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="complainType"> Follow-up status</label>
+                                              <select class="form-control select-chosen" id="complainType">
+                                                  <option value=""> Done and finished</option>
+                                                  <option value="">متابعة مع مسؤل آخر</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="FromDate"> From Date follow-up date</label>
+                                              <input type="date" class="form-control" id="FromDate">
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="ToDate">To Date follow-up date</label>
+                                              <input type="date" class="form-control" id="ToDate">
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                              <label for="complainNo"> Follow-up number</label>
+                                              <input type="number" class="form-control" id="complainNo">
+                                          </div>
+                                          <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                            <label for="FromDate2">From Upcoming follow-up date</label>
+                                            <input type="date" class="form-control" id="FromDate2">
+                                        </div>
+                                        <div class="form-group col-lg-3 col-md-6 col-sm-12 px-3">
+                                            <label for="ToDate2">To Upcoming follow-up date</label>
+                                            <input type="date" class="form-control" id="ToDate2">
+                                        </div>
+                                      </div>
+                                  </form>
+              
+                                  <!-- table -->
+                                  <div class="clearfix mb-4">
+                                    <button type="button" class="btn themed-background-success main-btn me-2 pull-right" href="#addComplainModal" data-toggle="modal">
+                                      <i class="fa fa-plus me-2"></i> Add Follow up Complaint
+                                    </button>
+                                    
+                                  </div>
+                                                    <div
+                                  id="ecom-products_wrapper"
+                                  class="dataTables_wrapper form-inline no-footer"
+                                >
+                                  <div class="row">
+                                    <div class="col-sm-6 col-xs-5">
+                                      <div class="dataTables_length" id="ecom-products_length">
+                                        <label class="products_length">
+                                          <select
+                                            name="ecom-products_length"
+                                            aria-controls="ecom-products"
+                                            class="form-control"
+                                          >
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="-1">All</option>
+                                          </select>
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-7">
+                                      <div id="ecom-products_filter" class="dataTables_filter">
+                                        <label>
+                                          <div class="input-group">
+                                            <input
+                                              type="search"
+                                              class="form-control"
+                                              placeholder="Search"
+                                              aria-controls="ecom-products"
+                                            />
+                                            <span class="input-group-addon">
+                                              <i class="fa fa-search"></i>
+                                            </span>
+                                          </div>
+                                        </label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="table-responsive">
+                                    <table
+                                      id="ecom-products"
+                                      class="table table-bordered table-striped table-vcenter"
+                                    >
+                                      <thead>
+                                        <tr>
+                                          <th style="width:16%">User</th>
+                                          <th class="text-center">FollowUp number</th>
+                                          <th class="text-center">Main/Sub</th>
+                                          <th class="text-center">Date/time OF FollowUp Received </th>
+                                          <th class="text-center">Customer Code&Name</th>
+                                          <th class="text-center">Date/time OF Next FollowUp</th>
+                                          <th class="text-center">FollowUp Officer</th>
+                                          <th class="text-center">FollowUp Status</th>
+                                          <th class="text-center" style="width:100px">Actions</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>Name Name Name</td>
+                                          <td class="text-center">1243002</td>
+                                          <td class="text-center"><strong>4</strong></td>
+                                          <td class="text-center">22/12/2022</td>
+                                          <td class="text-center">123145</td>
+                                          <td class="text-center">30/12/2022</td>
+                                          <td class="text-center"></td>
+                                          <td class="text-center">
+                                            <span class="label label-success">Approved</span>
+                                          </td>
+                                          
+                                          <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                              <a href="javascript:void(0)" data-toggle="modal" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                              <a href="#addComplainModal" data-toggle="modal" title="edit" class="btn btn-default"><i class="fa fa-plus"></i></a>
+                                              <a href="javascript:void(0)" data-toggle="tooltip" title="" class="btn btn-xs btn-danger" data-original-title="Delete"><i class="fa fa-times"></i></a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Name Name Name</td>
+                                          <td class="text-center">1243002</td>
+                                          <td class="text-center"><strong>4</strong></td>
+                                          <td class="text-center">22/12/2022</td>
+                                          <td class="text-center">123145</td>
+                                          <td class="text-center">30/12/2022</td>
+                                          <td class="text-center"></td>
+                                          <td class="text-center">
+                                            <span class="label label-success">Approved</span>
+                                          </td>
+                                          
+                                          <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                              <a href="javascript:void(0)" data-toggle="modal" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                              <a href="#addComplainModal" data-toggle="modal" title="edit" class="btn btn-default"><i class="fa fa-plus"></i></a>
+                                              <a href="javascript:void(0)" data-toggle="tooltip" title="" class="btn btn-xs btn-danger" data-original-title="Delete"><i class="fa fa-times"></i></a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Name Name Name</td>
+                                          <td class="text-center">1243002</td>
+                                          <td class="text-center"><strong>4</strong></td>
+                                          <td class="text-center">22/12/2022</td>
+                                          <td class="text-center">123145</td>
+                                          <td class="text-center">30/12/2022</td>
+                                          <td class="text-center"></td>
+                                          <td class="text-center">
+                                            <span class="label label-success">Approved</span>
+                                          </td>
+                                          
+                                          <td class="text-center">
+                                            <div class="btn-group btn-group-xs">
+                                              <a href="javascript:void(0)" data-toggle="modal" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                              <a href="#addComplainModal" data-toggle="modal" title="edit" class="btn btn-default"><i class="fa fa-plus"></i></a>
+                                              <a href="javascript:void(0)" data-toggle="tooltip" title="" class="btn btn-xs btn-danger" data-original-title="Delete"><i class="fa fa-times"></i></a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-sm-5 hidden-xs">
+                                      <div
+                                        class="dataTables_info"
+                                        id="ecom-products_info"
+                                        role="status"
+                                        aria-live="polite"
+                                      >
+                                        <strong>1</strong>-<strong>20</strong> of
+                                        <strong>60</strong>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-12 clearfix">
+                                      <div
+                                        class="dataTables_paginate paging_bootstrap"
+                                        id="ecom-products_paginate"
+                                      >
+                                        <ul class="pagination pagination-sm remove-margin">
+                                          <li class="prev disabled">
+                                            <a href="javascript:void(0)"
+                                              ><i class="fa fa-chevron-left"></i>
+                                            </a>
+                                          </li>
+                                          <li class="active">
+                                            <a href="javascript:void(0)">1</a>
+                                          </li>
+                                          <li><a href="javascript:void(0)">2</a></li>
+                                          <li><a href="javascript:void(0)">3</a></li>
+                                          <li class="next">
+                                            <a href="javascript:void(0)">
+                                              <i class="fa fa-chevron-right"></i
+                                            ></a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+
+                
               </div>
             </div>
             <!-- END All Categories Block -->
@@ -2076,6 +2398,158 @@
 
     <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
     <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!--Add complain Modal-->
+    <div class="modal fade follow_up" id="addComplainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <!-- Modal Header -->
+          <div class="modal-header text-center">
+            <h2 class="modal-title"><i class="fa fa-pencil"></i> إضافة متابعة شكوي</h2>
+          </div>
+          <!-- END Modal Header -->
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <form
+              action="index.html"
+              method="post"
+              enctype="multipart/form-data"
+              class="form-horizontal form-bordered"
+              onsubmit="return false;"
+            >
+              <fieldset>
+                <div class="form-group form-row no-gutters pb-0">
+                  <div class="form-group col-md-6 px-3">
+                    <label class="control-label" for="customersService">مستخدم - خدمة العملاء</label>
+                    <input class="form-control" value="نورا ابراهيم" disabled />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label class="control-label" for="Customer">كود واسم العميل</label>
+                      <input class="form-control" value="محمد علي - 100-300" disabled />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="complainNo">رقم الشكوى</label>
+                    <input type="number" class="form-control search-field" value="100233" disabled>
+                  </div>
+                </div>
+                <div class="form-group form-row no-gutters">
+                  <div class="form-group col-md-6 px-3">
+                    <label for="FromDate">من تاريخ المتابعه</label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="ToDate">تاريخ ووقت المتابعة القادم</label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="Administrator">نقل الشكوى لموظف</label>
+                    <select class="form-control select-chosen" id="Administrator" name="Trainer" tabindex="-1" aria-hidden="true">
+                        <option value=" " selected>موظفين</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="alert">التنبيه للإدارة</label>
+                    <select class="form-control select-chosen" id="alert" name="Status" tabindex="-1" aria-hidden="true">
+                        <option value=" " selected>مديرين</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="complainType">حالة الشكوى</label>
+                    <select class="form-control select-chosen" id="complainType">
+                        <option value="">تمت وانتهت</option>
+                        <option value="">متابعة مع مسئول آخر</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="followUpNo">رقم المتابعة</label>
+                    <input type="number" class="form-control search-field" value="100233" disabled>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="followUp">متابعة رئيسية - متابعة فرعية</label>
+                    <select class="form-control select-chosen" id="followUp" disabled>
+                        <option value="">رئيسية</option>
+                        <option value="">فرعية</option>
+                    </select>
+                  </div>
+                  <div class="form-group d-inline-block w-100 pt-2 col-12">
+                    <div class="row align-items-end d-flex w-100 m-0">
+                        <div class="mb-0 col-sm-12">
+                            <label>تفاصيل الشكوى</label>
+                            <textarea rows="3" id="Notes" name="Notes" class="form-control" disabled></textarea>
+                        </div>
+                        <!-- <div class="col-sm-3">
+                            <label for="file-upload" class="btn btn-info mb-0">
+                                <i class="fa fa-paperclip mx-1"></i> إضافه مرفقات
+                            </label>
+                            <input class="d-none" id="file-upload" type="file" />
+                        </div> -->
+                    </div>
+                  </div>
+                  <div class="col-12 pt-2">
+                    <div class="col-sm-12 px-3">
+                      <label>تفاصيل المتابعة</label>
+                      <textarea rows="3" id="Notes" name="Notes" class="form-control" valus="تفاصيل المتابعة"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+                  <div class="mt-4">
+                    <label class="control-label">عرض المتابعات</label>
+                    <div class="table-responsive">
+                      <table
+                        id="ecom-products"
+                        class="table table-bordered table-striped table-vcenter"
+                      >
+                        <thead>
+                          <tr>
+                            <th style="width:17%">المستخدم</th>
+                            <th class="text-center">العميل</th>
+                            <th class="text-center">رقم المتابعة</th>
+                            <th class="text-center">رقم الشكوي</th>
+                            <th class="text-center">تاريخ المتابعة</th>
+                            <th class="text-center">حالة المتابعة</th>
+                            <th class="text-center">مسئول المتابعة</th>
+                            <th class="text-center">متابعة مع الإدارة</th>
+                            <th class="text-center">تاريخ ووقت المتابعة القادم</th>
+                            <th class="text-center">الملاحظات</th>
+                            <th class="text-center" style="width: 80px">اجراءات</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Name Name Name</td>
+                            <td class="text-center">1243002</td>
+                            <td class="text-center"><strong>4</strong></td>
+                            <td class="text-center">123145</td>
+                            <td class="text-center">22/12/2022</td>
+                            <td class="text-center">
+                              <span class="label label-success">Approved</span>
+                            </td>
+                            <td class="text-center"></td>
+                            <td class="text-center"></td>
+                            <td class="text-center">30/12/2022</td>
+                            <td class="text-center"></td>
+                            <td class="text-center">
+                              <div class="btn-group btn-group-xs">
+                                <a href="javascript:void(0)" data-toggle="modal" title="view" class="btn btn-default"><i class="fa fa-eye"></i></a>
+                                <a href="#addComplainModal" data-toggle="modal" title="edit" class="btn btn-default"><i class="fa fa-plus"></i></a>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-success">حفظ</button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">إلغاء</button>
+              </div>
+          </div>
+      </div>
+    </div>
 
     <!-- User Settings, modal which opens from Settings link (found in top right user menu) and the Cog link (found in sidebar user info) -->
     <div

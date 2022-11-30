@@ -33,6 +33,8 @@
     <!-- Stylesheets -->
     <!-- Bootstrap is included in its original form, unaltered -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap RTL -->
+    <link rel="stylesheet" href="css/bootdtraprtl.min.css" />
 
     <!-- Related styles of various icon packs and plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
@@ -41,13 +43,17 @@
     <link rel="stylesheet" href="css/main.css" />
 
     <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
-    <link rel="stylesheet" href="css/themes/lake.css" />
+    <link rel="stylesheet" href="css/themes/flatie.css" />
 
     <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
     <link rel="stylesheet" href="css/themes.css" />
     <!-- END Stylesheets -->
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/fonts/NeoSansArabic/NeoSansArabic.css" />
+
+    <link rel="stylesheet" href="css/style-rtl.css" />
 
     <!-- Modernizr (browser feature detection library) -->
     <script src="js/vendor/modernizr.min.js"></script>
@@ -1290,7 +1296,7 @@
                       <a href="#">Cities Most Least Sales</a>
                     </li>
                     <li>
-                      <a href="#">Customers Transactions</a>
+                      <a href="#">Customers Transالإجراءات</a>
                     </li>
                     <li>
                       <a href="#">Orders Delivery (Shipping Companies)</a>
@@ -1302,7 +1308,7 @@
                       <a href="#">Customers Wallets</a>
                     </li>
                     <li>
-                      <a href="#">Drivers Transactions</a>
+                      <a href="#">Drivers Transالإجراءات</a>
                     </li>
                     <li>
                       <a href="#">Branches Most Least Sales</a>
@@ -1323,10 +1329,10 @@
                       <a href="#">Discounts</a>
                     </li>
                     <li>
-                      <a href="#">Shipping Methods Transactions</a>
+                      <a href="#">Shipping Methods Transالإجراءات</a>
                     </li>
                     <li>
-                      <a href="#">Products Transactions</a>
+                      <a href="#">Products Transالإجراءات</a>
                     </li>
                     <li>
                       <a href="#">Coupons</a>
@@ -1335,7 +1341,7 @@
                       <a href="#">Favourite Products</a>
                     </li>
                     <li>
-                      <a href="#">Returns Transactions</a>
+                      <a href="#">Returns Transالإجراءات</a>
                     </li>
                   </ul>
                 </li>
@@ -1567,7 +1573,7 @@
                             </li>
 
 
-                            <li class="active">
+                            <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="sidebar-nav-icon"><svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="dumbbell" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-dumbbell"><g class="fa-group"><path fill="currentColor" d="M32 288H16a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h16zm352-64H256v64h128zm240 0h-16v64h16a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z" class="fa-secondary"></path><path fill="currentColor" d="M232 32h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm224 0h-48a23.94 23.94 0 0 0-24 24v400a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V56a23.94 23.94 0 0 0-24-24zm128 64h-48a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24zm-480 0H56a23.94 23.94 0 0 0-24 24v272a23.94 23.94 0 0 0 24 24h48a23.94 23.94 0 0 0 24-24V120a23.94 23.94 0 0 0-24-24z" class="fa-primary"></path></g></svg></i><span class="sidebar-nav-mini-hide">Fitness Market</span></a>
                                 <ul>
                                     <li>
@@ -1609,7 +1615,7 @@
                                         </ul>
                                     </li>
 
-                                    <li class="active">
+                                    <li>
                                         <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Manage Orders</a>
                                         <ul>
                                             <li>
@@ -1618,6 +1624,7 @@
                                             <li>
                                                 <a href="shop-orders-2.html">Shop Orders</a>
                                             </li>
+
 
                                         </ul>
                                     </li>
@@ -1682,7 +1689,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                            <li class="active">
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-comments sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Customer Support</span></a>
                                 <ul>
                                     <li>
@@ -1698,7 +1705,7 @@
                                         <a href="chat.html">Chat</a>
                                     </li>
                                     <li>
-                                        <a href="complains.html">Complains</a>
+                                        <a href="complains.html" class="active">Complains</a>
                                     </li>
                                 </ul>
                             </li>
@@ -1712,31 +1719,31 @@
                                         <a href="shop-wallet.html">Shop Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="shops-payment-log.html">Shop Transactions </a>
+                                        <a href="shops-payment-log.html">Shop Transالإجراءات </a>
                                     </li>
                                     <li>
                                         <a href="drivers-wallet.html">Resturant Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="drivers-payment-log.html">Resturant Transactions </a>
+                                        <a href="drivers-payment-log.html">Resturant Transالإجراءات </a>
                                     </li>
                                     <li>
                                         <a href="customers-wallet.html">Customer Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="customers-payment-log.html">Customers Transactions </a>
+                                        <a href="customers-payment-log.html">Customers Transالإجراءات </a>
                                     </li>
                                     <li>
                                         <a href="trainers-wallet.html">Trianers Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="trainers-payment-log.html">Trianers Transactions </a>
+                                        <a href="trainers-payment-log.html">Trianers Transالإجراءات </a>
                                     </li>
                                     <li>
                                         <a href="nutritionists-wallet.html">Nutritionists Wallet</a>
                                     </li>
                                     <li>
-                                        <a href="nutritionists-payment-log.html">Nutritionists Transactions </a>
+                                        <a href="nutritionists-payment-log.html">Nutritionists Transالإجراءات </a>
                                     </li>
                                     <li>
                                         <a href="vat-log.html">Vat Log</a>
@@ -1757,41 +1764,6 @@
                             </li>
                             <li>
                                 <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-bar-chart-o sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Reports</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-cogs sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">General Settings</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="countries.html">Countries</a>
-                                    </li>
-                                    <li>
-                                        <a href="cities.html">Cities</a>
-                                    </li>
-                                    <li>
-                                        <a href="currencies.html">Currencies</a>
-                                    </li>
-                                    <li>
-                                        <a href="zipcodes.html">Zipcodes</a>
-                                    </li>
-                                    <li>
-                                        <a href="banners-2.html">Banners</a>
-                                    </li>
-                                    <li>
-                                        <a href="banners-2-pending.html">Pending Banners</a>
-                                    </li>
-                                    <li>
-                                        <a href="financial-settings.html">Financial Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="notification-settings.html">Notifcation Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop-membership.html">Shop Memberships</a>
-                                    </li>
-                                    <li>
-                                        <a href="backup-settings.html">Backup Settings</a>
-                                    </li>
-                                </ul>
                             </li>
                         </ul>
 -->
@@ -1833,7 +1805,6 @@
               <!-- END Main Sidebar Toggle Button -->
             </ul>
             <!-- END Left Header Navigation -->
-
             <!-- Right Header Navigation -->
             <ul class="nav navbar-nav-custom pull-right">
               <!-- Alternative Sidebar Toggle Button -->
@@ -1890,425 +1861,542 @@
 
           <!-- Page content -->
           <div id="page-content">
-            <!-- eCommerce Admin Header -->
+            <!-- eCommerce Categories Header -->
             <div class="content-header">
               <div class="header-section">
                 <h1>
-                  <i class="gi gi-shopping_cart"></i>View Order<br /><small
-                    >Manage and Edit Order!</small
+                  <i class="fa fa-exclamation-circle"></i>متابعة الشكاوي<br /><small
+                    >إدارة الشكاوي!</small
                   >
                 </h1>
               </div>
             </div>
-            <!-- END eCommerce Admin Header -->
+            <!-- END eCommerce Categories Header -->
 
-            <!-- Quick Stats -->
-            <div class="row text-center">
-              <div class="col-sm-6 col-lg-3">
-                <div class="widget">
-                  <div class="widget-extra themed-background-success">
-                    <h4 class="widget-content-light">
-                      <strong>ORD.685195</strong>
-                    </h4>
-                  </div>
-                  <div class="widget-extra-full">
-                    <span class="h2 text-success animation-expandOpen"
-                      >15/10/2014</span
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="widget">
-                  <div class="widget-extra themed-background-success">
-                    <h4 class="widget-content-light">
-                      <i class="fa fa-paypal"></i> <strong>Payment</strong>
-                    </h4>
-                  </div>
-                  <div class="widget-extra-full">
-                    <span class="h2 text-success animation-expandOpen"
-                      ><i class="fa fa-check"></i
-                    ></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="widget">
-                  <div class="widget-extra themed-background-warning">
-                    <h4 class="widget-content-light">
-                      <i class="fa fa-archive"></i> <strong>Status</strong>
-                    </h4>
-                  </div>
-                  <div class="widget-extra-full">
-                    <span class="h2 text-warning"
-                      ><i class="fa fa-refresh fa-spin"></i
-                    ></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="widget">
-                  <div class="widget-extra themed-background-muted">
-                    <h4 class="widget-content-light">
-                      <i class="fa fa-truck"></i> <strong>Delivery</strong>
-                    </h4>
-                  </div>
-                  <div class="widget-extra-full">
-                    <span class="h2 text-muted animation-pulse"
-                      ><i class="fa fa-ellipsis-h"></i
-                    ></span>
+            <!-- All Categories Block -->
+            <div class="block full">
+        
+
+              <div class="block-content">
+                <div id="complains">
+                  <div class="card card_index mt-4 border-0">
+                    <div class="card-body p-0">
+                      <div class="tab-content bg-white mt--5 p-3">
+                        <div class="row text-center mb-4">
+                          <div class="col-sm-6 col-lg-3">
+                            <a class="widget widget-hover-effect2">
+                              <div
+                                class="widget-extra themed-background-success"
+                              >
+                                <h4 class="widget-content-light">
+                                  اجمالي عدد المتابعات
+                                </h4>
+                              </div>
+                              <div class="widget-extra-full">
+                                <span
+                                  class="h2 themed-color-dark animation-expandOpen"
+                                  >10</span
+                                >
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-sm-6 col-lg-3">
+                            <a
+                              href="javascript:void(0)"
+                              class="widget widget-hover-effect2"
+                            >
+                              <div
+                                class="widget-extra themed-background-dark-amethyst"
+                              >
+                                <h4 class="widget-content-light">
+                                  المتابعات المنتهية
+                                </h4>
+                              </div>
+                              <div class="widget-extra-full">
+                                <span
+                                  class="h2 themed-color-dark animation-expandOpen"
+                                  >15</span
+                                >
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-sm-6 col-lg-3">
+                            <a
+                              href="javascript:void(0)"
+                              class="widget widget-hover-effect2"
+                            >
+                              <div
+                                class="widget-extra themed-background-dark-fancy"
+                              >
+                                <h4 class="widget-content-light">
+                                  المتابعات المفتوحة
+                                </h4>
+                              </div>
+                              <div class="widget-extra-full">
+                                <span
+                                  class="h2 themed-color-dark animation-expandOpen"
+                                  >10</span
+                                >
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-sm-6 col-lg-3">
+                            <a
+                              href="javascript:void(0)"
+                              class="widget widget-hover-effect2"
+                            >
+                              <div
+                                class="widget-extra themed-background-dark-lake"
+                              >
+                                <h4 class="widget-content-light">
+                                  المتابعات المتأخرة
+                                </h4>
+                              </div>
+                              <div class="widget-extra-full">
+                                <span
+                                  class="h2 themed-color-dark animation-expandOpen"
+                                  >4</span
+                                >
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <form>
+                          <div
+                            class="form-row no-gutters my-4 d-inline-block w-100"
+                          >
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="users"
+                                >مستخدم - خدمة العملاء</label
+                              >
+                              <select
+                                class="form-control select-chosen"
+                                id="users"
+                                name="users"
+                                tabindex="-1"
+                                aria-hidden="true"
+                              >
+                                <option value=" " selected>
+                                  المستخدمين
+                                </option>
+                              </select>
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="Customer">العميل</label>
+                              <select
+                                class="form-control select-chosen"
+                                id="Customer"
+                                name="Customer"
+                                tabindex="-1"
+                                aria-hidden="true"
+                                disabled
+                              >
+                                <option value=" " selected>العميل</option>
+                              </select>
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="Administrator">
+                                الموظف المسؤل</label
+                              >
+                              <select
+                                class="form-control select-chosen"
+                                id="Administrator"
+                                name="Administrator"
+                                tabindex="-1"
+                                aria-hidden="true"
+                              >
+                                <option value=" " selected>
+                                  الموظف المسؤل
+                                </option>
+                              </select>
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="alert">التنبيه للإدارة</label>
+                              <select
+                                class="form-control select-chosen"
+                                id="alert"
+                                name="alert"
+                                tabindex="-1"
+                                aria-hidden="true"
+                              >
+                                <option value=" " selected>المديرين</option>
+                              </select>
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="complainNo">رقم الشكوى</label>
+                              <input
+                                type="number"
+                                class="form-control search-field"
+                                id="complainNo"
+                              />
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="complainType">
+                                حالة المتابعة</label
+                              >
+                              <select
+                                class="form-control select-chosen"
+                                id="complainType"
+                              >
+                                <option value="">تمت وانتهت</option>
+                                <option value="">متابعة مع مسؤل آخر</option>
+                              </select>
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="FromDate">
+                                من تاريخ المتابعه</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control"
+                                id="FromDate"
+                              />
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="ToDate"
+                                >إلى تاريخ المتابعه</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control"
+                                id="ToDate"
+                              />
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="complainNo"> رقم المتابعة</label>
+                              <input
+                                type="number"
+                                class="form-control"
+                                id="complainNo"
+                              />
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="FromDate2"
+                                >من تاريخ المتابعة القادم</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control"
+                                id="FromDate2"
+                              />
+                            </div>
+                            <div
+                              class="form-group col-lg-3 col-md-6 col-sm-12 px-3"
+                            >
+                              <label for="ToDate2"
+                                >الي تاريخ المتابعة القادم</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control"
+                                id="ToDate2"
+                              />
+                            </div>
+                          </div>
+                        </form>
+
+                        <!-- table -->
+                        <div class="clearfix mb-4">
+                          <button
+                            type="button"
+                            class="btn themed-background-success main-btn me-2 pull-right"
+                            href="#addComplainModal"
+                            data-toggle="modal"
+                          >
+                            <i class="fa fa-plus me-2"></i> إضافة متابعة
+                            شكوي
+                          </button>
+                        </div>
+                        <div
+                          id="ecom-products_wrapper"
+                          class="dataTables_wrapper form-inline no-footer"
+                        >
+                          <div class="row">
+                            <div class="col-sm-6 col-xs-5">
+                              <div
+                                class="dataTables_length"
+                                id="ecom-products_length"
+                              >
+                                <label class="products_length">
+                                  <select
+                                    name="ecom-products_length"
+                                    aria-controls="ecom-products"
+                                    class="form-control"
+                                  >
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="-1">All</option>
+                                  </select>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-7">
+                              <div
+                                id="ecom-products_filter"
+                                class="dataTables_filter"
+                              >
+                                <label>
+                                  <div class="input-group">
+                                    <input
+                                      type="search"
+                                      class="form-control"
+                                      placeholder="Search"
+                                      aria-controls="ecom-products"
+                                    />
+                                    <span class="input-group-addon">
+                                      <i class="fa fa-search"></i>
+                                    </span>
+                                  </div>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="table-responsive">
+                            <table
+                              id="ecom-products"
+                              class="table table-bordered table-striped table-vcenter"
+                            >
+                              <thead>
+                                <tr>
+                                  <th style="width: 13%">المستخدم</th>
+                                  <th class="text-center">العميل</th>
+                                  <th class="text-center">رقم المتابعة</th>
+                                  <th class="text-center">رقم الشكوي</th>
+                                  <th class="text-center">
+                                    تاريخ المتابعة
+                                  </th>
+                                  <th class="text-center">حالة المتابعة</th>
+                                  <th class="text-center">
+                                    مسئول المتابعة
+                                  </th>
+                                  <th class="text-center">
+                                    متابعة مع الإدارة
+                                  </th>
+                                  <th class="text-center">
+                                    تاريخ ووقت المتابعة القادم
+                                  </th>
+                                  <th class="text-center">نوع المتابعة</th>
+                                  <th class="text-center">تعليق</th>
+                                  <th
+                                    class="text-center"
+                                    style="width: 100px"
+                                  >
+                                    الإجراءات
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Name Name Name</td>
+                                  <td class="text-center">1243002</td>
+                                  <td class="text-center">
+                                    <strong>4</strong>
+                                  </td>
+                                  <td class="text-center">123145</td>
+                                  <td class="text-center">22/12/2022</td>
+                                  <td class="text-center">
+                                    <span class="label label-success"
+                                      >Approved</span
+                                    >
+                                  </td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center">30/12/2022</td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center">
+                                    <div class="btn-group btn-group-xs">
+                                      <a
+                                        href="javascript:void(0)"
+                                        data-toggle="modal"
+                                        title="view"
+                                        class="btn btn-default"
+                                        ><i class="fa fa-eye"></i
+                                      ></a>
+                                      <a
+                                        href="#addComplainModal"
+                                        data-toggle="modal"
+                                        title="edit"
+                                        class="btn btn-default"
+                                        ><i class="fa fa-plus"></i
+                                      ></a>
+                                      <a
+                                        href="javascript:void(0)"
+                                        data-toggle="tooltip"
+                                        title=""
+                                        class="btn btn-xs btn-danger"
+                                        data-original-title="Delete"
+                                        ><i class="fa fa-times"></i
+                                      ></a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Name Name Name</td>
+                                  <td class="text-center">1243002</td>
+                                  <td class="text-center">
+                                    <strong>4</strong>
+                                  </td>
+                                  <td class="text-center">123145</td>
+                                  <td class="text-center">22/12/2022</td>
+                                  <td class="text-center">
+                                    <span class="label label-success"
+                                      >Approved</span
+                                    >
+                                  </td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center">30/12/2022</td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center">
+                                    <div class="btn-group btn-group-xs">
+                                      <a
+                                        href="javascript:void(0)"
+                                        data-toggle="modal"
+                                        title="view"
+                                        class="btn btn-default"
+                                        ><i class="fa fa-eye"></i
+                                      ></a>
+                                      <a
+                                        href="#addComplainModal"
+                                        data-toggle="modal"
+                                        title="edit"
+                                        class="btn btn-default"
+                                        ><i class="fa fa-plus"></i
+                                      ></a>
+                                      <a
+                                        href="javascript:void(0)"
+                                        data-toggle="tooltip"
+                                        title=""
+                                        class="btn btn-xs btn-danger"
+                                        data-original-title="Delete"
+                                        ><i class="fa fa-times"></i
+                                      ></a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Name Name Name</td>
+                                  <td class="text-center">1243002</td>
+                                  <td class="text-center">
+                                    <strong>4</strong>
+                                  </td>
+                                  <td class="text-center">123145</td>
+                                  <td class="text-center">22/12/2022</td>
+                                  <td class="text-center">
+                                    <span class="label label-success"
+                                      >Approved</span
+                                    >
+                                  </td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center">30/12/2022</td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center"></td>
+                                  <td class="text-center">
+                                    <div class="btn-group btn-group-xs">
+                                      <a
+                                        href="javascript:void(0)"
+                                        data-toggle="modal"
+                                        title="view"
+                                        class="btn btn-default"
+                                        ><i class="fa fa-eye"></i
+                                      ></a>
+                                      <a
+                                        href="#addComplainModal"
+                                        data-toggle="modal"
+                                        title="edit"
+                                        class="btn btn-default"
+                                        ><i class="fa fa-plus"></i
+                                      ></a>
+                                      <a
+                                        href="javascript:void(0)"
+                                        data-toggle="tooltip"
+                                        title=""
+                                        class="btn btn-xs btn-danger"
+                                        data-original-title="Delete"
+                                        ><i class="fa fa-times"></i
+                                      ></a>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-5 hidden-xs">
+                              <div
+                                class="dataTables_info"
+                                id="ecom-products_info"
+                                role="status"
+                                aria-live="polite"
+                              >
+                                <strong>1</strong>-<strong>20</strong> of
+                                <strong>60</strong>
+                              </div>
+                            </div>
+                            <div class="col-sm-7 col-xs-12 clearfix">
+                              <div
+                                class="dataTables_paginate paging_bootstrap"
+                                id="ecom-products_paginate"
+                              >
+                                <ul
+                                  class="pagination pagination-sm remove-margin"
+                                >
+                                  <li class="prev disabled">
+                                    <a href="javascript:void(0)"
+                                      ><i class="fa fa-chevron-left"></i>
+                                    </a>
+                                  </li>
+                                  <li class="active">
+                                    <a href="javascript:void(0)">1</a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">2</a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">3</a>
+                                  </li>
+                                  <li class="next">
+                                    <a href="javascript:void(0)">
+                                      <i class="fa fa-chevron-right"></i
+                                    ></a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- END Quick Stats -->
-
-            <!-- All Admin Block -->
-            <div class="row">
-              <div class="col-lg-4">
-                <!-- Top Products Block -->
-                <div class="block">
-                  <!-- Customer Info Title -->
-                  <div class="block-title">
-                    <h2>
-                      <i class="fa fa-file-o"></i>
-                      <strong>Customer</strong> Details
-                    </h2>
-                  </div>
-                  <!-- END Customer Info Title -->
-
-                  <!-- Customer Info -->
-                  <div class="block-section text-center">
-                    <a href="javascript:void(0)">
-                      <img
-                        src="img/placeholders/avatars/avatar4@2x.jpg"
-                        alt="avatar"
-                        class="img-circle"
-                      />
-                    </a>
-                    <h3>
-                      <strong>Jonathan Taylor</strong><br /><small></small>
-                    </h3>
-                  </div>
-                  <table
-                    class="table table-borderless table-striped table-vcenter"
-                  >
-                    <tbody>
-                      <tr>
-                        <td class="text-right" style="width: 50%">
-                          <strong>Email</strong>
-                        </td>
-                        <td>email@mail.com</td>
-                      </tr>
-                      <tr>
-                        <td class="text-right"><strong>Phone</strong></td>
-                        <td>01234567891</td>
-                      </tr>
-                      <tr>
-                        <td class="text-right">
-                          <strong>Payment Details</strong>
-                        </td>
-                        <td>Credit card</td>
-                      </tr>
-                      <tr>
-                        <td class="text-right"><strong>Deliver to</strong></td>
-                        <td>20 mustafa kamel st., Roushdy,</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- END Customer Info -->
-                </div>
-                <!-- END Top Products Block -->
-
-                <div class="block">
-                  <!-- Customer Info Title -->
-                  <div class="block-title">
-                    <h2>
-                      <i class="fa fa-comments"></i>
-                      <strong>Internal</strong> Comments
-                    </h2>
-                  </div>
-                  <div class="block-section">
-                    <p>
-                      Text text text text text text text text text text text
-                      text text text text text.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8">
-                <!-- Latest Orders Block -->
-                <div class="block">
-                  <!-- Latest Orders Title -->
-                  <div class="block-title">
-                    <div class="block-options pull-right">
-                      <a
-                        href="all-orders.html"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title=""
-                        data-original-title="Show All"
-                        ><i class="fa fa-eye"></i
-                      ></a>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-alt btn-sm btn-default"
-                        data-toggle="tooltip"
-                        title=""
-                        data-original-title="Settings"
-                        ><i class="fa fa-cog"></i
-                      ></a>
-                    </div>
-                    <h2><strong>Order</strong> details</h2>
-                  </div>
-                  <!-- END Latest Orders Title -->
-
-                  <!-- Latest Orders Content -->
-                  <div class="d-flex store-name">
-                    <h4><b>Store 1</b></h4>
-                    <div>
-                      <span class="label label-warning">Pending Driver</span>
-                    </div>
-                  </div>
-
-                  <div class="table-responsive">
-                    <table class="table table-bordered table-vcenter">
-                      <thead>
-                        <tr>
-                          <th class="text-center" style="width: 100px">ID</th>
-                          <th>Product Name</th>
-                          <th class="text-center">QTY</th>
-                          <th class="text-right" style="width: 10%">PRICE</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8715</strong></a
-                            >
-                          </td>
-                          <td><a href="product_edit.html">Xbox One</a></td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$399,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8726</strong></a
-                            >
-                          </td>
-                          <td>
-                            <a href="product_edit.html">Forza Motorsport 5</a>
-                          </td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$59,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8760</strong></a
-                            >
-                          </td>
-                          <td><a href="product_edit.html">Playstation 4</a></td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$399,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8728</strong></a
-                            >
-                          </td>
-                          <td>
-                            <a href="product_edit.html"
-                              >Killzone: Shadow Fall</a
-                            >
-                          </td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$59,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8763</strong></a
-                            >
-                          </td>
-                          <td>
-                            <a href="product_edit.html">Little Big Planet 3</a>
-                          </td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$59,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" class="text-right text-uppercase">
-                            <strong>Sub total:</strong>
-                          </td>
-                          <td class="text-right"><strong>$975,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" class="text-right text-uppercase">
-                            <strong>Vat:</strong>
-                          </td>
-                          <td class="text-right"><strong>$975,00</strong></td>
-                        </tr>
-                        <tr class="active">
-                          <td colspan="3" class="text-right text-uppercase">
-                            <strong>Shipping cost:</strong>
-                          </td>
-                          <td class="text-right"><strong>$0,00</strong></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!-- END Latest Orders Content -->
-
-                  <!-- Latest Orders Content -->
-                  <div class="d-flex store-name">
-                    <h4><b>Store 2</b></h4>
-                    <div><span class="label label-info">Accepted</span></div>
-                  </div>
-                  <div class="table-responsive">
-                    <table class="table table-bordered table-vcenter">
-                      <thead>
-                        <tr>
-                          <th class="text-center" style="width: 100px">ID</th>
-                          <th>Product Name</th>
-                          <th class="text-center">QTY</th>
-                          <th class="text-right" style="width: 10%">PRICE</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8715</strong></a
-                            >
-                          </td>
-                          <td><a href="product_edit.html">Xbox One</a></td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$399,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8726</strong></a
-                            >
-                          </td>
-                          <td>
-                            <a href="product_edit.html">Forza Motorsport 5</a>
-                          </td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$59,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8760</strong></a
-                            >
-                          </td>
-                          <td><a href="product_edit.html">Playstation 4</a></td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$399,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8728</strong></a
-                            >
-                          </td>
-                          <td>
-                            <a href="product_edit.html"
-                              >Killzone: Shadow Fall</a
-                            >
-                          </td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$59,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">
-                            <a href="product_edit.html"
-                              ><strong>PID.8763</strong></a
-                            >
-                          </td>
-                          <td>
-                            <a href="product_edit.html">Little Big Planet 3</a>
-                          </td>
-                          <td class="text-center"><strong>1</strong></td>
-                          <td class="text-right"><strong>$59,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" class="text-right text-uppercase">
-                            <strong>Sub total:</strong>
-                          </td>
-                          <td class="text-right"><strong>$975,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" class="text-right text-uppercase">
-                            <strong>Vat:</strong>
-                          </td>
-                          <td class="text-right"><strong>$975,00</strong></td>
-                        </tr>
-                        <tr class="active">
-                          <td colspan="3" class="text-right text-uppercase">
-                            <strong>Shipping cost:</strong>
-                          </td>
-                          <td class="text-right"><strong>$0,00</strong></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!-- END Latest Orders Content -->
-
-                  <!-- Latest Orders Content -->
-                  <div class="table-responsive">
-                    <table class="table table-bordered table-vcenter">
-                      <thead>
-                        <tr>
-                          <th class="text-righ">Total</th>
-                          <th class="text-right" style="width: 10%">PRICE</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="text-uppercase">
-                            <strong>Total items:</strong>
-                          </td>
-                          <td class="text-right"><strong>$975,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-uppercase">
-                            <strong>Total Vat:</strong>
-                          </td>
-                          <td class="text-right"><strong>$975,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-uppercase">
-                            <strong>Total Shipping:</strong>
-                          </td>
-                          <td class="text-right"><strong>$0,00</strong></td>
-                        </tr>
-                        <tr>
-                          <td class="text-uppercase">
-                            <strong>Commission:</strong>
-                          </td>
-                          <td class="text-right"><strong>$0,00</strong></td>
-                        </tr>
-                        <tr class="active">
-                          <td class="text-uppercase">
-                            <strong>Cost Total:</strong>
-                          </td>
-                          <td class="text-right"><strong>$0,00</strong></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!-- END Latest Orders Content -->
-                </div>
-                <!-- END Latest Orders Block -->
-              </div>
-            </div>
-            <!-- END All Admin Block -->
+            <!-- END All Categories Block -->
           </div>
           <!-- END Page Content -->
 
@@ -2325,12 +2413,232 @@
           </footer>
           <!-- END Footer -->
         </div>
-        <!-- END Page Wrapper -->
+        <!-- END Main Container -->
       </div>
+      <!-- END Page Container -->
     </div>
+    <!-- END Page Wrapper -->
 
     <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
     <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!--Add complain Modal-->
+    <div
+      class="modal fade follow_up"
+      id="addComplainModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header text-center">
+            <h2 class="modal-title">
+              <i class="fa fa-pencil"></i> إضافة متابعة شكوي
+            </h2>
+          </div>
+          <!-- END Modal Header -->
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <form
+              action="index.html"
+              method="post"
+              enctype="multipart/form-data"
+              class="form-horizontal form-bordered"
+              onsubmit="return false;"
+            >
+              <fieldset>
+                <div class="form-group form-row no-gutters pb-0">
+                  <div class="form-group col-md-6 px-3">
+                    <label class="control-label" for="customersService"
+                      >مستخدم - خدمة العملاء</label
+                    >
+                    <input class="form-control" value="نورا ابراهيم" disabled />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label class="control-label" for="Customer"
+                      >كود واسم العميل</label
+                    >
+                    <input
+                      class="form-control"
+                      value="محمد علي - 100-300"
+                      disabled
+                    />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="complainNo">رقم الشكوى</label>
+                    <input
+                      type="number"
+                      class="form-control search-field"
+                      value="100233"
+                      disabled
+                    />
+                  </div>
+                </div>
+                <div class="form-group form-row no-gutters">
+                  <div class="form-group col-md-6 px-3">
+                    <label for="FromDate">من تاريخ المتابعه</label>
+                    <input type="date" class="form-control" />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="ToDate">تاريخ ووقت المتابعة القادم</label>
+                    <input type="date" class="form-control" />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="Administrator">نقل الشكوى لموظف</label>
+                    <select
+                      class="form-control select-chosen"
+                      id="Administrator"
+                      name="Trainer"
+                      tabindex="-1"
+                      aria-hidden="true"
+                    >
+                      <option value=" " selected>موظفين</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="alert">التنبيه للإدارة</label>
+                    <select
+                      class="form-control select-chosen"
+                      id="alert"
+                      name="Status"
+                      tabindex="-1"
+                      aria-hidden="true"
+                    >
+                      <option value=" " selected>مديرين</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="complainType">حالة الشكوى</label>
+                    <select
+                      class="form-control select-chosen"
+                      id="complainType"
+                    >
+                      <option value="">تمت وانتهت</option>
+                      <option value="">متابعة مع مسئول آخر</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="followUpNo">رقم المتابعة</label>
+                    <input
+                      type="number"
+                      class="form-control search-field"
+                      value="100233"
+                      disabled
+                    />
+                  </div>
+                  <div class="form-group col-md-6 px-3">
+                    <label for="followUp">متابعة رئيسية - متابعة فرعية</label>
+                    <select
+                      class="form-control select-chosen"
+                      id="followUp"
+                      disabled
+                    >
+                      <option value="">رئيسية</option>
+                      <option value="">فرعية</option>
+                    </select>
+                  </div>
+                  <div class="form-group d-inline-block w-100 pt-2 col-12">
+                    <div class="row align-items-end d-flex w-100 m-0">
+                      <div class="mb-0 col-sm-12">
+                        <label>تفاصيل الشكوى</label>
+                        <textarea
+                          rows="3"
+                          id="Notes"
+                          name="Notes"
+                          class="form-control"
+                          disabled
+                        ></textarea>
+                      </div>
+                      <!-- <div class="col-sm-3">
+                            <label for="file-upload" class="btn btn-info mb-0">
+                                <i class="fa fa-paperclip mx-1"></i> إضافه مرفقات
+                            </label>
+                            <input class="d-none" id="file-upload" type="file" />
+                        </div> -->
+                    </div>
+                  </div>
+                  <div class="col-12 pt-2">
+                    <div class="col-sm-12 px-3">
+                      <label>تفاصيل المتابعة</label>
+                      <textarea
+                        rows="3"
+                        id="Notes"
+                        name="Notes"
+                        class="form-control"
+                        valus="تفاصيل المتابعة"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+            <div class="mt-4">
+              <label class="control-label">عرض المتابعات</label>
+              <div class="table-responsive">
+                <table
+                  id="ecom-products"
+                  class="table table-bordered table-striped table-vcenter"
+                >
+                  <thead>
+                    <tr>
+                      <th style="width: 17%">المستخدم</th>
+                      <th class="text-center">العميل</th>
+                      <th class="text-center">رقم المتابعة</th>
+                      <th class="text-center">رقم الشكوي</th>
+                      <th class="text-center">تاريخ المتابعة</th>
+                      <th class="text-center">حالة المتابعة</th>
+                      <th class="text-center">مسئول المتابعة</th>
+                      <th class="text-center">متابعة مع الإدارة</th>
+                      <th class="text-center">تاريخ ووقت المتابعة القادم</th>
+                      <th class="text-center">الملاحظات</th>
+                      <th class="text-center" style="width: 80px">اجراءات</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Name Name Name</td>
+                      <td class="text-center">1243002</td>
+                      <td class="text-center"><strong>4</strong></td>
+                      <td class="text-center">123145</td>
+                      <td class="text-center">22/12/2022</td>
+                      <td class="text-center">
+                        <span class="label label-success">Approved</span>
+                      </td>
+                      <td class="text-center"></td>
+                      <td class="text-center"></td>
+                      <td class="text-center">30/12/2022</td>
+                      <td class="text-center"></td>
+                      <td class="text-center">
+                        <div class="btn-group btn-group-xs">
+                          <a
+                            href="javascript:void(0)"
+                            data-toggle="modal"
+                            title="view"
+                            class="btn btn-default"
+                            ><i class="fa fa-eye"></i
+                          ></a>
+                          <a href="#addComplainModal" data-toggle="modal" title="edit" class="btn btn-default"><i class="fa fa-plus"></i></a>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">حفظ</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              إلغاء
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- User Settings, modal which opens from Settings link (found in top right user menu) and the Cog link (found in sidebar user info) -->
     <div
@@ -2436,7 +2744,7 @@
                   </div>
                 </div>
               </fieldset>
-              <div class="form-group form-actions">
+              <div class="form-group form-الإجراءات">
                 <div class="col-xs-12 text-right">
                   <button
                     type="button"
@@ -2460,7 +2768,7 @@
 
     <!-- Add Category Modal -->
     <div
-      id="modal-add-driver"
+      id="modal-add-group"
       class="modal fade"
       tabindex="-1"
       role="dialog"
@@ -2470,78 +2778,7 @@
         <div class="modal-content">
           <!-- Modal Header -->
           <div class="modal-header text-center">
-            <h2 class="modal-title">
-              <i class="fa fa-pencil"></i> Assign Driver
-            </h2>
-          </div>
-          <!-- END Modal Header -->
-
-          <!-- Modal Body -->
-          <div class="modal-body">
-            <form
-              action="index.html"
-              method="post"
-              enctype="multipart/form-data"
-              class="form-horizontal form-bordered mb-20"
-              onsubmit="return false;"
-            >
-              <fieldset>
-                <div class="form-group">
-                  <label class="col-md-4 control-label" for="assin-driver"
-                    >Driver</label
-                  >
-                  <div class="col-md-8">
-                    <!-- Chosen plugin (class is initialized in js/app.js -> uiInit()), for extra usage examples you can check out http://harvesthq.github.io/chosen/ -->
-                    <select
-                      id="assin-driver"
-                      name="assin-driver"
-                      class="select-chosen"
-                      data-placeholder="Choose a Driver.."
-                      style="width: 250px"
-                    >
-                      <option></option>
-                      <!-- Required for data-placeholder attribute to work with Chosen plugin -->
-                      <option value="United States">Driver 1</option>
-                      <option value="United Kingdom">Driver 2</option>
-                    </select>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-
-            <div class="row form-actions">
-              <div class="col-xs-12 text-right">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-default"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button type="submit" class="btn btn-sm btn-primary">
-                  Save Changes
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- END Modal Body -->
-        </div>
-      </div>
-    </div>
-    <!-- END Add Category Modal -->
-
-    <div
-      id="modal-reject"
-      class="modal fade"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header text-center">
-            <h2 class="modal-title"><i class="fa fa-pencil"></i> Reject</h2>
+            <h2 class="modal-title"><i class="fa fa-pencil"></i> Add Group</h2>
           </div>
           <!-- END Modal Header -->
 
@@ -2556,23 +2793,162 @@
             >
               <fieldset>
                 <div class="form-group">
-                  <label
-                    class="col-md-12 control-label text-left"
-                    for="reject-reason"
-                    >Reject Reason</label
+                  <label class="col-md-4 control-label" for="example-text-input"
+                    >Group Name</label
                   >
-                  <div class="col-md-12">
-                    <textarea
-                      id="reject-reason"
-                      name="reject-reason"
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="example-text-input"
+                      name="example-text-input"
                       class="form-control"
-                      rows="3"
-                    ></textarea>
-                    <span class="help-block">This is a help text</span>
+                      placeholder="Group Name"
+                    />
                   </div>
                 </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="group-users"
+                    >Group Users</label
+                  >
+                  <div class="col-md-6">
+                    <select
+                      id="group-users"
+                      name="group-users"
+                      class="select-chosen"
+                      data-placeholder="Choose Group Users.."
+                      style="width: 250px"
+                    >
+                      <option></option>
+                      <!-- Required for data-placeholder attribute to work with Chosen plugin -->
+                      <option value="United States">United States</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Afghanistan">Afghanistan</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="checkbox">
+                      <label for="example-checkbox1">
+                        <input
+                          type="checkbox"
+                          id="example-checkbox1"
+                          name="example-checkbox1"
+                          value="option1"
+                        />
+                        All
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <fieldset>
+                  <legend>Filter details</legend>
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="example-Gender"
+                      >Gender</label
+                    >
+                    <div class="col-md-6">
+                      <select
+                        id="example-Gender"
+                        name="example-Gender"
+                        class="select-select2 select2-hidden-accessible"
+                        style="width: 100%"
+                        data-placeholder="Choose one.."
+                      >
+                        <option></option>
+                        <!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="MySQL">MySQL</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="checkbox">
+                        <label for="example-Gender">
+                          <input
+                            type="checkbox"
+                            id="example-Gender"
+                            name="example-Gender"
+                            value="option1"
+                          />
+                          All
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="example-location"
+                      >Location</label
+                    >
+                    <div class="col-md-6">
+                      <select
+                        id="example-location"
+                        name="example-location"
+                        class="select-select2 select2-hidden-accessible"
+                        style="width: 100%"
+                        data-placeholder="Choose one.."
+                      >
+                        <option></option>
+                        <!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="MySQL">MySQL</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="checkbox">
+                        <label for="example-location1">
+                          <input
+                            type="checkbox"
+                            id="example-location1"
+                            name="example-location1"
+                            value="option1"
+                          />
+                          All
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="example-order"
+                      >Orders</label
+                    >
+                    <div class="col-md-6">
+                      <select
+                        id="example-order"
+                        name="example-order"
+                        class="select-select2 select2-hidden-accessible"
+                        style="width: 100%"
+                        data-placeholder="Choose one.."
+                      >
+                        <option></option>
+                        <!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="MySQL">MySQL</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="checkbox">
+                        <label for="example-order1">
+                          <input
+                            type="checkbox"
+                            id="example-order1"
+                            name="example-order1"
+                            value="option1"
+                          />
+                          All
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
               </fieldset>
-              <div class="form-group form-actions">
+              <div class="form-group form-الإجراءات">
                 <div class="col-xs-12 text-right">
                   <button
                     type="button"
@@ -2592,47 +2968,7 @@
         </div>
       </div>
     </div>
-
-    <div
-      id="modal-confirmation"
-      class="modal fade"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header text-center">
-            <h2 class="modal-title">
-              <i class="fa fa-pencil"></i> Confirmation
-            </h2>
-          </div>
-          <!-- END Modal Header -->
-
-          <!-- Modal Body -->
-          <div class="modal-body">
-            <p class="text-center">Do you want to delete this?</p>
-
-            <div class="row form-actions">
-              <div class="col-xs-12 text-right">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-default"
-                  data-dismiss="modal"
-                >
-                  No
-                </button>
-                <button type="submit" class="btn btn-sm btn-primary">
-                  Yes
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- END Modal Body -->
-        </div>
-      </div>
-    </div>
+    <!-- END Add Category Modal -->
 
     <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
     <script src="js/vendor/jquery.min.js"></script>
@@ -2641,12 +2977,15 @@
     <script src="js/app.js"></script>
 
     <!-- Load and execute javascript code used only in this page -->
-    <script src="js/pages/ecomProducts.js"></script>
-    <script>
-      $(function () {
-        EcomProducts.init();
-      });
-    </script>
+    <!-- <script src="js/pages/ecomProducts.js"></script>
+        <script>$(function(){ EcomProducts.init(); });</script> -->
     <script src="js/scripts.js"></script>
+
+    <script>
+      $(".complaints-tabs .item").click(function () {
+        $(this).addClass("active").siblings(".item").removeClass("active");
+      });
+      $(".select-single").select2();
+    </script>
   </body>
 </html>

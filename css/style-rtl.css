@@ -28,6 +28,10 @@ ol {
     margin: 0 !important;
 }
 .me-2{margin-right: 0;margin-left: .5rem;}
+.col-md-offset-4 {
+    margin-left: 0!important;
+    margin-right: 50% !important;
+}
 .float-end{float: left;}
 /* .checkbox-inline, .radio-inline{padding-right: 0;} */
 
