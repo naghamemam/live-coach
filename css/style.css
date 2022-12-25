@@ -1449,6 +1449,7 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
     padding: 5px 10px;
     width:100%
 }
+/* shared css  */
 .mb-4{
     margin-bottom: 1rem !important;
 }
@@ -1478,6 +1479,10 @@ a.sidebar-brand:hover, a.sidebar-brand:focus, a.sidebar-title:hover, a.sidebar-t
     margin-left: 50% !important;
 }
 .pb-0{padding-bottom: 0 !important;}
+.en_input{direction: ltr !important;text-align: left;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.ar_input{direction: rtl !important;text-align: right;font-family: 'Neo Sans Arabic', sans-serif;
+}
+/* end shared css  */
 .modal-content .btn-group .btn {
     min-width: auto;
 }
